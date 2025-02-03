@@ -996,7 +996,7 @@
 
   "mobiles": [
     {
-      "id": 26,
+      "id": 41,
       "name": "iPhone 15 Pro",
       "category": "mobile",
       "price": 999,
@@ -1023,7 +1023,7 @@
       "reviews": []
     },
     {
-      "id": 27,
+      "id": 42,
       "name": "Samsung Galaxy S23",
       "category": "mobile",
       "price": 849,
@@ -1055,7 +1055,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": 43,
       "name": "OnePlus 11",
       "category": "mobile",
       "price": 799,
@@ -1088,7 +1088,7 @@
     },
 
     {
-      "id": 30,
+      "id": 44,
       "name": "Xiaomi Mi 12",
       "category": "mobile",
       "price": 599,
@@ -1114,7 +1114,7 @@
       "reviews": []
     },
     {
-      "id": 31,
+      "id": 45,
       "name": "Oppo Find X6 Pro",
       "category": "mobile",
       "price": 1099,
@@ -1136,7 +1136,7 @@
       "reviews": []
     },
     {
-      "id": 32,
+      "id": 46,
       "name": "Vivo V27 Pro",
       "category": "mobile",
       "price": 599,
@@ -1162,7 +1162,7 @@
       "reviews": []
     },
     {
-      "id": 33,
+      "id": 47,
       "name": "Sony Xperia 1 IV",
       "category": "mobile",
       "price": 1199,
@@ -1184,7 +1184,7 @@
       "reviews": []
     },
     {
-      "id": 34,
+      "id": 48,
       "name": "Realme GT 2 Pro",
       "category": "mobile",
       "price": 749,
@@ -1206,7 +1206,7 @@
       "reviews": []
     },
     {
-      "id": 35,
+      "id": 49,
       "name": "Motorola Edge 30 Ultra",
       "category": "mobile",
       "price": 899,
@@ -1233,7 +1233,7 @@
     },
 
     {
-      "id": 36,
+      "id": 50,
       "name": "Samsung Galaxy S24 Ultra",
       "category": "mobile",
       "price": 1199,
@@ -1260,7 +1260,7 @@
       "reviews": []
     },
     {
-      "id": 28,
+      "id": 51,
       "name": "Samsung Galaxy S24+",
       "category": "mobile",
       "price": 999,
@@ -1287,7 +1287,7 @@
       "reviews": []
     },
     {
-      "id": 29,
+      "id": 52,
       "name": "Samsung Galaxy S24",
       "category": "mobile",
       "price": 799,
@@ -1314,7 +1314,7 @@
       "reviews": []
     },
     {
-      "id": 30,
+      "id": 53,
       "name": "Samsung Galaxy Z Fold 5",
       "category": "mobile",
       "price": 1799,
@@ -1342,7 +1342,7 @@
     },
 
     {
-      "id": 31,
+      "id": 54,
       "name": "Samsung Galaxy Z Flip 5",
       "category": "mobile",
       "price": 999,
@@ -1369,7 +1369,7 @@
       "reviews": []
     },
     {
-      "id": 32,
+      "id": 55,
       "name": "Samsung Galaxy A74 5G",
       "category": "mobile",
       "price": 549,
@@ -1396,7 +1396,7 @@
       "reviews": []
     },
     {
-      "id": 33,
+      "id": 56,
       "name": "Samsung Galaxy A54 5G",
       "category": "mobile",
       "price": 449,
@@ -1423,7 +1423,7 @@
       "reviews": []
     },
     {
-      "id": 34,
+      "id": 57,
       "name": "Samsung Galaxy M54",
       "category": "mobile",
       "price": 399,
@@ -1446,7 +1446,7 @@
       "reviews": []
     },
     {
-      "id": 35,
+      "id": 58,
       "name": "Samsung Galaxy A34 5G",
       "category": "mobile",
       "price": 349,
@@ -1473,7 +1473,7 @@
       "reviews": []
     },
     {
-      "id": 36,
+      "id": 59,
       "name": "Samsung Galaxy A14 5G",
       "category": "mobile",
       "price": 249,
@@ -1501,7 +1501,7 @@
     },
 
     {
-      "id": 41,
+      "id": 60,
       "name": "Xiaomi 13 Ultra",
       "category": "mobile",
       "price": 1099,
@@ -1524,7 +1524,7 @@
       "reviews": []
     },
     {
-      "id": 42,
+      "id": 61,
       "name": "Xiaomi 13T Pro",
       "category": "mobile",
       "price": 699,
@@ -1547,7 +1547,7 @@
       "reviews": []
     },
     {
-      "id": 43,
+      "id": 62,
       "name": "Redmi Note 12 Pro+",
       "category": "mobile",
       "price": 399,
@@ -1570,7 +1570,7 @@
       "reviews": []
     },
     {
-      "id": 44,
+      "id": 63,
       "name": "POCO F5 Pro",
       "category": "mobile",
       "price": 549,
@@ -1593,7 +1593,7 @@
       "reviews": []
     },
     {
-      "id": 45,
+      "id": 64,
       "name": "Xiaomi Mix Fold 3",
       "category": "mobile",
       "price": 1599,
@@ -1616,7 +1616,7 @@
       "reviews": []
     },
     {
-      "id": 46,
+      "id": 65,
       "name": "Redmi 12",
       "category": "mobile",
       "price": 199,
@@ -1643,7 +1643,7 @@
       "reviews": []
     },
     {
-      "id": 47,
+      "id": 66,
       "name": "Xiaomi Civi 3",
       "category": "mobile",
       "price": 499,
@@ -1670,7 +1670,7 @@
       "reviews": []
     },
     {
-      "id": 48,
+      "id": 67,
       "name": "Black Shark 6 Pro",
       "category": "mobile",
       "price": 799,
@@ -1693,7 +1693,7 @@
       "reviews": []
     },
     {
-      "id": 49,
+      "id": 68,
       "name": "Xiaomi 13 Lite",
       "category": "mobile",
       "price": 449,
@@ -1716,7 +1716,7 @@
       "reviews": []
     },
     {
-      "id": 50,
+      "id": 69,
       "name": "Redmi K60 Ultra",
       "category": "mobile",
       "price": 599,
@@ -1742,7 +1742,7 @@
 
   "smartwatches": [
     {
-      "id": 36,
+      "id": 70,
       "name": "Samsung Galaxy Watch 5",
       "category": "smart watch",
       "price": 299,
@@ -1769,7 +1769,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 71,
       "name": "Apple Watch Series 8",
       "category": "smart watch",
       "price": 399,
@@ -1796,7 +1796,7 @@
       ]
     },
     {
-      "id": 38,
+      "id": 72,
       "name": "Garmin Forerunner 945",
       "category": "smart watch",
       "price": 599,
@@ -1817,7 +1817,7 @@
       "reviews": []
     },
     {
-      "id": 39,
+      "id": 73,
       "name": "Fossil Gen 6",
       "category": "smart watch",
       "price": 299,
@@ -1838,7 +1838,7 @@
       "reviews": []
     },
     {
-      "id": 40,
+      "id": 74,
       "name": "Fitbit Sense 2",
       "category": "smart watch",
       "price": 299,
@@ -1859,7 +1859,7 @@
       "reviews": []
     },
     {
-      "id": 41,
+      "id": 75,
       "name": "Suunto 7",
       "category": "smart watch",
       "price": 399,
@@ -1880,7 +1880,7 @@
       "reviews": []
     },
     {
-      "id": 42,
+      "id": 76,
       "name": "Amazfit GTR 3 Pro",
       "category": "smart watch",
       "price": 249,
@@ -1901,7 +1901,7 @@
       "reviews": []
     },
     {
-      "id": 43,
+      "id": 77,
       "name": "TicWatch Pro 3 Ultra",
       "category": "smart watch",
       "price": 319,
@@ -1926,7 +1926,7 @@
       "reviews": []
     },
     {
-      "id": 44,
+      "id": 78,
       "name": "Huawei Watch GT 3",
       "category": "smart watch",
       "price": 349,
@@ -1947,7 +1947,7 @@
       "reviews": []
     },
     {
-      "id": 45,
+      "id": 79,
       "name": "Withings Steel HR Sport",
       "category": "smart watch",
       "price": 199,
@@ -1974,7 +1974,7 @@
   ],
   "accessories": [
     {
-      "id": 46,
+      "id": 80,
       "name": "Anker PowerCore 10000 Portable Charger",
       "category": "powerbank",
       "price": 25,
@@ -1995,7 +1995,7 @@
       }
     },
     {
-      "id": 47,
+      "id": 81,
       "name": "Apple AirPods Pro",
       "category": "headphones",
       "price": 249,
@@ -2015,7 +2015,7 @@
       }
     },
     {
-      "id": 48,
+      "id": 82,
       "name": "Samsung Galaxy Buds Pro",
       "category": "headphones",
       "price": 199,
@@ -2035,7 +2035,7 @@
       }
     },
     {
-      "id": 49,
+      "id": 83,
       "name": "Logitech MX Master 3 Mouse",
       "category": "mouse",
       "price": 99,
@@ -2054,7 +2054,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 84,
       "name": "Fitbit Charge 5 Fitness Tracker",
       "category": "wearable",
       "price": 149,
@@ -2073,7 +2073,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 85,
       "name": "RAVPower 60W 6-Port USB Charging Station",
       "category": "charger",
       "price": 39,
@@ -2092,7 +2092,7 @@
       }
     },
     {
-      "id": 52,
+      "id": 86,
       "name": "Bose QuietComfort 45 Noise Cancelling Headphones",
       "category": "headphones",
       "price": 329,
@@ -2111,7 +2111,7 @@
       }
     },
     {
-      "id": 53,
+      "id": 87,
       "name": "OtterBox Defender Series Case for iPhone 15",
       "category": "case",
       "price": 49,
@@ -2130,7 +2130,7 @@
       }
     },
     {
-      "id": 54,
+      "id": 88,
       "name": "Sennheiser Momentum 3 Wireless Headphones",
       "category": "headphones",
       "price": 399,
@@ -2149,7 +2149,7 @@
       }
     },
     {
-      "id": 55,
+      "id": 89,
       "name": "JBL Flip 5 Portable Bluetooth Speaker",
       "category": "speaker",
       "price": 119,
@@ -2167,7 +2167,7 @@
       }
     },
     {
-      "id": 47,
+      "id": 90,
       "name": "Razer DeathAdder V2 Gaming Mouse",
       "category": "mouse",
       "price": 69,
@@ -2185,7 +2185,7 @@
       }
     },
     {
-      "id": 48,
+      "id": 91,
       "name": "Corsair K70 RGB Mechanical Keyboard",
       "category": "keyboard",
       "price": 129,
@@ -2203,7 +2203,7 @@
       }
     },
     {
-      "id": 49,
+      "id": 92,
       "name": "SteelSeries Apex Pro Mechanical Keyboard",
       "category": "keyboard",
       "price": 199,
@@ -2221,7 +2221,7 @@
       }
     },
     {
-      "id": 50,
+      "id": 93,
       "name": "Logitech G Pro X Wireless Gaming Headset",
       "category": "headphones",
       "price": 199,
@@ -2239,7 +2239,7 @@
       }
     },
     {
-      "id": 51,
+      "id": 94,
       "name": "HyperX Cloud II Gaming Headset",
       "category": "headphones",
       "price": 99,
@@ -2256,7 +2256,7 @@
       }
     },
     {
-      "id": 52,
+      "id": 95,
       "name": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
       "category": "headphones",
       "price": 349,
