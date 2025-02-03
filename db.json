@@ -1,0 +1,2277 @@
+{
+  "laptops": [
+    {
+      "id": 1,
+      "name": "MacBook Pro 16-inch",
+      "category": "laptop",
+      "price": 2399,
+      "description": "Professional laptop with Apple M2 Pro chip, Liquid Retina XDR display, and 21-hour battery life.",
+      "brand": "Apple",
+      "image": "/images/MacBookpro16inch.jpg",
+      "stock": 80,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "Apple M2 Pro (12-core)",
+        "gpu": "38-core GPU",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "16.2-inch Liquid Retina XDR (3456x2234)",
+        "os": "macOS Ventura",
+        "battery": "100Wh",
+        "weight": "2.1 kg"
+      },
+      "features": ["Touch ID", "6-speaker system", "Thunderbolt 4 ports"],
+      "reviews": [
+        {
+          "user": "Eve White",
+          "rating": 5,
+          "comment": "The ultimate machine for creative work!"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dell XPS 13",
+      "category": "laptop",
+      "price": 1499,
+      "description": "Ultra-slim laptop with Intel i7-1250U, 16GB RAM, and 13.4-inch InfinityEdge display.",
+      "brand": "Dell",
+      "image": "/images/Dell XPS 13.jpg",
+      "stock": 100,
+      "rating": 4.6,
+      "specs": {
+        "cpu": "Intel Core i7-1250U",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.4-inch FHD+ (1920x1200)",
+        "os": "Windows 11 Pro",
+        "battery": "60Wh",
+        "weight": "1.17 kg"
+      },
+      "features": ["Backlit keyboard", "Wi-Fi 6E", "Fingerprint reader"],
+      "reviews": [
+        {
+          "user": "David Lee",
+          "rating": 5,
+          "comment": "Perfect balance of portability and power."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "HP Spectre x360",
+      "category": "laptop",
+      "price": 1799,
+      "description": "2-in-1 convertible laptop with 4K OLED touchscreen and 11th Gen Intel i7.",
+      "brand": "HP",
+      "image": "/images/HP Spectre x360.jpg",
+      "stock": 70,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "Intel Core i7-1195G7",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "13.5-inch 4K OLED (3840x2400)",
+        "os": "Windows 11 Home",
+        "battery": "66Wh",
+        "weight": "1.3 kg"
+      },
+      "features": ["360° hinge", "Stylus support", "Bang & Olufsen audio"],
+      "reviews": []
+    },
+    {
+      "id": 4,
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "category": "laptop",
+      "price": 1499,
+      "description": "Business laptop with MIL-STD durability, 14-inch 4K display, and LTE connectivity.",
+      "brand": "Lenovo",
+      "image": "/images/Lenovo ThinkPad X1 Carbon.jpg",
+      "stock": 50,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-1165G7",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "14-inch 4K (3840x2400)",
+        "os": "Windows 11 Pro",
+        "battery": "57Wh",
+        "weight": "1.13 kg"
+      },
+      "features": ["TrackPoint", "Dolby Atmos", "4G LTE"],
+      "reviews": []
+    },
+    {
+      "id": 5,
+      "name": "Asus ROG Zephyrus G14",
+      "category": "laptop",
+      "price": 1799,
+      "description": "Gaming laptop with AMD Ryzen 9 6900HS, RTX 3060, and 14-inch 120Hz display.",
+      "brand": "Asus",
+      "image": "/images/Asus ROG Zephyrus G14.webp",
+      "stock": 60,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "AMD Ryzen 9 6900HS",
+        "gpu": "NVIDIA RTX 3060 (6GB)",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "14-inch QHD (2560x1440) 120Hz",
+        "os": "Windows 11 Home",
+        "battery": "76Wh",
+        "weight": "1.7 kg"
+      },
+      "features": ["AniMe Matrix LED", "RGB keyboard", "Hi-Res audio"],
+      "reviews": []
+    },
+    {
+      "id": 6,
+      "name": "Microsoft Surface Laptop 4",
+      "category": "laptop",
+      "price": 1299,
+      "description": "Sleek laptop with PixelSense touchscreen, AMD Ryzen 5, and Alcantara keyboard deck.",
+      "brand": "Microsoft",
+      "image": "/images/Microsoft Surface Laptop 4.jpg",
+      "stock": 80,
+      "rating": 4.6,
+      "specs": {
+        "cpu": "AMD Ryzen 5 4680U",
+        "gpu": "AMD Radeon Graphics",
+        "ram": "8GB",
+        "storage": "256GB SSD",
+        "display": "13.5-inch PixelSense (2256x1504)",
+        "os": "Windows 11 Home",
+        "battery": "47.4Wh",
+        "weight": "1.27 kg"
+      },
+      "features": ["Alcantara finish", "Studio Mics", "Windows Hello"],
+      "reviews": []
+    },
+    {
+      "id": 7,
+      "name": "Acer Predator Helios 300",
+      "category": "laptop",
+      "price": 1599,
+      "description": "Gaming laptop with Intel i7-12700H, RTX 3070 Ti, and 15.6-inch 144Hz display.",
+      "brand": "Acer",
+      "image": "/images/Acer Predator Helios 300.jpg",
+      "stock": 90,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "Intel Core i7-12700H",
+        "gpu": "NVIDIA RTX 3070 Ti (8GB)",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "15.6-inch FHD (1920x1080) 144Hz",
+        "os": "Windows 11 Home",
+        "battery": "90Wh",
+        "weight": "2.3 kg"
+      },
+      "features": ["RGB keyboard", "CoolBoost technology", "Wi-Fi 6"],
+      "reviews": []
+    },
+    {
+      "id": 8,
+      "name": "Razer Blade 15",
+      "category": "laptop",
+      "price": 1899,
+      "description": "Premium gaming laptop with Intel i7-12800H, RTX 3070 Ti, and CNC aluminum chassis.",
+      "brand": "Razer",
+      "image": "/images/Razer Blade 15.jpg",
+      "stock": 50,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-12800H",
+        "gpu": "NVIDIA RTX 3070 Ti (8GB)",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "15.6-inch QHD (2560x1440) 240Hz",
+        "os": "Windows 11 Home",
+        "battery": "80Wh",
+        "weight": "2.01 kg"
+      },
+      "features": ["Per-key RGB", "Vapor Chamber cooling", "THX Spatial Audio"],
+      "reviews": []
+    },
+    {
+      "id": 9,
+      "name": "Samsung Galaxy Book Pro",
+      "category": "laptop",
+      "price": 1299,
+      "description": "Ultra-light laptop with AMOLED display, Intel i7-1260P, and 5G connectivity.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy Book Pro.jpg",
+      "stock": 75,
+      "rating": 4.5,
+      "specs": {
+        "cpu": "Intel Core i7-1260P",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "15.6-inch AMOLED (1920x1080)",
+        "os": "Windows 11 Home",
+        "battery": "63Wh",
+        "weight": "1.05 kg"
+      },
+      "features": ["5G support", "S Pen compatibility", "AKG speakers"],
+      "reviews": []
+    },
+    {
+      "id": 10,
+      "name": "Google Pixelbook Go",
+      "category": "laptop",
+      "price": 799,
+      "description": "Lightweight Chromebook with 13.3-inch Full HD display, Intel i5, and 12-hour battery.",
+      "brand": "Google",
+      "image": "/images/Google Pixelbook Go.jpg",
+      "stock": 90,
+      "rating": 4.4,
+      "specs": {
+        "cpu": "Intel Core i5-10210U",
+        "gpu": "Intel UHD Graphics",
+        "ram": "8GB",
+        "storage": "128GB SSD",
+        "display": "13.3-inch FHD (1920x1080)",
+        "os": "Chrome OS",
+        "battery": "47Wh",
+        "weight": "1.09 kg"
+      },
+      "features": ["Titan C security", "Backlit keyboard", "Hush Keys"],
+      "reviews": []
+    },
+
+    {
+      "id": 11,
+      "name": "MSI Stealth 15M",
+      "category": "laptop",
+      "price": 1699,
+      "description": "Ultra-thin gaming laptop with RTX 3060, 144Hz display, and advanced cooling system.",
+      "image": "/images/MSI Stealth 15M.jpg",
+      "brand": "MSI",
+      "stock": 45,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-1185G7",
+        "gpu": "NVIDIA RTX 3060 (6GB)",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "15.6-inch FHD (1920x1080) 144Hz",
+        "os": "Windows 11 Home",
+        "battery": "82Wh",
+        "weight": "1.7kg"
+      },
+      "features": ["Per-Key RGB Keyboard", "Thunderbolt 4", "Hi-Res Audio"],
+      "reviews": []
+    },
+    {
+      "id": 12,
+      "name": "LG Gram 17",
+      "category": "laptop",
+      "price": 1799,
+      "description": "Lightweight 17-inch laptop with military-grade durability and 19.5-hour battery life.",
+      "image": "/images/LG Gram 17.jpg",
+      "brand": "LG",
+      "stock": 30,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "Intel Core i7-1260P",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "17-inch WQXGA (2560x1600)",
+        "os": "Windows 11 Home",
+        "battery": "80Wh",
+        "weight": "1.35kg"
+      },
+      "features": [
+        "DCI-P3 99% Color Gamut",
+        "Fingerprint Reader",
+        "Backlit Keyboard"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 13,
+      "name": "Acer Swift X",
+      "category": "laptop",
+      "price": 1299,
+      "description": "Creator-focused laptop with AMD Ryzen 7 5825U and RTX 3050 Ti for content creation.",
+      "image": "/images/Acer Swift X.jpg",
+      "brand": "Acer",
+      "stock": 55,
+      "rating": 4.6,
+      "specs": {
+        "cpu": "AMD Ryzen 7 5825U",
+        "gpu": "NVIDIA RTX 3050 Ti (4GB)",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "14-inch FHD IPS (1920x1080)",
+        "os": "Windows 11 Home",
+        "battery": "59Wh",
+        "weight": "1.39kg"
+      },
+      "features": ["Wi-Fi 6", "USB4 Support", "Blue Light Shield"],
+      "reviews": []
+    },
+    {
+      "id": 14,
+      "name": "Huawei MateBook X Pro",
+      "category": "laptop",
+      "price": 1499,
+      "description": "Sleek 3K touchscreen laptop with aluminum unibody design and 11th Gen Intel processor.",
+      "image": "/images/Huawei MateBook X Pro.webp",
+      "brand": "Huawei",
+      "stock": 40,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-1195G7",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "13.9-inch 3K Touch (3000x2000)",
+        "os": "Windows 11 Home",
+        "battery": "60Wh",
+        "weight": "1.33kg"
+      },
+      "features": [
+        "10-Point Touchscreen",
+        "Harman Kardon Speakers",
+        "Hidden Webcam"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 15,
+      "name": "Alienware m15 R7",
+      "category": "laptop",
+      "price": 2199,
+      "description": "High-performance gaming laptop with Intel i9-12900H and RTX 3070 Ti.",
+      "image": "/images/Alienware m15 R7.jpg",
+      "brand": "Dell",
+      "stock": 25,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "Intel Core i9-12900H",
+        "gpu": "NVIDIA RTX 3070 Ti (8GB)",
+        "ram": "32GB",
+        "storage": "2TB SSD",
+        "display": "15.6-inch QHD (2560x1440) 240Hz",
+        "os": "Windows 11 Pro",
+        "battery": "86Wh",
+        "weight": "2.5kg"
+      },
+      "features": [
+        "Cherry MX Mechanical Keyboard",
+        "AlienFX Lighting",
+        "Cryo-Tech Cooling"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 16,
+      "name": "Framework Laptop",
+      "category": "laptop",
+      "price": 1399,
+      "description": "Modular and repairable laptop with user-upgradable ports and components.",
+      "image": "/images/Framework Laptop.jpg",
+      "brand": "Framework",
+      "stock": 60,
+      "rating": 4.5,
+      "specs": {
+        "cpu": "Intel Core i5-1240P",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.5-inch 3:2 (2256x1504)",
+        "os": "Windows 11 Home",
+        "battery": "55Wh",
+        "weight": "1.3kg"
+      },
+      "features": [
+        "Modular Design",
+        "DIY Upgrade Kits",
+        "100% Recycled Packaging"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 17,
+      "name": "Xiaomi Mi Notebook Pro",
+      "category": "laptop",
+      "price": 1199,
+      "description": "Premium aluminum laptop with 11th Gen Intel CPU and 65W fast charging.",
+      "image": "/images/Xiaomi Mi Notebook Pro.png",
+      "brand": "Xiaomi",
+      "stock": 70,
+      "rating": 4.6,
+      "specs": {
+        "cpu": "Intel Core i7-11370H",
+        "gpu": "NVIDIA MX450 (2GB)",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "15.6-inch 3.5K OLED (3456x2160)",
+        "os": "Windows 11 Home",
+        "battery": "66Wh",
+        "weight": "1.8kg"
+      },
+      "features": ["Dolby Atmos Speakers", "Thunderbolt 4", "Backlit Keyboard"],
+      "reviews": []
+    },
+    {
+      "id": 18,
+      "name": "ASUS ZenBook Duo 14",
+      "category": "laptop",
+      "price": 1599,
+      "description": "Dual-screen productivity laptop with 12.6-inch ScreenPad Plus.",
+      "image": "/images/ASUS ZenBook Duo 14.jpg",
+      "brand": "ASUS",
+      "stock": 35,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-1195G7",
+        "gpu": "NVIDIA MX450 (2GB)",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "14-inch FHD (1920x1080) + 12.6-inch ScreenPad",
+        "os": "Windows 11 Pro",
+        "battery": "70Wh",
+        "weight": "1.6kg"
+      },
+      "features": [
+        "Dual-Screen Design",
+        "Active Pen Support",
+        "ErgoLift Hinge"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 19,
+      "name": "Lenovo Legion 5 Pro",
+      "category": "laptop",
+      "price": 1899,
+      "description": "Gaming powerhouse with AMD Ryzen 7 6800H and 165Hz QHD display.",
+      "image": "/images/Lenovo Legion 5 Pro.jpg",
+      "brand": "Lenovo",
+      "stock": 50,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "AMD Ryzen 7 6800H",
+        "gpu": "NVIDIA RTX 3070 (8GB)",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "16-inch QHD (2560x1600) 165Hz",
+        "os": "Windows 11 Home",
+        "battery": "80Wh",
+        "weight": "2.5kg"
+      },
+      "features": ["RGB Keyboard", "Nahimic Audio", "Coldfront 4.0 Cooling"],
+      "reviews": []
+    },
+    {
+      "id": 20,
+      "name": "Microsoft Surface Laptop Studio",
+      "category": "laptop",
+      "price": 2099,
+      "description": "Versatile 2-in-1 laptop with dynamic hinge and Surface Slim Pen 2 support.",
+      "image": "/images/Microsoft Surface Laptop Studio.jpg",
+      "brand": "Microsoft",
+      "stock": 30,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "Intel Core i7-11370H",
+        "gpu": "NVIDIA RTX 3050 Ti (4GB)",
+        "ram": "32GB",
+        "storage": "2TB SSD",
+        "display": "14.4-inch PixelSense (2400x1600) 120Hz",
+        "os": "Windows 11 Pro",
+        "battery": "58Wh",
+        "weight": "1.8kg"
+      },
+      "features": ["Studio Mode", "Haptic Touchpad", "Dolby Vision"],
+      "reviews": []
+    },
+
+    {
+      "id": 21,
+      "name": "ASUS ROG Zephyrus G15",
+      "category": "laptop",
+      "price": 1899,
+      "description": "Gaming laptop with AMD Ryzen 9 6900HS, RTX 3080, and 240Hz WQHD display.",
+      "image": "/images/ASUS ROG Zephyrus G15.jpg",
+      "brand": "ASUS",
+      "stock": 40,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "AMD Ryzen 9 6900HS",
+        "gpu": "NVIDIA RTX 3080 (16GB)",
+        "ram": "32GB",
+        "storage": "2TB SSD",
+        "display": "15.6-inch WQHD (2560x1440) 240Hz",
+        "os": "Windows 11 Pro",
+        "battery": "90Wh",
+        "weight": "1.9kg"
+      },
+      "features": ["AniMe Matrix Lid", "RGB Keyboard", "Dolby Atmos"],
+      "reviews": []
+    },
+    {
+      "id": 22,
+      "name": "ASUS ZenBook 14X OLED",
+      "category": "laptop",
+      "price": 1399,
+      "description": "Ultra-slim laptop with 14-inch 4K OLED display and Intel Evo certification.",
+      "image": "/images/ASUS ZenBook 14X OLED.jpg",
+      "brand": "ASUS",
+      "stock": 60,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-1260P",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "14-inch 4K OLED (3840x2400)",
+        "os": "Windows 11 Home",
+        "battery": "63Wh",
+        "weight": "1.4kg"
+      },
+      "features": [
+        "NumberPad 2.0",
+        "Harman Kardon Audio",
+        "Military-Grade Durability"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 23,
+      "name": "ASUS TUF Dash F15",
+      "category": "laptop",
+      "price": 1299,
+      "description": "Military-grade gaming laptop with Intel i7-12650H and RTX 3060.",
+      "image": "/images/ASUS TUF Dash F15.jpg",
+      "brand": "ASUS",
+      "stock": 50,
+      "rating": 4.6,
+      "specs": {
+        "cpu": "Intel Core i7-12650H",
+        "gpu": "NVIDIA RTX 3060 (6GB)",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "15.6-inch FHD (1920x1080) 144Hz",
+        "os": "Windows 11 Home",
+        "battery": "76Wh",
+        "weight": "2kg"
+      },
+      "features": [
+        "MIL-STD-810H Certified",
+        "RGB Lighting",
+        "Self-Cleaning Cooling"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 24,
+      "name": "ASUS VivoBook Pro 16X",
+      "category": "laptop",
+      "price": 1599,
+      "description": "Creator laptop with 16-inch 4K OLED and AMD Ryzen 9 6900HX.",
+      "image": "/images/ASUS VivoBook Pro 16X.jpg",
+      "brand": "ASUS",
+      "stock": 35,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "AMD Ryzen 9 6900HX",
+        "gpu": "NVIDIA RTX 3050 Ti (4GB)",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "16-inch 4K OLED (3840x2400)",
+        "os": "Windows 11 Pro",
+        "battery": "90Wh",
+        "weight": "1.95kg"
+      },
+      "features": [
+        "DialPad Virtual Controller",
+        "Pantone Validation",
+        "ASUS Pen Support"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 25,
+      "name": "ASUS ZenBook Flip 13",
+      "category": "laptop",
+      "price": 1199,
+      "description": "2-in-1 convertible laptop with 360° hinge and 13.3-inch 4K OLED touchscreen.",
+      "image": "/images/ASUS ZenBook Flip 13.webp",
+      "brand": "ASUS",
+      "stock": 45,
+      "rating": 4.5,
+      "specs": {
+        "cpu": "Intel Core i7-1165G7",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.3-inch 4K OLED (3840x2400) Touch",
+        "os": "Windows 11 Home",
+        "battery": "67Wh",
+        "weight": "1.3kg"
+      },
+      "features": [
+        "Stylus Support",
+        "ErgoLift Hinge",
+        "HarmonyOS Compatibility"
+      ],
+      "reviews": []
+    },
+
+    {
+      "id": 26,
+      "name": "Lenovo ThinkPad X1 Carbon Gen 10",
+      "category": "laptop",
+      "price": 1999,
+      "description": "Ultra-light business laptop with Intel i7-1280P, 14-inch 4K display, and LTE connectivity.",
+      "image": "/images/Lenovo ThinkPad X1 Carbon Gen 10.jpg",
+      "brand": "Lenovo",
+      "stock": 30,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "Intel Core i7-1280P",
+        "gpu": "Intel Iris Xe",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "14-inch 4K UHD (3840x2400)",
+        "os": "Windows 11 Pro",
+        "battery": "57Wh",
+        "weight": "1.12kg"
+      },
+      "features": [
+        "Military-Grade Durability",
+        "4G LTE",
+        "Dolby Atmos Speakers"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 27,
+      "name": "Lenovo Legion 7i",
+      "category": "laptop",
+      "price": 2499,
+      "description": "High-performance gaming laptop with Intel i9-12900HX and RTX 3080 Ti.",
+      "image": "/images/Lenovo Legion 7i.jpg",
+      "brand": "Lenovo",
+      "stock": 25,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "Intel Core i9-12900HX",
+        "gpu": "NVIDIA RTX 3080 Ti (16GB)",
+        "ram": "32GB",
+        "storage": "2TB SSD",
+        "display": "16-inch QHD (2560x1600) 240Hz",
+        "os": "Windows 11 Home",
+        "battery": "99.9Wh",
+        "weight": "2.5kg"
+      },
+      "features": ["RGB Keyboard", "Vapor Chamber Cooling", "Nahimic Audio"],
+      "reviews": []
+    },
+    {
+      "id": 28,
+      "name": "Lenovo Yoga 9i",
+      "category": "laptop",
+      "price": 1799,
+      "description": "Premium 2-in-1 convertible laptop with 14-inch 4K OLED touchscreen and rotating soundbar.",
+      "image": "/images/Lenovo Yoga 9i.jpg",
+      "brand": "Lenovo",
+      "stock": 40,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-1260P",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "14-inch 4K OLED (3840x2400) Touch",
+        "os": "Windows 11 Home",
+        "battery": "75Wh",
+        "weight": "1.37kg"
+      },
+      "features": [
+        "Rotating Soundbar",
+        "Active Pen Support",
+        "Aluminum Unibody"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 29,
+      "name": "Lenovo IdeaPad Slim 7 Pro",
+      "category": "laptop",
+      "price": 1299,
+      "description": "Sleek and powerful laptop with AMD Ryzen 7 6800H and 14.5-inch 2.8K display.",
+      "image": "/images/Lenovo IdeaPad Slim 7 Pro.jpg",
+      "brand": "Lenovo",
+      "stock": 50,
+      "rating": 4.6,
+      "specs": {
+        "cpu": "AMD Ryzen 7 6800H",
+        "gpu": "AMD Radeon Graphics",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "14.5-inch 2.8K (2880x1800) 90Hz",
+        "os": "Windows 11 Home",
+        "battery": "75Wh",
+        "weight": "1.45kg"
+      },
+      "features": ["Dolby Vision", "Backlit Keyboard", "Fingerprint Reader"],
+      "reviews": []
+    },
+    {
+      "id": 30,
+      "name": "Lenovo ThinkBook 16p Gen 4",
+      "category": "laptop",
+      "price": 1899,
+      "description": "Creator laptop with AMD Ryzen 9 6900HX, RTX 3060, and 16-inch 2.5K display.",
+      "image": "/images/Lenovo ThinkBook 16p Gen 4.jpg",
+      "brand": "Lenovo",
+      "stock": 35,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "AMD Ryzen 9 6900HX",
+        "gpu": "NVIDIA RTX 3060 (6GB)",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "16-inch 2.5K (2560x1600) 165Hz",
+        "os": "Windows 11 Pro",
+        "battery": "90Wh",
+        "weight": "1.99kg"
+      },
+      "features": ["Pantone Validation", "Dolby Atmos", "Privacy Shutter"],
+      "reviews": []
+    },
+
+    {
+      "id": 31,
+      "name": "HP Spectre x360 14",
+      "category": "laptop",
+      "price": 1499,
+      "description": "Premium 2-in-1 convertible with 13.5-inch 3K OLED display and 12th Gen Intel CPU.",
+      "brand": "HP",
+      "image": "/images/HP Spectre x360 14.jpg",
+      "stock": 45,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "Intel Core i7-1255U",
+        "gpu": "Intel Iris Xe",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "13.5-inch 3K OLED (3000x2000) Touch",
+        "os": "Windows 11 Pro",
+        "battery": "66Wh",
+        "weight": "1.34kg"
+      },
+      "features": ["360° Hinge", "Thunderbolt 4", "B&O Audio"],
+      "reviews": []
+    },
+    {
+      "id": 32,
+      "name": "HP Omen 17",
+      "category": "laptop",
+      "price": 2199,
+      "description": "Gaming powerhouse with Intel i9-13900HX and RTX 4080.",
+      "brand": "HP",
+      "image": "/images/HP Omen 17.jpg",
+      "stock": 25,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "Intel Core i9-13900HX",
+        "gpu": "NVIDIA RTX 4080 (12GB)",
+        "ram": "32GB",
+        "storage": "2TB SSD",
+        "display": "17.3-inch QHD (2560x1440) 240Hz",
+        "os": "Windows 11 Home",
+        "battery": "83Wh",
+        "weight": "3.2kg"
+      },
+      "features": ["RGB Keyboard", "OMEN Tempest Cooling", "Mini-LED Display"],
+      "reviews": []
+    },
+    {
+      "id": 33,
+      "name": "HP Envy 16",
+      "category": "laptop",
+      "price": 1899,
+      "description": "Creator laptop with 16-inch 4K OLED and RTX 4060.",
+      "brand": "HP",
+      "image": "/images/HP Envy 16.jpg",
+      "stock": 30,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-13700H",
+        "gpu": "NVIDIA RTX 4060 (8GB)",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "16-inch 4K OLED (3840x2400)",
+        "os": "Windows 11 Pro",
+        "battery": "83Wh",
+        "weight": "2.3kg"
+      },
+      "features": [
+        "Pantone Validation",
+        "HP Rechargeable Pen",
+        "Quad Speakers"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 34,
+      "name": "HP Pavilion Aero 13",
+      "category": "laptop",
+      "price": 899,
+      "description": "Ultra-light laptop with AMD Ryzen 7 and 13.3-inch 2.5K display.",
+      "brand": "HP",
+      "image": "/images/HP Pavilion Aero 13.jpg",
+      "stock": 70,
+      "rating": 4.5,
+      "specs": {
+        "cpu": "AMD Ryzen 7 7735U",
+        "gpu": "AMD Radeon Graphics",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "13.3-inch 2.5K (2560x1600)",
+        "os": "Windows 11 Home",
+        "battery": "43Wh",
+        "weight": "0.98kg"
+      },
+      "features": ["Magnesium-Aluminum Body", "Wi-Fi 6E", "Backlit Keyboard"],
+      "reviews": []
+    },
+    {
+      "id": 35,
+      "name": "HP ZBook Fury 16 G9",
+      "category": "laptop",
+      "price": 3499,
+      "description": "Workstation laptop with Intel Xeon CPU and RTX A5500.",
+      "brand": "HP",
+      "image": "/images/HP ZBook Fury 16 G9.jpg",
+      "stock": 15,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "Intel Xeon W-11955M",
+        "gpu": "NVIDIA RTX A5500 (16GB)",
+        "ram": "64GB",
+        "storage": "4TB SSD",
+        "display": "16-inch 4K UHD (3840x2400)",
+        "os": "Windows 11 Pro",
+        "battery": "94Wh",
+        "weight": "2.5kg"
+      },
+      "features": ["ISV Certified", "ECC Memory", "HP Sure View Privacy"],
+      "reviews": []
+    },
+    {
+      "id": 36,
+      "name": "MSI Stealth 16 Studio",
+      "category": "laptop",
+      "price": 2599,
+      "description": "Slim gaming laptop with Intel i9-13900H and RTX 4090.",
+      "brand": "MSI",
+      "image": "/images/MSI Stealth 16 Studio.jpg",
+      "stock": 20,
+      "rating": 4.9,
+      "specs": {
+        "cpu": "Intel Core i9-13900H",
+        "gpu": "NVIDIA RTX 4090 (16GB)",
+        "ram": "64GB",
+        "storage": "2TB SSD",
+        "display": "16-inch 4K UHD (3840x2400) 120Hz",
+        "os": "Windows 11 Pro",
+        "battery": "99.9Wh",
+        "weight": "2.1kg"
+      },
+      "features": ["Per-Key RGB", "Thunderbolt 4", "Cooler Boost 5"],
+      "reviews": []
+    },
+    {
+      "id": 37,
+      "name": "MSI Raider GE78 HX",
+      "category": "laptop",
+      "price": 2999,
+      "description": "Flagship gaming laptop with 17-inch Mini-LED display and Cherry MX keyboard.",
+      "brand": "MSI",
+      "image": "/images/MSI Raider GE78 HX.jpg",
+      "stock": 10,
+      "rating": 5.0,
+      "specs": {
+        "cpu": "Intel Core i9-13980HX",
+        "gpu": "NVIDIA RTX 4090 (16GB)",
+        "ram": "64GB",
+        "storage": "4TB SSD",
+        "display": "17-inch 4K Mini-LED (3840x2400) 144Hz",
+        "os": "Windows 11 Pro",
+        "battery": "99.9Wh",
+        "weight": "3.3kg"
+      },
+      "features": [
+        "Mech Cherry MX Keyboard",
+        "Dynamic Cooler Boost",
+        "Mystic Light Bar"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 38,
+      "name": "MSI Katana 15",
+      "category": "laptop",
+      "price": 1299,
+      "description": "Budget gaming laptop with Intel i7-13700H and RTX 4060.",
+      "brand": "MSI",
+      "image": "/images/MSI Katana 15.jpg",
+      "stock": 50,
+      "rating": 4.6,
+      "specs": {
+        "cpu": "Intel Core i7-13700H",
+        "gpu": "NVIDIA RTX 4060 (8GB)",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "display": "15.6-inch FHD (1920x1080) 144Hz",
+        "os": "Windows 11 Home",
+        "battery": "53.5Wh",
+        "weight": "2.25kg"
+      },
+      "features": ["Cooler Boost 5", "Hi-Res Audio", "Anti-Glare Display"],
+      "reviews": []
+    },
+    {
+      "id": 39,
+      "name": "MSI Prestige 14 Evo",
+      "category": "laptop",
+      "price": 1499,
+      "description": "Ultrabook with Intel Evo certification and 14-inch 2.8K display.",
+      "brand": "MSI",
+      "image": "/images/MSI Prestige 14 Evo.jpg",
+      "stock": 40,
+      "rating": 4.7,
+      "specs": {
+        "cpu": "Intel Core i7-1360P",
+        "gpu": "Intel Iris Xe",
+        "ram": "32GB",
+        "storage": "1TB SSD",
+        "display": "14-inch 2.8K OLED (2880x1800)",
+        "os": "Windows 11 Pro",
+        "battery": "72Wh",
+        "weight": "1.29kg"
+      },
+      "features": [
+        "100% DCI-P3",
+        "Fingerprint Sensor",
+        "Military-Grade Durability"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 40,
+      "name": "MSI Creator Z16P",
+      "category": "laptop",
+      "price": 2799,
+      "description": "Creator laptop with 16-inch 4K Touch display and RTX 4080.",
+      "brand": "MSI",
+      "image": "/images/MSI Creator Z16P.jpg",
+      "stock": 15,
+      "rating": 4.8,
+      "specs": {
+        "cpu": "Intel Core i9-13900H",
+        "gpu": "NVIDIA RTX 4080 (12GB)",
+        "ram": "64GB",
+        "storage": "2TB SSD",
+        "display": "16-inch 4K Touch (3840x2400)",
+        "os": "Windows 11 Pro",
+        "battery": "90Wh",
+        "weight": "2.4kg"
+      },
+      "features": ["Calman Verified", "True Pixel Display", "MSI Pen Support"],
+      "reviews": []
+    }
+  ],
+
+  "mobiles": [
+    {
+      "id": 26,
+      "name": "iPhone 15 Pro",
+      "category": "mobile",
+      "price": 999,
+      "description": "Apple's flagship phone with titanium frame, A17 Bionic chip, and 48MP camera.",
+      "brand": "Apple",
+      "image": "/images/iPhone 15 Pro.jpg",
+      "stock": 150,
+      "rating": 4.8,
+      "specs": {
+        "chipset": "A17 Bionic",
+        "ram": "8GB",
+        "storage": "256GB",
+        "display": "6.1-inch Super Retina XDR (2556x1179)",
+        "camera": "48MP (Main) + 12MP (Ultra Wide) + 12MP (Telephoto)",
+        "battery": "3274mAh (Up to 23 hours)",
+        "os": "iOS 17",
+        "network": "5G, eSIM"
+      },
+      "features": [
+        "IP68 water resistance",
+        "Ceramic Shield",
+        "Wireless charging"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 27,
+      "name": "Samsung Galaxy S23",
+      "category": "mobile",
+      "price": 849,
+      "description": "Samsung's flagship with Snapdragon 8 Gen 2, 120Hz AMOLED display, and 50MP camera.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy S23.jpg",
+      "stock": 120,
+      "rating": 4.7,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": "256GB",
+        "display": "6.1-inch Dynamic AMOLED (2340x1080)",
+        "camera": "50MP (Main) + 12MP (Ultra Wide) + 10MP (Telephoto)",
+        "battery": "3900mAh (45W fast charging)",
+        "os": "Android 13"
+      },
+      "features": [
+        "Gorilla Glass Victus 2",
+        "IP68 rating",
+        "Wireless PowerShare"
+      ],
+      "reviews": [
+        {
+          "user": "Alice Johnson",
+          "rating": 5,
+          "comment": "Smooth performance and stunning display!"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "OnePlus 11",
+      "category": "mobile",
+      "price": 799,
+      "description": "Flagship phone with 100W fast charging, 2K AMOLED display, and Hasselblad camera.",
+      "brand": "OnePlus",
+      "image": "/images/OnePlus 11.jpg",
+      "stock": 130,
+      "rating": 4.8,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 2",
+        "ram": "16GB",
+        "storage": "256GB",
+        "display": "6.7-inch AMOLED (3216x1440)",
+        "camera": "50MP (Main) + 48MP (Ultra Wide) + 32MP (Telephoto)",
+        "battery": "5000mAh (100W SUPERVOOC)",
+        "os": "OxygenOS 13 (Android 13)"
+      },
+      "features": [
+        "In-display fingerprint sensor",
+        "Aluminum frame",
+        "Dolby Atmos"
+      ],
+      "reviews": [
+        {
+          "user": "Mike Brown",
+          "rating": 5,
+          "comment": "Blazing-fast charging and premium build!"
+        }
+      ]
+    },
+
+    {
+      "id": 30,
+      "name": "Xiaomi Mi 12",
+      "category": "mobile",
+      "price": 599,
+      "description": "Affordable flagship with Snapdragon 8 Gen 1, AMOLED display, and 50MP camera.",
+      "brand": "Xiaomi",
+      "image": "/images/Xiaomi Mi 12.webp",
+      "stock": 180,
+      "rating": 4.6,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 1",
+        "ram": "8GB",
+        "storage": "128GB",
+        "display": "6.28-inch AMOLED (2400x1080)",
+        "camera": "50MP (Main) + 13MP (Ultra Wide)",
+        "battery": "4500mAh (67W fast charging)",
+        "os": "MIUI 14 (Android 13)"
+      },
+      "features": [
+        "In-display fingerprint",
+        "Stereo speakers",
+        "Corning Gorilla Glass Victus"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 31,
+      "name": "Oppo Find X6 Pro",
+      "category": "mobile",
+      "price": 1099,
+      "description": "Flagship phone with Sony IMX989 1-inch sensor, Snapdragon 8 Gen 2, and 100W charging.",
+      "brand": "Oppo",
+      "image": "/images/oppo find x6 pro.jpg",
+      "stock": 100,
+      "rating": 4.8,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.7-inch LTPO AMOLED (3216x1440)",
+        "camera": "50MP (Main) + 50MP (Ultra Wide) + 50MP (Telephoto)",
+        "battery": "5000mAh (100W SUPERVOOC)",
+        "os": "ColorOS 13 (Android 13)"
+      },
+      "features": ["IP68 rating", "Periscope lens", "Vapor cooling system"],
+      "reviews": []
+    },
+    {
+      "id": 32,
+      "name": "Vivo V27 Pro",
+      "category": "mobile",
+      "price": 599,
+      "description": "Mid-range phone with 50MP selfie camera, AMOLED display, and MediaTek Dimensity 8200.",
+      "brand": "Vivo",
+      "image": "/images/Vivo V27 Pro.jpg",
+      "stock": 150,
+      "rating": 4.7,
+      "specs": {
+        "chipset": "MediaTek Dimensity 8200",
+        "ram": "8GB",
+        "storage": "128GB",
+        "display": "6.78-inch AMOLED (2400x1080)",
+        "camera": "50MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "4600mAh (66W fast charging)",
+        "os": "Funtouch OS 13 (Android 13)"
+      },
+      "features": [
+        "50MP front camera",
+        "7.4mm slim design",
+        "In-display fingerprint"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 33,
+      "name": "Sony Xperia 1 IV",
+      "category": "mobile",
+      "price": 1199,
+      "description": "Premium phone with 4K HDR OLED display, triple Zeiss cameras, and Snapdragon 8 Gen 1.",
+      "brand": "Sony",
+      "image": "/images/Sony Xperia 1 IV.jpg",
+      "stock": 90,
+      "rating": 4.9,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 1",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.5-inch 4K HDR OLED (3840x1644)",
+        "camera": "12MP (Main) × 3 (Zeiss optics)",
+        "battery": "5000mAh (30W charging)",
+        "os": "Android 13"
+      },
+      "features": ["MicroSD slot", "3.5mm headphone jack", "IP68 rating"],
+      "reviews": []
+    },
+    {
+      "id": 34,
+      "name": "Realme GT 2 Pro",
+      "category": "mobile",
+      "price": 749,
+      "description": "Powerful phone with Snapdragon 8 Gen 1, 120Hz AMOLED display, and 65W fast charging.",
+      "brand": "Realme",
+      "image": "/images/Realme GT 2 Pro.jpg",
+      "stock": 110,
+      "rating": 4.6,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 1",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.7-inch AMOLED (3216x1440) 120Hz",
+        "camera": "50MP (Main) + 50MP (Ultra Wide) + 40x microscope",
+        "battery": "5000mAh (65W SUPERVOOC)",
+        "os": "Realme UI 3.0 (Android 12)"
+      },
+      "features": ["Biodegradable design", "Steam cooling", "Dolby Vision"],
+      "reviews": []
+    },
+    {
+      "id": 35,
+      "name": "Motorola Edge 30 Ultra",
+      "category": "mobile",
+      "price": 899,
+      "description": "Flagship phone with 200MP camera, 144Hz pOLED display, and 125W fast charging.",
+      "brand": "Motorola",
+      "image": "/images/Motorola Edge 30 Ultra.jpg",
+      "stock": 85,
+      "rating": 4.7,
+      "specs": {
+        "chipset": "Snapdragon 8+ Gen 1",
+        "ram": "12GB",
+        "storage": "512GB",
+        "display": "6.67-inch pOLED (2400x1080) 144Hz",
+        "camera": "200MP (Main) + 50MP (Ultra Wide) + 12MP (Telephoto)",
+        "battery": "4610mAh (125W TurboPower)",
+        "os": "Android 13"
+      },
+      "features": [
+        "IP52 splash resistance",
+        "Stereo speakers",
+        "Ready For platform"
+      ],
+      "reviews": []
+    },
+
+    {
+      "id": 36,
+      "name": "Samsung Galaxy S24 Ultra",
+      "category": "mobile",
+      "price": 1199,
+      "description": "Samsung's flagship phone with Snapdragon 8 Gen 3, 200MP camera, and S Pen support.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy S24 Ultra.webp",
+      "stock": 200,
+      "rating": 4.9,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 3",
+        "ram": "12GB",
+        "storage": "512GB",
+        "display": "6.8-inch Dynamic AMOLED 2X (3088x1440)",
+        "camera": "200MP (Main) + 12MP (Ultra Wide) + 10MP (Telephoto) + 10MP (Periscope)",
+        "battery": "5000mAh (Up to 30 hours)",
+        "os": "Android 14 (One UI 6)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "S Pen support",
+        "IP68 water resistance",
+        "120Hz refresh rate"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 28,
+      "name": "Samsung Galaxy S24+",
+      "category": "mobile",
+      "price": 999,
+      "description": "A premium smartphone with Snapdragon 8 Gen 3, 50MP camera, and 120Hz AMOLED display.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy S24+.avif",
+      "stock": 180,
+      "rating": 4.8,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 3",
+        "ram": "8GB",
+        "storage": "256GB",
+        "display": "6.7-inch Dynamic AMOLED 2X (3120x1440)",
+        "camera": "50MP (Main) + 12MP (Ultra Wide) + 10MP (Telephoto)",
+        "battery": "4700mAh (Up to 28 hours)",
+        "os": "Android 14 (One UI 6)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "120Hz refresh rate",
+        "Gorilla Glass Victus 2",
+        "Wireless charging"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 29,
+      "name": "Samsung Galaxy S24",
+      "category": "mobile",
+      "price": 799,
+      "description": "Compact flagship with Snapdragon 8 Gen 3, 50MP main camera, and fast charging.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy S24.webp",
+      "stock": 220,
+      "rating": 4.7,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 3",
+        "ram": "8GB",
+        "storage": "128GB",
+        "display": "6.1-inch Dynamic AMOLED 2X (2340x1080)",
+        "camera": "50MP (Main) + 12MP (Ultra Wide) + 10MP (Telephoto)",
+        "battery": "4000mAh (Up to 24 hours)",
+        "os": "Android 14 (One UI 6)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "120Hz refresh rate",
+        "Gorilla Glass Victus 2",
+        "Wireless charging"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 30,
+      "name": "Samsung Galaxy Z Fold 5",
+      "category": "mobile",
+      "price": 1799,
+      "description": "Foldable flagship with Snapdragon 8 Gen 2, large inner display, and multitasking features.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy Z Fold 5.webp",
+      "stock": 100,
+      "rating": 4.8,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": "512GB",
+        "display": "7.6-inch Dynamic AMOLED 2X (2176x1812)",
+        "camera": "50MP (Main) + 12MP (Ultra Wide) + 10MP (Telephoto)",
+        "battery": "4400mAh (Up to 27 hours)",
+        "os": "Android 13 (One UI 5.1)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "Foldable display",
+        "S Pen support",
+        "IPX8 water resistance"
+      ],
+      "reviews": []
+    },
+
+    {
+      "id": 31,
+      "name": "Samsung Galaxy Z Flip 5",
+      "category": "mobile",
+      "price": 999,
+      "description": "Stylish foldable phone with a compact design, Snapdragon 8 Gen 2, and 120Hz AMOLED display.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy Z Flip 5.jpg",
+      "stock": 150,
+      "rating": 4.6,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 2",
+        "ram": "8GB",
+        "storage": "256GB",
+        "display": "6.7-inch Dynamic AMOLED 2X (2640x1080)",
+        "camera": "12MP (Main) + 12MP (Ultra Wide)",
+        "battery": "3700mAh (Up to 20 hours)",
+        "os": "Android 13 (One UI 5.1)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "Foldable display",
+        "Cover screen customization",
+        "Wireless charging"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 32,
+      "name": "Samsung Galaxy A74 5G",
+      "category": "mobile",
+      "price": 549,
+      "description": "Mid-range smartphone with Snapdragon 778G, 108MP camera, and 120Hz AMOLED display.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy A74 5G.jpeg",
+      "stock": 300,
+      "rating": 4.5,
+      "specs": {
+        "chipset": "Snapdragon 778G",
+        "ram": "8GB",
+        "storage": "128GB",
+        "display": "6.7-inch Super AMOLED Plus (2400x1080)",
+        "camera": "108MP (Main) + 12MP (Ultra Wide) + 5MP (Macro)",
+        "battery": "5000mAh (Up to 48 hours)",
+        "os": "Android 13 (One UI 5)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "120Hz refresh rate",
+        "Stereo speakers",
+        "Fast charging 25W"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 33,
+      "name": "Samsung Galaxy A54 5G",
+      "category": "mobile",
+      "price": 449,
+      "description": "Affordable 5G smartphone with Exynos 1380, 50MP main camera, and long battery life.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy A54 5G.jpg",
+      "stock": 350,
+      "rating": 4.4,
+      "specs": {
+        "chipset": "Exynos 1380",
+        "ram": "6GB",
+        "storage": "128GB",
+        "display": "6.4-inch Super AMOLED (2340x1080)",
+        "camera": "50MP (Main) + 12MP (Ultra Wide) + 5MP (Macro)",
+        "battery": "5000mAh (Up to 50 hours)",
+        "os": "Android 13 (One UI 5.1)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "IP67 water resistance",
+        "Stereo speakers",
+        "120Hz refresh rate"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 34,
+      "name": "Samsung Galaxy M54",
+      "category": "mobile",
+      "price": 399,
+      "description": "Budget-friendly smartphone with Exynos 1380, 108MP camera, and large battery.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy M54.jpg",
+      "stock": 280,
+      "rating": 4.3,
+      "specs": {
+        "chipset": "Exynos 1380",
+        "ram": "8GB",
+        "storage": "256GB",
+        "display": "6.7-inch Super AMOLED Plus (2400x1080)",
+        "camera": "108MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "6000mAh (Up to 72 hours)",
+        "os": "Android 13 (One UI 5.1)",
+        "network": "5G, Dual SIM"
+      },
+      "features": ["Large battery", "Fast charging 25W", "120Hz refresh rate"],
+      "reviews": []
+    },
+    {
+      "id": 35,
+      "name": "Samsung Galaxy A34 5G",
+      "category": "mobile",
+      "price": 349,
+      "description": "Affordable 5G smartphone with Dimensity 1080, 48MP camera, and AMOLED display.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy A34 5G.jpg",
+      "stock": 400,
+      "rating": 4.2,
+      "specs": {
+        "chipset": "Dimensity 1080",
+        "ram": "6GB",
+        "storage": "128GB",
+        "display": "6.6-inch Super AMOLED (2340x1080)",
+        "camera": "48MP (Main) + 8MP (Ultra Wide) + 5MP (Macro)",
+        "battery": "5000mAh (Up to 48 hours)",
+        "os": "Android 13 (One UI 5)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "120Hz refresh rate",
+        "Stereo speakers",
+        "Fast charging 25W"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 36,
+      "name": "Samsung Galaxy A14 5G",
+      "category": "mobile",
+      "price": 249,
+      "description": "Entry-level 5G smartphone with Dimensity 700, 50MP camera, and long battery life.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy A14 5G.jpg",
+      "stock": 500,
+      "rating": 4.0,
+      "specs": {
+        "chipset": "Dimensity 700",
+        "ram": "4GB",
+        "storage": "64GB",
+        "display": "6.6-inch PLS LCD (2408x1080)",
+        "camera": "50MP (Main) + 2MP (Depth) + 2MP (Macro)",
+        "battery": "5000mAh (Up to 48 hours)",
+        "os": "Android 13 (One UI Core 5)",
+        "network": "5G, Dual SIM"
+      },
+      "features": [
+        "Affordable 5G support",
+        "Long battery life",
+        "Side-mounted fingerprint scanner"
+      ],
+      "reviews": []
+    },
+
+    {
+      "id": 41,
+      "name": "Xiaomi 13 Ultra",
+      "category": "mobile",
+      "price": 1099,
+      "description": "Flagship smartphone with Leica quad-camera, Snapdragon 8 Gen 2, and 2K AMOLED display.",
+      "image": "/images/Xiaomi 13 Ultra.jpg",
+      "brand": "Xiaomi",
+      "stock": 60,
+      "rating": 4.8,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 2",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.73-inch AMOLED (3200x1440) 120Hz",
+        "camera": "50MP (Leica Main) + 50MP (Ultra Wide) + 50MP (Telephoto) + 50MP (Periscope)",
+        "battery": "5000mAh (90W Fast Charging)",
+        "os": "Android 13 (MIUI 14)",
+        "network": "5G"
+      },
+      "features": ["IP68 Rating", "Leica Optics", "Dolby Atmos"],
+      "reviews": []
+    },
+    {
+      "id": 42,
+      "name": "Xiaomi 13T Pro",
+      "category": "mobile",
+      "price": 699,
+      "description": "High-performance phone with MediaTek Dimensity 9200+ and 200MP camera.",
+      "image": "/images/Xiaomi 13T Pro.jpg",
+      "brand": "Xiaomi",
+      "stock": 80,
+      "rating": 4.6,
+      "specs": {
+        "chipset": "MediaTek Dimensity 9200+",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.67-inch AMOLED (2712x1220) 144Hz",
+        "camera": "200MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "5000mAh (120W HyperCharge)",
+        "os": "Android 13 (MIUI 14)",
+        "network": "5G"
+      },
+      "features": ["120W Charging", "Dual Speakers", "Corning Gorilla Glass 5"],
+      "reviews": []
+    },
+    {
+      "id": 43,
+      "name": "Redmi Note 12 Pro+",
+      "category": "mobile",
+      "price": 399,
+      "description": "Mid-range phone with 200MP camera and 120Hz AMOLED display.",
+      "image": "/images/Redmi Note 12 Pro+.jpg",
+      "brand": "Xiaomi",
+      "stock": 150,
+      "rating": 4.5,
+      "specs": {
+        "chipset": "MediaTek Dimensity 1080",
+        "ram": "8GB",
+        "storage": "256GB",
+        "display": "6.67-inch AMOLED (2400x1080) 120Hz",
+        "camera": "200MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "5000mAh (67W Fast Charging)",
+        "os": "Android 13 (MIUI 14)",
+        "network": "5G"
+      },
+      "features": ["3.5mm Jack", "Stereo Speakers", "IR Blaster"],
+      "reviews": []
+    },
+    {
+      "id": 44,
+      "name": "POCO F5 Pro",
+      "category": "mobile",
+      "price": 549,
+      "description": "Gaming-focused phone with Snapdragon 8+ Gen 1 and 144Hz display.",
+      "image": "/images/POCO F5 Pro.webp",
+      "brand": "Xiaomi",
+      "stock": 70,
+      "rating": 4.7,
+      "specs": {
+        "chipset": "Snapdragon 8+ Gen 1",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.67-inch AMOLED (2400x1080) 144Hz",
+        "camera": "64MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "5160mAh (67W Fast Charging)",
+        "os": "Android 13 (MIUI 14)",
+        "network": "5G"
+      },
+      "features": ["LiquidCool Technology", "Dual SIM", "NFC"],
+      "reviews": []
+    },
+    {
+      "id": 45,
+      "name": "Xiaomi Mix Fold 3",
+      "category": "mobile",
+      "price": 1599,
+      "description": "Foldable smartphone with Snapdragon 8 Gen 2 and quad-camera system.",
+      "image": "/images/Xiaomi Mix Fold 3.jpg",
+      "brand": "Xiaomi",
+      "stock": 30,
+      "rating": 4.9,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 2",
+        "ram": "16GB",
+        "storage": "512GB",
+        "display": "8.03-inch Foldable AMOLED (2160x1914)",
+        "camera": "50MP (Main) + 13MP (Ultra Wide) + 10MP (Telephoto) + 10MP (Periscope)",
+        "battery": "4500mAh (67W Charging)",
+        "os": "Android 13 (MIUI Fold)",
+        "network": "5G"
+      },
+      "features": ["Dolby Vision", "Ceramic Back", "Multi-Axis Hinge"],
+      "reviews": []
+    },
+    {
+      "id": 46,
+      "name": "Redmi 12",
+      "category": "mobile",
+      "price": 199,
+      "description": "Budget phone with 90Hz display and 50MP triple camera.",
+      "image": "/images/Redmi 12.jpg",
+      "brand": "Xiaomi",
+      "stock": 200,
+      "rating": 4.3,
+      "specs": {
+        "chipset": "MediaTek Helio G88",
+        "ram": "4GB",
+        "storage": "128GB",
+        "display": "6.79-inch IPS (2460x1080) 90Hz",
+        "camera": "50MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "5000mAh (18W Charging)",
+        "os": "Android 13 (MIUI 14)",
+        "network": "4G"
+      },
+      "features": [
+        "Expandable Storage",
+        "3.5mm Jack",
+        "IP53 Splash Resistance"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 47,
+      "name": "Xiaomi Civi 3",
+      "category": "mobile",
+      "price": 499,
+      "description": "Sleek design with 6.55-inch AMOLED display and dual selfie cameras.",
+      "image": "/images/Xiaomi Civi 3.jpg",
+      "brand": "Xiaomi",
+      "stock": 90,
+      "rating": 4.6,
+      "specs": {
+        "chipset": "MediaTek Dimensity 8200-Ultra",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.55-inch AMOLED (2400x1080) 120Hz",
+        "camera": "50MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "4500mAh (67W Fast Charging)",
+        "os": "Android 13 (MIUI 14)",
+        "network": "5G"
+      },
+      "features": [
+        "Dual Front Cameras",
+        "Ultra-Thin Design",
+        "In-Display Fingerprint"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 48,
+      "name": "Black Shark 6 Pro",
+      "category": "mobile",
+      "price": 799,
+      "description": "Gaming phone with Snapdragon 8 Gen 2 and magnetic pop-up triggers.",
+      "image": "/images/Black Shark 6 Pro.webp",
+      "brand": "Xiaomi",
+      "stock": 40,
+      "rating": 4.7,
+      "specs": {
+        "chipset": "Snapdragon 8 Gen 2",
+        "ram": "16GB",
+        "storage": "512GB",
+        "display": "6.67-inch AMOLED (2400x1080) 144Hz",
+        "camera": "64MP (Main) + 13MP (Ultra Wide) + 5MP (Macro)",
+        "battery": "4650mAh (120W Fast Charging)",
+        "os": "Android 13 (JoyUI 14)",
+        "network": "5G"
+      },
+      "features": ["Magnetic Triggers", "Liquid Cooling", "RGB Lighting"],
+      "reviews": []
+    },
+    {
+      "id": 49,
+      "name": "Xiaomi 13 Lite",
+      "category": "mobile",
+      "price": 449,
+      "description": "Lightweight phone with 6.55-inch AMOLED and 32MP selfie camera.",
+      "image": "/images/Xiaomi 13 Lite.jpg",
+      "brand": "Xiaomi",
+      "stock": 110,
+      "rating": 4.4,
+      "specs": {
+        "chipset": "Snapdragon 7 Gen 1",
+        "ram": "8GB",
+        "storage": "128GB",
+        "display": "6.55-inch AMOLED (2400x1080) 120Hz",
+        "camera": "64MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "4300mAh (67W Fast Charging)",
+        "os": "Android 13 (MIUI 14)",
+        "network": "5G"
+      },
+      "features": ["32MP Selfie Camera", "Ultra-Slim Bezels", "NFC"],
+      "reviews": []
+    },
+    {
+      "id": 50,
+      "name": "Redmi K60 Ultra",
+      "category": "mobile",
+      "price": 599,
+      "description": "Powerful mid-ranger with Dimensity 9200+ and 1.5K display.",
+      "image": "/images/Redmi K60 Ultra.jpg",
+      "brand": "Xiaomi",
+      "stock": 65,
+      "rating": 4.6,
+      "specs": {
+        "chipset": "MediaTek Dimensity 9200+",
+        "ram": "12GB",
+        "storage": "256GB",
+        "display": "6.67-inch AMOLED (2712x1220) 144Hz",
+        "camera": "50MP (Main) + 8MP (Ultra Wide) + 2MP (Macro)",
+        "battery": "5500mAh (120W HyperCharge)",
+        "os": "Android 13 (MIUI 14)",
+        "network": "5G"
+      },
+      "features": ["144Hz Display", "Dual Stereo Speakers", "X-Axis Motor"],
+      "reviews": []
+    }
+  ],
+
+  "smartwatches": [
+    {
+      "id": 36,
+      "name": "Samsung Galaxy Watch 5",
+      "category": "smart watch",
+      "price": 299,
+      "description": "Advanced smartwatch with BioActive sensor, AMOLED display, and 50-hour battery life.",
+      "brand": "Samsung",
+      "image": "/images/Samsung Galaxy Watch 5.jpg",
+      "stock": 200,
+      "rating": 4.7,
+      "specs": {
+        "display": "1.4-inch AMOLED (450x450)",
+        "battery": "410mAh (Up to 50 hours)",
+        "sensors": ["Heart Rate", "Blood Oxygen", "ECG", "Sleep Tracking"],
+        "compatibility": "Android & iOS",
+        "waterproof": "IP68 + 5ATM",
+        "os": "Wear OS"
+      },
+      "features": ["Wireless Charging", "GPS", "NFC Payments"],
+      "reviews": [
+        {
+          "user": "Sophia Green",
+          "rating": 5,
+          "comment": "Perfect for fitness enthusiasts!"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Apple Watch Series 8",
+      "category": "smart watch",
+      "price": 399,
+      "description": "Apple's flagship smartwatch with ECG, temperature sensor, and Crash Detection.",
+      "brand": "Apple",
+      "image": "/images/Apple Watch Series 8.jpg",
+      "stock": 180,
+      "rating": 4.9,
+      "specs": {
+        "display": "1.9-inch Retina LTPO (484x396)",
+        "battery": "308mAh (Up to 18 hours)",
+        "sensors": ["ECG", "Blood Oxygen", "Temperature"],
+        "compatibility": "iOS Only",
+        "waterproof": "IP6X + WR50",
+        "os": "watchOS 9"
+      },
+      "features": ["Always-On Display", "Fall Detection", "Family Setup"],
+      "reviews": [
+        {
+          "user": "Laura Black",
+          "rating": 5,
+          "comment": "Seamless integration with iPhone."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Garmin Forerunner 945",
+      "category": "smart watch",
+      "price": 599,
+      "description": "Premium GPS smartwatch for athletes with advanced performance metrics and maps.",
+      "brand": "Garmin",
+      "image": "/images/Garmin Forerunner 945.jpg",
+      "stock": 150,
+      "rating": 4.8,
+      "specs": {
+        "display": "1.2-inch transflective (240x240)",
+        "battery": "14 days (Smartwatch mode)",
+        "sensors": ["Heart Rate", "Pulse Ox", "Barometric Altimeter"],
+        "compatibility": "Android & iOS",
+        "waterproof": "5ATM",
+        "os": "Garmin OS"
+      },
+      "features": ["Offline Maps", "Music Storage", "Training Load Focus"],
+      "reviews": []
+    },
+    {
+      "id": 39,
+      "name": "Fossil Gen 6",
+      "category": "smart watch",
+      "price": 299,
+      "description": "Stylish Wear OS smartwatch with Snapdragon 4100+, SpO2 tracking, and fast charging.",
+      "brand": "Fossil",
+      "image": "/images/Fossil Gen 6.jpg",
+      "stock": 120,
+      "rating": 4.6,
+      "specs": {
+        "display": "1.28-inch AMOLED (416x416)",
+        "battery": "24 hours (Extended mode: 3 days)",
+        "sensors": ["Heart Rate", "SpO2", "GPS"],
+        "compatibility": "Android & iOS",
+        "waterproof": "3ATM",
+        "os": "Wear OS"
+      },
+      "features": ["Customizable Dials", "Google Assistant", "Quick Charging"],
+      "reviews": []
+    },
+    {
+      "id": 40,
+      "name": "Fitbit Sense 2",
+      "category": "smart watch",
+      "price": 299,
+      "description": "Health-focused smartwatch with ECG, stress management, and 6+ day battery life.",
+      "brand": "Fitbit",
+      "image": "/images/Fitbit Sense 2.jpg",
+      "stock": 100,
+      "rating": 4.7,
+      "specs": {
+        "display": "1.58-inch AMOLED (336x336)",
+        "battery": "6+ days",
+        "sensors": ["ECG", "EDA Scan", "Skin Temperature"],
+        "compatibility": "Android & iOS",
+        "waterproof": "5ATM",
+        "os": "Fitbit OS"
+      },
+      "features": ["Stress Management", "Sleep Score", "Google Maps/Wallet"],
+      "reviews": []
+    },
+    {
+      "id": 41,
+      "name": "Suunto 7",
+      "category": "smart watch",
+      "price": 399,
+      "description": "Outdoor smartwatch with 70+ sports modes, offline maps, and Wear OS.",
+      "brand": "Suunto",
+      "image": "/images/Suunto 7.jpg",
+      "stock": 70,
+      "rating": 4.8,
+      "specs": {
+        "display": "1.39-inch AMOLED (454x454)",
+        "battery": "2 days (Smartwatch mode)",
+        "sensors": ["Heart Rate", "Barometer", "GPS"],
+        "compatibility": "Android & iOS",
+        "waterproof": "5ATM",
+        "os": "Wear OS"
+      },
+      "features": ["Offline Maps", "Heatmaps", "FusedTrack"],
+      "reviews": []
+    },
+    {
+      "id": 42,
+      "name": "Amazfit GTR 3 Pro",
+      "category": "smart watch",
+      "price": 249,
+      "description": "Long-lasting smartwatch with 1.45-inch AMOLED, 12-day battery, and built-in Alexa.",
+      "brand": "Amazfit",
+      "image": "/images/Amazfit GTR 3 Pro.jpg",
+      "stock": 130,
+      "rating": 4.7,
+      "specs": {
+        "display": "1.45-inch AMOLED (480x480)",
+        "battery": "12 days (Typical use)",
+        "sensors": ["Heart Rate", "SpO2", "GPS"],
+        "compatibility": "Android & iOS",
+        "waterproof": "5ATM",
+        "os": "Zepp OS"
+      },
+      "features": ["Alexa Built-in", "150+ Sports Modes", "Bluetooth Calls"],
+      "reviews": []
+    },
+    {
+      "id": 43,
+      "name": "TicWatch Pro 3 Ultra",
+      "category": "smart watch",
+      "price": 319,
+      "description": "Dual-layer display smartwatch with Snapdragon 4100, Wear OS, and 72-hour battery.",
+      "brand": "Mobvoi",
+      "image": "/images/TicWatch Pro 3 Ultra.jpg",
+      "stock": 85,
+      "rating": 4.6,
+      "specs": {
+        "display": "1.4-inch AMOLED + FSTN (454x454)",
+        "battery": "72 hours (Smart Mode)",
+        "sensors": ["Heart Rate", "SpO2", "GPS"],
+        "compatibility": "Android & iOS",
+        "waterproof": "IP68",
+        "os": "Wear OS"
+      },
+      "features": [
+        "Dual Display",
+        "Essential Mode (45 days)",
+        "Military Durability"
+      ],
+      "reviews": []
+    },
+    {
+      "id": 44,
+      "name": "Huawei Watch GT 3",
+      "category": "smart watch",
+      "price": 349,
+      "description": "Fitness smartwatch with 14-day battery, TruSeen 5.0+, and 100+ workout modes.",
+      "brand": "Huawei",
+      "image": "/images/Huawei Watch GT 3.jpg",
+      "stock": 120,
+      "rating": 4.9,
+      "specs": {
+        "display": "1.43-inch AMOLED (466x466)",
+        "battery": "14 days (Typical use)",
+        "sensors": ["Heart Rate", "SpO2", "Temperature"],
+        "compatibility": "Android & iOS",
+        "waterproof": "5ATM",
+        "os": "HarmonyOS"
+      },
+      "features": ["Wireless Charging", "Running Coach", "Music Storage"],
+      "reviews": []
+    },
+    {
+      "id": 45,
+      "name": "Withings Steel HR Sport",
+      "category": "smart watch",
+      "price": 199,
+      "description": "Hybrid smartwatch with analog dial, 25-day battery, and heart rate tracking.",
+      "brand": "Withings",
+      "image": "/images/Withings Steel HR Sport.jpg",
+      "stock": 110,
+      "rating": 4.5,
+      "specs": {
+        "display": "Analog + OLED sub-dial",
+        "battery": "25 days",
+        "sensors": ["Heart Rate", "GPS"],
+        "compatibility": "Android & iOS",
+        "waterproof": "5ATM",
+        "os": "Withings OS"
+      },
+      "features": [
+        "Hybrid Design",
+        "Automatic Activity Detection",
+        "Sleep Tracking"
+      ],
+      "reviews": []
+    }
+  ],
+  "accessories": [
+    {
+      "id": 46,
+      "name": "Anker PowerCore 10000 Portable Charger",
+      "category": "powerbank",
+      "price": 25,
+      "description": "Compact and high-capacity portable charger for phones and tablets.",
+      "image": "/images/Anker PowerCore 10000 Portable Charger.jpg",
+      "brand": "Anker",
+      "stock": 300,
+      "rating": 4.8,
+      "reviews": [],
+      "specs": {
+        "color": "Black",
+        "batteryCapacity": "10000mAh",
+        "weight": "180g",
+        "dimensions": "92 × 60 × 22 mm",
+        "fastCharging": true,
+        "ports": ["USB-A", "Micro-USB"],
+        "compatibility": ["iPhone", "Android", "Tablets"]
+      }
+    },
+    {
+      "id": 47,
+      "name": "Apple AirPods Pro",
+      "category": "headphones",
+      "price": 249,
+      "description": "Premium wireless earbuds with noise cancellation and spatial audio.",
+      "image": "/images/Apple AirPods Pro.jpg",
+      "brand": "Apple",
+      "stock": 150,
+      "rating": 4.9,
+      "reviews": [],
+      "specs": {
+        "color": "White",
+        "wireless": true,
+        "noiseCancelling": true,
+        "batteryLife": "4.5 hours",
+        "chargingCase": "Yes",
+        "compatibility": ["iPhone", "Android"]
+      }
+    },
+    {
+      "id": 48,
+      "name": "Samsung Galaxy Buds Pro",
+      "category": "headphones",
+      "price": 199,
+      "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
+      "image": "/images/Samsung Galaxy Buds Pro.jpg",
+      "brand": "Samsung",
+      "stock": 180,
+      "rating": 4.7,
+      "reviews": [],
+      "specs": {
+        "color": "Phantom Black",
+        "wireless": true,
+        "noiseCancelling": true,
+        "batteryLife": "5 hours",
+        "chargingCase": "Yes",
+        "compatibility": ["iPhone", "Android"]
+      }
+    },
+    {
+      "id": 49,
+      "name": "Logitech MX Master 3 Mouse",
+      "category": "mouse",
+      "price": 99,
+      "description": "Wireless ergonomic mouse with advanced precision and long battery life.",
+      "image": "/images/Logitech MX Master 3 Mouse.jpg",
+      "brand": "Logitech",
+      "stock": 250,
+      "rating": 4.8,
+      "reviews": [],
+      "specs": {
+        "color": "Graphite",
+        "wireless": true,
+        "dpi": "4000",
+        "batteryLife": "70 days",
+        "connectivity": ["USB-C", "Bluetooth"]
+      }
+    },
+    {
+      "id": 50,
+      "name": "Fitbit Charge 5 Fitness Tracker",
+      "category": "wearable",
+      "price": 149,
+      "description": "Advanced fitness tracker with built-in GPS and heart rate monitoring.",
+      "image": "/images/Fitbit Charge 5 Fitness Tracker.jpg",
+      "brand": "Fitbit",
+      "stock": 130,
+      "rating": 4.7,
+      "reviews": [],
+      "specs": {
+        "color": "Black",
+        "display": "AMOLED",
+        "batteryLife": "7 days",
+        "waterResistance": "50m",
+        "connectivity": ["Bluetooth", "NFC"]
+      }
+    },
+    {
+      "id": 51,
+      "name": "RAVPower 60W 6-Port USB Charging Station",
+      "category": "charger",
+      "price": 39,
+      "description": "Multi-port USB charging station with fast-charging technology.",
+      "image": "/images/RAVPower 60W 6-Port USB Charging Station.jpg",
+      "brand": "RAVPower",
+      "stock": 200,
+      "rating": 4.6,
+      "reviews": [],
+      "specs": {
+        "color": "White",
+        "ports": 6,
+        "powerOutput": "60W",
+        "fastCharging": true,
+        "compatibility": ["Smartphones", "Tablets", "Laptops"]
+      }
+    },
+    {
+      "id": 52,
+      "name": "Bose QuietComfort 45 Noise Cancelling Headphones",
+      "category": "headphones",
+      "price": 329,
+      "description": "Premium noise-canceling headphones with excellent sound quality.",
+      "image": "/images/Bose QuietComfort 45 Noise Cancelling Headphones.jpg",
+      "brand": "Bose",
+      "stock": 100,
+      "rating": 4.9,
+      "reviews": [],
+      "specs": {
+        "color": "Black",
+        "wireless": true,
+        "noiseCancelling": true,
+        "batteryLife": "24 hours",
+        "connectivity": ["Bluetooth", "AUX"]
+      }
+    },
+    {
+      "id": 53,
+      "name": "OtterBox Defender Series Case for iPhone 15",
+      "category": "case",
+      "price": 49,
+      "description": "Durable and rugged case for iPhone 15 with full protection.",
+      "image": "/images/OtterBox Defender Series Case for iPhone 15.jpg",
+      "brand": "OtterBox",
+      "stock": 250,
+      "rating": 4.8,
+      "reviews": [],
+      "specs": {
+        "color": "Black",
+        "material": "Polycarbonate, Rubber",
+        "shockproof": true,
+        "waterResistance": false,
+        "compatibility": ["iPhone 15"]
+      }
+    },
+    {
+      "id": 54,
+      "name": "Sennheiser Momentum 3 Wireless Headphones",
+      "category": "headphones",
+      "price": 399,
+      "description": "Premium wireless headphones with excellent sound and noise cancellation.",
+      "image": "/images/Sennheiser Momentum 3 Wireless Headphones.jpg",
+      "brand": "Sennheiser",
+      "stock": 90,
+      "rating": 4.8,
+      "reviews": [],
+      "specs": {
+        "color": "Black",
+        "wireless": true,
+        "noiseCancelling": true,
+        "batteryLife": "17 hours",
+        "connectivity": ["Bluetooth", "USB-C"]
+      }
+    },
+    {
+      "id": 55,
+      "name": "JBL Flip 5 Portable Bluetooth Speaker",
+      "category": "speaker",
+      "price": 119,
+      "description": "Portable Bluetooth speaker with waterproof design and high-quality sound.",
+      "image": "/images/JBL Flip 5 Portable Bluetooth Speaker.jpg",
+      "brand": "JBL",
+      "stock": 180,
+      "rating": 4.7,
+      "reviews": [],
+      "specs": {
+        "color": "Blue",
+        "batteryLife": "12 hours",
+        "waterResistance": "IPX7",
+        "connectivity": ["Bluetooth"]
+      }
+    },
+    {
+      "id": 47,
+      "name": "Razer DeathAdder V2 Gaming Mouse",
+      "category": "mouse",
+      "price": 69,
+      "description": "Ergonomic gaming mouse with high-precision optical sensor and customizable buttons.",
+      "image": "/images/Razer DeathAdder V2 Gaming Mouse.jpg",
+      "brand": "Razer",
+      "stock": 130,
+      "rating": 4.8,
+      "specs": {
+        "color": "Black",
+        "connectivity": "Wired",
+        "dpi": "20000",
+        "buttons": "8 programmable",
+        "rgbLighting": true
+      }
+    },
+    {
+      "id": 48,
+      "name": "Corsair K70 RGB Mechanical Keyboard",
+      "category": "keyboard",
+      "price": 129,
+      "description": "High-performance mechanical keyboard with per-key RGB lighting.",
+      "image": "/images/Corsair K70 RGB Mechanical Keyboard.jpg",
+      "brand": "Corsair",
+      "stock": 100,
+      "rating": 4.7,
+      "specs": {
+        "color": "Black",
+        "switchType": "Cherry MX Red",
+        "connectivity": "Wired",
+        "backlighting": "RGB Per-Key",
+        "macroSupport": true
+      }
+    },
+    {
+      "id": 49,
+      "name": "SteelSeries Apex Pro Mechanical Keyboard",
+      "category": "keyboard",
+      "price": 199,
+      "description": "Adjustable mechanical switches for customizable actuation.",
+      "image": "/images/SteelSeries Apex Pro Mechanical Keyboard.jpg",
+      "brand": "SteelSeries",
+      "stock": 90,
+      "rating": 4.9,
+      "specs": {
+        "color": "Black",
+        "switchType": "OmniPoint Adjustable",
+        "connectivity": "Wired",
+        "backlighting": "RGB Per-Key",
+        "macroSupport": true
+      }
+    },
+    {
+      "id": 50,
+      "name": "Logitech G Pro X Wireless Gaming Headset",
+      "category": "headphones",
+      "price": 199,
+      "description": "Professional-grade wireless gaming headset with Blue VO!CE microphone technology.",
+      "image": "/images/Logitech G Pro X Wireless Gaming Headset.png",
+      "brand": "Logitech",
+      "stock": 80,
+      "rating": 4.8,
+      "specs": {
+        "color": "Black",
+        "connectivity": "Wireless 2.4GHz",
+        "batteryLife": "20 hours",
+        "surroundSound": "DTS Headphone:X 2.0",
+        "microphone": "Detachable Blue VO!CE"
+      }
+    },
+    {
+      "id": 51,
+      "name": "HyperX Cloud II Gaming Headset",
+      "category": "headphones",
+      "price": 99,
+      "description": "Comfortable gaming headset with virtual 7.1 surround sound.",
+      "image": "/images/HyperX Cloud II Gaming Headset.jpg",
+      "brand": "HyperX",
+      "stock": 120,
+      "rating": 4.7,
+      "specs": {
+        "color": "Red/Black",
+        "connectivity": "Wired",
+        "surroundSound": "Virtual 7.1",
+        "microphone": "Detachable Noise-Canceling"
+      }
+    },
+    {
+      "id": 52,
+      "name": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+      "category": "headphones",
+      "price": 349,
+      "description": "Industry-leading noise-canceling headphones with up to 30 hours of battery life.",
+      "image": "/images/Sony WH-1000XM5 Wireless Noise Cancelling Headphones.jpg",
+      "brand": "Sony",
+      "stock": 70,
+      "rating": 4.9,
+      "specs": {
+        "color": "Silver",
+        "connectivity": "Bluetooth",
+        "batteryLife": "30 hours",
+        "noiseCancelling": true,
+        "voiceAssistant": "Google Assistant, Alexa"
+      }
+    }
+  ]
+}
