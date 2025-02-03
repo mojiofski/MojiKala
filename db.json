@@ -7,7 +7,7 @@
       "price": 2399,
       "description": "Professional laptop with Apple M2 Pro chip, Liquid Retina XDR display, and 21-hour battery life.",
       "brand": "Apple",
-      "image": "/images/MacBookpro16inch.jpg",
+      "image": "/images/MacBook Pro 16-inch.jpg",
       "stock": 80,
       "rating": 4.9,
       "specs": {
@@ -111,7 +111,7 @@
       "price": 1799,
       "description": "Gaming laptop with AMD Ryzen 9 6900HS, RTX 3060, and 14-inch 120Hz display.",
       "brand": "Asus",
-      "image": "/images/Asus ROG Zephyrus G14.webp",
+      "image": "/images/Asus ROG Zephyrus G14.jpg",
       "stock": 60,
       "rating": 4.9,
       "specs": {
@@ -403,7 +403,7 @@
       "category": "laptop",
       "price": 1199,
       "description": "Premium aluminum laptop with 11th Gen Intel CPU and 65W fast charging.",
-      "image": "/images/Xiaomi Mi Notebook Pro.png",
+      "image": "/images/Xiaomi Mi Notebook Pro.jpg",
       "brand": "Xiaomi",
       "stock": 70,
       "rating": 4.6,
