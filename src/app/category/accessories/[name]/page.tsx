@@ -47,7 +47,7 @@ async function SingleProduct({ params }: ISingleProductProps) {
         {/* Product Image */}
         <div className="w-full lg:w-1/2 h-96 relative bg-white shadow-lg rounded-lg overflow-hidden">
           <Image
-            src={item.image || "/placeholder.jpg"}
+            src={item.images[0] || "/placeholder.jpg"}
             alt={item.name || "No Image"}
             fill
             className="object-contain p-4"

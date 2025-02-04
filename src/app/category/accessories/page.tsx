@@ -10,11 +10,11 @@ export interface IAccessory {
   price: number;
   description: string;
   brand: string;
-  image: string;
+  images: string[];
   stock: number;
   rating: number;
   specs: {
-    color: string[] | string;
+    color: string[];
     batteryCapacity: string;
     weight: string;
     dimensions: string;
@@ -68,7 +68,7 @@ async function Accessories() {
             <div className="w-full h-52 relative">
               <Link href={`/category/accessories/${item.name}`}>
                 <Image
-                  src={item.image}
+                  src={item.images[0]}
                   alt={item.name}
                   fill
                   className="object-contain p-4"

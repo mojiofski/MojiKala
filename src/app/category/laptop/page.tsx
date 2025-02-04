@@ -9,7 +9,7 @@ export interface ILaptop {
   price: number;
   description: string;
   brand: string;
-  image: string;
+  images: string[];
   stock: number;
   rating: number;
   specs: {
@@ -50,7 +50,7 @@ async function Laptop() {
             <div className="w-full h-52 relative">
               <Link href={`/category/laptop/${item.name}`}>
                 <Image
-                  src={item.image}
+                  src={item.images[0]}
                   alt={item.name}
                   fill
                   className="object-contain p-4"

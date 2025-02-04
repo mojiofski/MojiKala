@@ -7,9 +7,10 @@ export interface IMobile {
   name: string;
   category: "mobile";
   price: number;
+  colors: string[];
   description: string;
   brand: string;
-  image: string;
+  images: string[];
   stock: number;
   rating: number;
   specs: {
@@ -50,7 +51,7 @@ async function Phones() {
             <div className="w-full h-52 relative">
               <Link href={`/category/phone/${item.name}`}>
                 <Image
-                  src={item.image}
+                  src={item.images[0]}
                   alt={item.name}
                   fill
                   className="object-contain p-4"
@@ -64,7 +65,6 @@ async function Phones() {
               <div className="text-xl">
                 <StarRating rating={item.rating} />
               </div>
-              <p>{item.rating}</p>
               <p className="text-sm text-gray-500 mt-1 flex-grow">
                 {item.description}
               </p>

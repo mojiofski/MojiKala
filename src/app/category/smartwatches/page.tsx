@@ -7,9 +7,10 @@ export interface ISmartWatch {
   name: string;
   category: "smartwatch";
   price: number;
+  colors: string[] | string;
   description: string;
   brand: string;
-  image: string;
+  images: string[];
   stock: number;
   rating: number;
   specs: {
@@ -48,7 +49,7 @@ async function SmartWatches() {
             <div className="w-full h-52 relative">
               <Link href={`/category/smartwatches/${item.name}`}>
                 <Image
-                  src={item.image}
+                  src={item.images[0]}
                   alt={item.name}
                   fill
                   className="object-contain p-4"
