@@ -48,7 +48,7 @@ async function Laptop() {
           >
             {/* تصویر با ارتفاع ثابت */}
             <div className="w-full h-52 relative">
-              <Link href={`/category/accessories/${item.name}`}>
+              <Link href={`/category/laptop/${item.name}`}>
                 <Image
                   src={item.image}
                   alt={item.name}

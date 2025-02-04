@@ -14,14 +14,31 @@ export interface IAccessory {
   stock: number;
   rating: number;
   specs: {
-    color: string;
+    color: string[] | string;
+    batteryCapacity: string;
+    weight: string;
+    dimensions: string;
+    wireless: boolean;
+    noiseCancelling: boolean;
+    microphone: string;
+    chargingCase: string;
+    dpi: string;
+    buttons: string;
+    rgbLighting: boolean;
+    switchType: string;
+    backlighting: string;
+    macroSupport: boolean;
+    surroundSound: string;
+    voiceAssistant: string;
+    powerOutput: string;
+    shockproof: boolean;
     compatibility: string[];
     material?: string;
     batteryLife?: string;
-    connectivity?: string[];
+    connectivity?: string[] | string;
     waterResistance?: string | boolean;
-    fastCharging?: boolean;
-    ports?: string[];
+    fastCharging?: string;
+    ports?: string[] | number;
   };
   features?: string[];
   reviews: {

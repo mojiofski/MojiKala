@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
+import { IAccessory } from "../page";
 
-interface ISingleProductProps {
+export interface ISingleProductProps {
   params: { name: string };
 }
 
 async function SingleProduct({ params }: ISingleProductProps) {
-  // چک کن که params مقدار داره
   if (!params || !params.name) {
     return (
       <div className="text-red-500 text-lg text-center p-6">
@@ -16,7 +16,6 @@ async function SingleProduct({ params }: ISingleProductProps) {
   }
 
   try {
-    // تبدیل `params.name` به مقدار درست
     const productName = decodeURIComponent(params.name);
     console.log("Fetching product:", productName);
 
@@ -31,9 +30,8 @@ async function SingleProduct({ params }: ISingleProductProps) {
       throw new Error("Product not found");
     }
 
-    const result = await response.json();
+    const result = (await response.json()) as IAccessory[];
 
-    // چک کن که محصولی دریافت شده یا نه
     if (!result.length) {
       return (
         <div className="text-red-500 text-lg text-center p-6">
@@ -42,40 +40,56 @@ async function SingleProduct({ params }: ISingleProductProps) {
       );
     }
 
-    const item = result[0]; // فقط اولین محصول برگردون
+    const item = result[0];
 
     return (
-      <div className="flex flex-col items-center w-full p-6 bg-gray-100 min-h-screen">
+      <div className="flex flex-col lg:flex-row items-center w-full bg-gray-100 min-h-screen p-6">
         {/* Product Image */}
-        <div className="w-full max-w-md h-96 relative bg-white shadow-lg rounded-lg overflow-hidden">
+        <div className="w-full lg:w-1/2 h-96 relative bg-white shadow-lg rounded-lg overflow-hidden">
           <Image
-            src={item.image}
-            alt={item.name}
+            src={item.image || "/placeholder.jpg"}
+            alt={item.name || "No Image"}
             fill
             className="object-contain p-4"
           />
         </div>
 
         {/* Product Information */}
-        <div className="w-full max-w-md mt-4 text-center">
-          <h1 className="text-2xl font-bold text-gray-800">{item.name}</h1>
-          <p className="text-gray-600 mt-2">{item.description}</p>
-        </div>
+        <div className="w-full lg:w-1/2 p-4 text-left">
+          <h1 className="text-3xl font-bold text-gray-800">{item.name}</h1>
+          <p className="text-gray-600 mt-2">
+            {item.description || "No description available."}
+          </p>
 
-        {/* Fixed Bottom Section */}
-        <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-white border-t shadow-lg py-4 flex justify-between px-6 items-center">
-          {/* Price Section */}
-          <div>
-            <div className="line-through text-gray-500 text-sm">
-              ${(item.price * 1.2).toFixed(2)}
+          {/* Specifications */}
+          {item.specs && Object.keys(item.specs).length > 0 && (
+            <div className="mt-4">
+              <p className="text-xl font-semibold mb-2">Specifications:</p>
+              <div className="grid grid-cols-2 gap-2 bg-white p-4 shadow rounded-lg">
+                {Object.entries(item.specs).map(([key, value]) => (
+                  <div key={key} className="flex justify-between text-gray-700">
+                    <span className="font-medium capitalize">{key}:</span>
+                    <span>{value || "N/A"}</span>
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="text-xl font-bold text-gray-800">${item.price}</div>
-          </div>
+          )}
 
-          {/* Add to Cart Button */}
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-800 transition">
-            Add To Cart
-          </button>
+          {/* Price and Add to Cart Button */}
+          <div className="mt-6 flex flex-col lg:flex-row-reverse lg:items-center lg:justify-between">
+            <button className="px-8 py-2 bg-gray-700 text-white font-medium rounded-lg hover:bg-gray-900 transition">
+              Add To Cart
+            </button>
+            <div className="mt-4 lg:mt-0 text-right">
+              <div className="line-through text-gray-500 text-md">
+                ${(item.price ? item.price * 1.2 : 0).toFixed(2)}
+              </div>
+              <div className="text-2xl font-bold text-gray-800">
+                ${item.price ? item.price.toFixed(2) : "N/A"}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

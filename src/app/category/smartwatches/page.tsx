@@ -46,7 +46,7 @@ async function SmartWatches() {
           >
             {/* تصویر با ارتفاع ثابت */}
             <div className="w-full h-52 relative">
-              <Link href={`/category/accessories/${item.name}`}>
+              <Link href={`/category/smartwatches/${item.name}`}>
                 <Image
                   src={item.image}
                   alt={item.name}

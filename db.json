@@ -1985,11 +1985,11 @@
       "rating": 4.8,
       "reviews": [],
       "specs": {
-        "color": "Black",
+        "color": ["Black","White"],
         "batteryCapacity": "10000mAh",
         "weight": "180g",
         "dimensions": "92 × 60 × 22 mm",
-        "fastCharging": true,
+        "fastCharging": "yes",
         "ports": ["USB-A", "Micro-USB"],
         "compatibility": ["iPhone", "Android", "Tablets"]
       }
@@ -2087,7 +2087,7 @@
         "color": "White",
         "ports": 6,
         "powerOutput": "60W",
-        "fastCharging": true,
+        "fastCharging": "yes",
         "compatibility": ["Smartphones", "Tablets", "Laptops"]
       }
     },
