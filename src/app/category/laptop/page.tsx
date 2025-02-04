@@ -11,6 +11,7 @@ export interface ILaptop {
   brand: string;
   images: string[];
   stock: number;
+  colors: string[];
   rating: number;
   specs: {
     processor: string;

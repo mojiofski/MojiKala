@@ -7,7 +7,7 @@ export interface ISmartWatch {
   name: string;
   category: "smartwatch";
   price: number;
-  colors: string[] | string;
+  colors: string[];
   description: string;
   brand: string;
   images: string[];

@@ -10,11 +10,11 @@ export interface IAccessory {
   price: number;
   description: string;
   brand: string;
+  colors: string[];
   images: string[];
   stock: number;
   rating: number;
   specs: {
-    color: string[];
     batteryCapacity: string;
     weight: string;
     dimensions: string;

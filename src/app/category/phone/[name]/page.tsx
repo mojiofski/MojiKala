@@ -50,14 +50,12 @@ async function SingleProduct({ params }: ISingleProductProps) {
           {/* Specifications */}
           {item.specs && Object.keys(item.specs).length > 0 && (
             <div className="mt-4">
-             
               <div className="grid grid-cols-1 gap-2 bg-white p-4 shadow rounded-lg">
-                 <p className="text-xl font-semibold mb-2 text-center">
-                Specifications
-              </p>
+                <p className="text-xl font-semibold mb-2 text-center">
+                  Specifications
+                </p>
                 {Object.entries(item.specs).map(([key, value]) => (
                   <div key={key} className="flex justify-between text-gray-700">
-                    
                     <span className="font-medium capitalize">{key}:</span>
                     <span>{value || "N/A"}</span>
                   </div>
@@ -67,7 +65,7 @@ async function SingleProduct({ params }: ISingleProductProps) {
           )}
 
           {/* Price and Add to Cart Button */}
-          <div className="flex sticky w-full py-4 shadow rounded-lg bg-white border-t-2 bottom-0 right-0 left-0 z-50 mt-6  lg:flex-row-reverse lg:items-center lg:justify-between">
+          <div className="flex fixed lg:sticky w-full py-4 shadow rounded-lg bg-white border-t-2 bottom-0 right-0 left-0 z-50 mt-6  lg:flex-row-reverse lg:items-center lg:justify-between">
             <div className="lg:mt-0 w-1/3 flex flex-col justify-center items-center ">
               <div className="line-through text-red-500 text-sm">
                 ${(item.price ? item.price * 1.2 : 0).toFixed(2)}

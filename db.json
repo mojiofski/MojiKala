@@ -5,9 +5,14 @@
       "name": "MacBook Pro 16-inch",
       "category": "laptop",
       "price": 2399,
+      "colors": ["Silver", "Black"],
       "description": "Professional laptop with Apple M2 Pro chip, Liquid Retina XDR display, and 21-hour battery life.",
       "brand": "Apple",
-      "images": ["/images/MacBook Pro 16-inch.jpg"],
+      "images": [
+        "/images/laptops/MacBook Pro 16-inch.jpg",
+        "/images/laptops/MacBook Pro 16-inch-2.jpg",
+        "/images/laptops/MacBook Pro 16-inch-3.jpg"
+      ],
       "stock": 80,
       "rating": 4.9,
       "specs": {
@@ -36,7 +41,12 @@
       "price": 1499,
       "description": "Ultra-slim laptop with Intel i7-1250U, 16GB RAM, and 13.4-inch InfinityEdge display.",
       "brand": "Dell",
-      "images": ["/images/Dell XPS 13.jpg"],
+      "images": [
+        "/images/laptops/Dell XPS 13.jpg",
+        "/images/laptops/Dell XPS 13-2.jpg",
+        "/images/laptops/Dell XPS 13-3.jpg",
+        "/images/laptops/Dell XPS 13-4.jpg"
+      ],
       "stock": 100,
       "rating": 4.6,
       "specs": {
@@ -65,7 +75,13 @@
       "price": 1799,
       "description": "2-in-1 convertible laptop with 4K OLED touchscreen and 11th Gen Intel i7.",
       "brand": "HP",
-      "images": ["/images/HP Spectre x360.jpg"],
+      "images": [
+        "/images/laptops/HP Spectre x360.jpg",
+        "/images/laptops/HP Spectre x360-2.jpg",
+        "/images/laptops/HP Spectre x360-3.jpg",
+        "/images/laptops/HP Spectre x360-4.jpg",
+        "/images/laptops/HP Spectre x360-5.jpg"
+      ],
       "stock": 70,
       "rating": 4.8,
       "specs": {
@@ -88,7 +104,12 @@
       "price": 1499,
       "description": "Business laptop with MIL-STD durability, 14-inch 4K display, and LTE connectivity.",
       "brand": "Lenovo",
-      "images": ["/images/Lenovo ThinkPad X1 Carbon.jpg"],
+      "images": [
+        "/images/laptops/Lenovo ThinkPad X1 Carbon.jpg",
+        "/images/laptops/Lenovo ThinkPad X1 Carbon-2.jpg",
+        "/images/laptops/Lenovo ThinkPad X1 Carbon-3.jpg",
+        "/images/laptops/Lenovo ThinkPad X1 Carbon-4.jpg"
+      ],
       "stock": 50,
       "rating": 4.7,
       "specs": {
@@ -111,7 +132,12 @@
       "price": 1799,
       "description": "Gaming laptop with AMD Ryzen 9 6900HS, RTX 3060, and 14-inch 120Hz display.",
       "brand": "Asus",
-      "images": ["/images/Asus ROG Zephyrus G14.jpg"],
+      "images": [
+        "/images/laptops/Asus ROG Zephyrus G14.jpg",
+        "/images/laptops/Asus ROG Zephyrus G14-2.jpg",
+        "/images/laptops/Asus ROG Zephyrus G14-3.jpg",
+        "/images/laptops/Asus ROG Zephyrus G14-4.jpg"
+      ],
       "stock": 60,
       "rating": 4.9,
       "specs": {
@@ -134,7 +160,13 @@
       "price": 1299,
       "description": "Sleek laptop with PixelSense touchscreen, AMD Ryzen 5, and Alcantara keyboard deck.",
       "brand": "Microsoft",
-      "images": ["/images/Microsoft Surface Laptop 4.jpg"],
+      "images": [
+        "/images/laptops/Microsoft Surface Laptop 4.jpg",
+        "/images/laptops/Microsoft Surface Laptop 4-2.jpg",
+        "/images/laptops/Microsoft Surface Laptop Studio-3.jpg",
+        "/images/laptops/Microsoft Surface Laptop Studio-4.jpg",
+        "/images/laptops/Microsoft Surface Laptop Studio-5.jpg"
+      ],
       "stock": 80,
       "rating": 4.6,
       "specs": {
@@ -157,7 +189,13 @@
       "price": 1599,
       "description": "Gaming laptop with Intel i7-12700H, RTX 3070 Ti, and 15.6-inch 144Hz display.",
       "brand": "Acer",
-      "images": ["/images/Acer Predator Helios 300.jpg"],
+      "images": [
+        "/images/laptops/Acer Predator Helios 300.jpg",
+        "/images/laptops/Acer Predator Helios 300-2.jpg",
+        "/images/laptops/Acer Predator Helios 300-3.jpg",
+        "/images/laptops/Acer Predator Helios 300-4.jpg",
+        "/images/laptops/Acer Predator Helios 300-5.jpg"
+      ],
       "stock": 90,
       "rating": 4.8,
       "specs": {
@@ -180,7 +218,13 @@
       "price": 1899,
       "description": "Premium gaming laptop with Intel i7-12800H, RTX 3070 Ti, and CNC aluminum chassis.",
       "brand": "Razer",
-      "images": ["/images/Razer Blade 15.jpg"],
+      "images": [
+        "/images/laptops/Razer Blade 15.jpg",
+        "/images/laptops/Razer Blade 15-2.jpg",
+        "/images/laptops/Razer Blade 15-3.jpg",
+        "/images/laptops/Razer Blade 15-4.jpg",
+        "/images/laptops/Razer Blade 15-5.jpg"
+      ],
       "stock": 50,
       "rating": 4.7,
       "specs": {
@@ -203,7 +247,13 @@
       "price": 1299,
       "description": "Ultra-light laptop with AMOLED display, Intel i7-1260P, and 5G connectivity.",
       "brand": "Samsung",
-      "images": ["/images/Samsung Galaxy Book Pro.jpg"],
+      "images": [
+        "/images/laptops/Samsung Galaxy Book Pro.jpg",
+        "/images/laptops/Samsung Galaxy Book Pro-2.jpg",
+        "/images/laptops/Samsung Galaxy Book Pro-3.jpg",
+        "/images/laptops/Samsung Galaxy Book Pro-4.jpg",
+        "/images/laptops/Samsung Galaxy Book Pro-5.jpg"
+      ],
       "stock": 75,
       "rating": 4.5,
       "specs": {
@@ -226,7 +276,14 @@
       "price": 799,
       "description": "Lightweight Chromebook with 13.3-inch Full HD display, Intel i5, and 12-hour battery.",
       "brand": "Google",
-      "images": ["/images/Google Pixelbook Go.jpg"],
+      "images": [
+        "/images/laptops/Google Pixelbook Go.jpg",
+        "/images/laptops/Google Pixelbook Go-2.jpg",
+        "/images/laptops/Google Pixelbook Go-3.jpg",
+        "/images/laptops/Google Pixelbook Go-4.jpg",
+        "/images/laptops/Google Pixelbook Go-5.jpg",
+        "/images/laptops/Google Pixelbook Go-6.jpg"
+      ],
       "stock": 90,
       "rating": 4.4,
       "specs": {
@@ -249,7 +306,13 @@
       "category": "laptop",
       "price": 1699,
       "description": "Ultra-thin gaming laptop with RTX 3060, 144Hz display, and advanced cooling system.",
-      "images": ["/images/MSI Stealth 15M.jpg"],
+      "images": [
+        "/images/laptops/MSI Stealth 15M.jpg",
+        "/images/laptops/MSI Stealth 15M-2.jpg",
+        "/images/laptops/MSI Stealth 15M-3.jpg",
+        "/images/laptops/MSI Stealth 15M-4.jpg",
+        "/images/laptops/MSI Stealth 15M-5.jpg"
+      ],
       "brand": "MSI",
       "stock": 45,
       "rating": 4.7,
@@ -272,7 +335,12 @@
       "category": "laptop",
       "price": 1799,
       "description": "Lightweight 17-inch laptop with military-grade durability and 19.5-hour battery life.",
-      "images": ["/images/LG Gram 17.jpg"],
+      "images": [
+        "/images/laptops/LG Gram 17.jpg",
+        "/images/laptops/LG Gram 17-2.jpg",
+        "/images/laptops/LG Gram 17-3.jpg",
+        "/images/laptops/LG Gram 17-4.jpg"
+      ],
       "brand": "LG",
       "stock": 30,
       "rating": 4.8,
@@ -299,7 +367,11 @@
       "category": "laptop",
       "price": 1299,
       "description": "Creator-focused laptop with AMD Ryzen 7 5825U and RTX 3050 Ti for content creation.",
-      "images": ["/images/Acer Swift X.jpg"],
+      "images": [
+        "/images/laptops/Acer Swift X.jpg",
+        "/images/laptops/Acer Swift X-2.jpg",
+        "/images/laptops/Acer Swift X-3.jpg"
+      ],
       "brand": "Acer",
       "stock": 55,
       "rating": 4.6,
@@ -322,7 +394,14 @@
       "category": "laptop",
       "price": 1499,
       "description": "Sleek 3K touchscreen laptop with aluminum unibody design and 11th Gen Intel processor.",
-      "images": ["/images/Huawei MateBook X Pro.webp"],
+      "images": [
+        "/images/laptops/Huawei MateBook X Pro.webp",
+        "/images/laptops/Huawei MateBook X Pro-2.jpg",
+        "/images/laptops/Huawei MateBook X Pro-3.jpg",
+        "/images/laptops/Huawei MateBook X Pro-4.jpg",
+        "/images/laptops/Huawei MateBook X Pro-5.jpg",
+        "/images/laptops/Huawei MateBook X Pro-6.jpg"
+      ],
       "brand": "Huawei",
       "stock": 40,
       "rating": 4.7,
@@ -349,7 +428,13 @@
       "category": "laptop",
       "price": 2199,
       "description": "High-performance gaming laptop with Intel i9-12900H and RTX 3070 Ti.",
-      "images": ["/images/Alienware m15 R7.jpg"],
+      "images": [
+        "/images/laptops/Alienware m15 R7.jpg",
+        "/images/laptops/Alienware m15 R7-2.jpg",
+        "/images/laptops/Alienware m15 R7-3.jpg",
+        "/images/laptops/Alienware m15 R7-4.jpg",
+        "/images/laptops/Alienware m15 R7-5.jpg"
+      ],
       "brand": "Dell",
       "stock": 25,
       "rating": 4.9,
@@ -376,7 +461,11 @@
       "category": "laptop",
       "price": 1399,
       "description": "Modular and repairable laptop with user-upgradable ports and components.",
-      "images": ["/images/Framework Laptop.jpg"],
+      "images": [
+        "/images/laptops/Framework Laptop.jpg",
+        "/images/laptops/Framework Laptop-2.jpg",
+        "/images/laptops/Framework Laptop-4.jpg"
+      ],
       "brand": "Framework",
       "stock": 60,
       "rating": 4.5,
@@ -403,7 +492,13 @@
       "category": "laptop",
       "price": 1199,
       "description": "Premium aluminum laptop with 11th Gen Intel CPU and 65W fast charging.",
-      "images": ["/images/Xiaomi Mi Notebook Pro.jpg"],
+      "images": [
+        "/images/laptops/Xiaomi Mi Notebook Pro.jpg",
+        "/images/laptops/Xiaomi Mi Notebook Pro-2.jpg",
+        "/images/laptops/Xiaomi Mi Notebook Pro-3.jpg",
+        "/images/laptops/Xiaomi Mi Notebook Pro-4.jpg",
+        "/images/laptops/Xiaomi Mi Notebook Pro-5.jpg"
+      ],
       "brand": "Xiaomi",
       "stock": 70,
       "rating": 4.6,
@@ -426,7 +521,13 @@
       "category": "laptop",
       "price": 1599,
       "description": "Dual-screen productivity laptop with 12.6-inch ScreenPad Plus.",
-      "images": ["/images/ASUS ZenBook Duo 14.jpg"],
+      "images": [
+        "/images/laptops/ASUS ZenBook Duo 14.jpg",
+        "/images/laptops/ASUS ZenBook Duo 14-2.jpg",
+        "/images/laptops/ASUS ZenBook Duo 14-3.jpg",
+        "/images/laptops/ASUS ZenBook Duo 14-4.jpg",
+        "/images/laptops/ASUS ZenBook Duo 14-5.jpg"
+      ],
       "brand": "ASUS",
       "stock": 35,
       "rating": 4.7,
@@ -453,7 +554,13 @@
       "category": "laptop",
       "price": 1899,
       "description": "Gaming powerhouse with AMD Ryzen 7 6800H and 165Hz QHD display.",
-      "images": ["/images/Lenovo Legion 5 Pro.jpg"],
+      "images": [
+        "/images/laptops/Lenovo Legion 5 Pro.jpg",
+        "/images/laptops/Lenovo Legion 5 Pro-2.jpg",
+        "/images/laptops/Lenovo Legion 5 Pro-3.jpg",
+        "/images/laptops/Lenovo Legion 5 Pro-4.jpg",
+        "/images/laptops/Lenovo Legion 5 Pro-5.jpg"
+      ],
       "brand": "Lenovo",
       "stock": 50,
       "rating": 4.8,
@@ -476,7 +583,13 @@
       "category": "laptop",
       "price": 2099,
       "description": "Versatile 2-in-1 laptop with dynamic hinge and Surface Slim Pen 2 support.",
-      "images": ["/images/Microsoft Surface Laptop Studio.jpg"],
+      "images": [
+        "/images/laptops/Microsoft Surface Laptop Studio.jpg",
+        "/images/laptops/Microsoft Surface Laptop Studio-2.jpg",
+        "/images/laptops/Microsoft Surface Laptop Studio-3.jpg",
+        "/images/laptops/Microsoft Surface Laptop Studio-4.jpg",
+        "/images/laptops/Microsoft Surface Laptop Studio-5.jpg"
+      ],
       "brand": "Microsoft",
       "stock": 30,
       "rating": 4.9,
@@ -500,7 +613,15 @@
       "category": "laptop",
       "price": 1899,
       "description": "Gaming laptop with AMD Ryzen 9 6900HS, RTX 3080, and 240Hz WQHD display.",
-      "images": ["/images/ASUS ROG Zephyrus G15.jpg"],
+      "images": [
+        "/images/laptops/ASUS ROG Zephyrus G15.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "ASUS",
       "stock": 40,
       "rating": 4.9,
@@ -523,7 +644,15 @@
       "category": "laptop",
       "price": 1399,
       "description": "Ultra-slim laptop with 14-inch 4K OLED display and Intel Evo certification.",
-      "images": ["/images/ASUS ZenBook 14X OLED.jpg"],
+      "images": [
+        "/images/laptops/ASUS ZenBook 14X OLED.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "ASUS",
       "stock": 60,
       "rating": 4.7,
@@ -550,7 +679,15 @@
       "category": "laptop",
       "price": 1299,
       "description": "Military-grade gaming laptop with Intel i7-12650H and RTX 3060.",
-      "images": ["/images/ASUS TUF Dash F15.jpg"],
+      "images": [
+        "/images/laptops/ASUS TUF Dash F15.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "ASUS",
       "stock": 50,
       "rating": 4.6,
@@ -577,7 +714,15 @@
       "category": "laptop",
       "price": 1599,
       "description": "Creator laptop with 16-inch 4K OLED and AMD Ryzen 9 6900HX.",
-      "images": ["/images/ASUS VivoBook Pro 16X.jpg"],
+      "images": [
+        "/images/laptops/ASUS VivoBook Pro 16X.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "ASUS",
       "stock": 35,
       "rating": 4.8,
@@ -604,7 +749,15 @@
       "category": "laptop",
       "price": 1199,
       "description": "2-in-1 convertible laptop with 360° hinge and 13.3-inch 4K OLED touchscreen.",
-      "images": ["/images/ASUS ZenBook Flip 13.webp"],
+      "images": [
+        "/images/laptops/ASUS ZenBook Flip 13.webp",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "ASUS",
       "stock": 45,
       "rating": 4.5,
@@ -632,7 +785,15 @@
       "category": "laptop",
       "price": 1999,
       "description": "Ultra-light business laptop with Intel i7-1280P, 14-inch 4K display, and LTE connectivity.",
-      "images": ["/images/Lenovo ThinkPad X1 Carbon Gen 10.jpg"],
+      "images": [
+        "/images/laptops/Lenovo ThinkPad X1 Carbon Gen 10.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "Lenovo",
       "stock": 30,
       "rating": 4.9,
@@ -659,7 +820,15 @@
       "category": "laptop",
       "price": 2499,
       "description": "High-performance gaming laptop with Intel i9-12900HX and RTX 3080 Ti.",
-      "images": ["/images/Lenovo Legion 7i.jpg"],
+      "images": [
+        "/images/laptops/Lenovo Legion 7i.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "Lenovo",
       "stock": 25,
       "rating": 4.8,
@@ -682,7 +851,15 @@
       "category": "laptop",
       "price": 1799,
       "description": "Premium 2-in-1 convertible laptop with 14-inch 4K OLED touchscreen and rotating soundbar.",
-      "images": ["/images/Lenovo Yoga 9i.jpg"],
+      "images": [
+        "/images/laptops/Lenovo Yoga 9i.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "Lenovo",
       "stock": 40,
       "rating": 4.7,
@@ -709,7 +886,15 @@
       "category": "laptop",
       "price": 1299,
       "description": "Sleek and powerful laptop with AMD Ryzen 7 6800H and 14.5-inch 2.8K display.",
-      "images": ["/images/Lenovo IdeaPad Slim 7 Pro.jpg"],
+      "images": [
+        "/images/laptops/Lenovo IdeaPad Slim 7 Pro.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "Lenovo",
       "stock": 50,
       "rating": 4.6,
@@ -732,7 +917,15 @@
       "category": "laptop",
       "price": 1899,
       "description": "Creator laptop with AMD Ryzen 9 6900HX, RTX 3060, and 16-inch 2.5K display.",
-      "images": ["/images/Lenovo ThinkBook 16p Gen 4.jpg"],
+      "images": [
+        "/images/laptops/Lenovo ThinkBook 16p Gen 4.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "brand": "Lenovo",
       "stock": 35,
       "rating": 4.8,
@@ -757,7 +950,15 @@
       "price": 1499,
       "description": "Premium 2-in-1 convertible with 13.5-inch 3K OLED display and 12th Gen Intel CPU.",
       "brand": "HP",
-      "images": ["/images/HP Spectre x360 14.jpg"],
+      "images": [
+        "/images/laptops/HP Spectre x360 14.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 45,
       "rating": 4.8,
       "specs": {
@@ -780,7 +981,15 @@
       "price": 2199,
       "description": "Gaming powerhouse with Intel i9-13900HX and RTX 4080.",
       "brand": "HP",
-      "images": ["/images/HP Omen 17.jpg"],
+      "images": [
+        "/images/laptops/HP Omen 17.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 25,
       "rating": 4.9,
       "specs": {
@@ -803,7 +1012,15 @@
       "price": 1899,
       "description": "Creator laptop with 16-inch 4K OLED and RTX 4060.",
       "brand": "HP",
-      "images": ["/images/HP Envy 16.jpg"],
+      "images": [
+        "/images/laptops/HP Envy 16.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 30,
       "rating": 4.7,
       "specs": {
@@ -830,7 +1047,15 @@
       "price": 899,
       "description": "Ultra-light laptop with AMD Ryzen 7 and 13.3-inch 2.5K display.",
       "brand": "HP",
-      "images": ["/images/HP Pavilion Aero 13.jpg"],
+      "images": [
+        "/images/laptops/HP Pavilion Aero 13.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 70,
       "rating": 4.5,
       "specs": {
@@ -853,7 +1078,15 @@
       "price": 3499,
       "description": "Workstation laptop with Intel Xeon CPU and RTX A5500.",
       "brand": "HP",
-      "images": ["/images/HP ZBook Fury 16 G9.jpg"],
+      "images": [
+        "/images/laptops/HP ZBook Fury 16 G9.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 15,
       "rating": 4.9,
       "specs": {
@@ -876,7 +1109,15 @@
       "price": 2599,
       "description": "Slim gaming laptop with Intel i9-13900H and RTX 4090.",
       "brand": "MSI",
-      "images": ["/images/MSI Stealth 16 Studio.jpg"],
+      "images": [
+        "/images/laptops/MSI Stealth 16 Studio.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 20,
       "rating": 4.9,
       "specs": {
@@ -899,7 +1140,15 @@
       "price": 2999,
       "description": "Flagship gaming laptop with 17-inch Mini-LED display and Cherry MX keyboard.",
       "brand": "MSI",
-      "images": ["/images/MSI Raider GE78 HX.jpg"],
+      "images": [
+        "/images/laptops/MSI Raider GE78 HX.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 10,
       "rating": 5.0,
       "specs": {
@@ -926,7 +1175,15 @@
       "price": 1299,
       "description": "Budget gaming laptop with Intel i7-13700H and RTX 4060.",
       "brand": "MSI",
-      "images": ["/images/MSI Katana 15.jpg"],
+      "images": [
+        "/images/laptops/MSI Katana 15.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 50,
       "rating": 4.6,
       "specs": {
@@ -949,7 +1206,15 @@
       "price": 1499,
       "description": "Ultrabook with Intel Evo certification and 14-inch 2.8K display.",
       "brand": "MSI",
-      "images": ["/images/MSI Prestige 14 Evo.jpg"],
+      "images": [
+        "/images/laptops/MSI Prestige 14 Evo.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 40,
       "rating": 4.7,
       "specs": {
@@ -976,7 +1241,15 @@
       "price": 2799,
       "description": "Creator laptop with 16-inch 4K Touch display and RTX 4080.",
       "brand": "MSI",
-      "images": ["/images/MSI Creator Z16P.jpg"],
+      "images": [
+        "/images/laptops/MSI Creator Z16P.jpg",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/",
+        "/images/laptops/"
+      ],
       "stock": 15,
       "rating": 4.8,
       "specs": {
@@ -1085,8 +1358,7 @@
         "/images/mobiles/OnePlus 11.jpg",
         "/images/mobiles/OnePlus 11-Eternal Green.jpg",
         "/images/mobiles/OnePlus 11-Jupiter Rock.jpg",
-        "/images/mobiles/OnePlus 11-Lavender.jpg",
-        "/images/mobiles/OnePlus 11-Titan Black.jpg"
+        "/images/mobiles/OnePlus 11-Lavender.jpg"
       ],
       "stock": 130,
       "rating": 4.8,
@@ -1123,7 +1395,6 @@
       "brand": "Xiaomi",
       "images": [
         "/images/mobiles/Xiaomi Mi 12.webp",
-        "/images/mobiles/Xiaomi Mi 12-Blue.jpg",
         "/images/mobiles/Xiaomi Mi 12-gray.jpg",
         "/images/mobiles/Xiaomi Mi 12-Green.jpg",
         "/images/mobiles/Xiaomi Mi 12-purple.jpg",
@@ -1157,7 +1428,6 @@
       "brand": "Oppo",
       "images": [
         "/images/mobiles/oppo find x6 pro.jpg",
-        "/images/mobiles/Oppo Find X6 Pro-black.jpg",
         "/images/mobiles/Oppo Find X6 Pro-brown.jpg",
         "/images/mobiles/Oppo Find X6 Pro-green.jpg"
       ],
@@ -1185,7 +1455,6 @@
       "brand": "Vivo",
       "images": [
         "/images/mobiles/Vivo V27 Pro.jpg",
-        "/images/mobiles/Vivo V27 Pro-magicBlue.jpg",
         "/images/mobiles/Vivo V27 Pro-nobleBlack.jpg"
       ],
       "stock": 150,
@@ -1244,7 +1513,6 @@
       "brand": "Realme",
       "images": [
         "/images/mobiles/Realme GT 2 Pro.jpg",
-        "/images/mobiles/Realme GT 2 Pro-Paper White.jpg",
         "/images/mobiles/Realme GT 2 Pro-paperGreen.jpg",
         "/images/mobiles/Realme GT 2 Pro-stillBlack.jpg",
         "/images/mobiles/Realme GT 2 Pro-colection.avif"
@@ -1273,7 +1541,6 @@
       "brand": "Motorola",
       "images": [
         "/images/mobiles/Motorola Edge 30 Ultra.jpg",
-        "/images/mobiles/Motorola Edge 30 Ultra-black.jpg",
         "/images/mobiles/Motorola Edge 30 Ultra-white.jpg"
       ],
       "stock": 85,
@@ -1349,7 +1616,6 @@
       "brand": "Samsung",
       "images": [
         "/images/mobiles/Samsung Galaxy S24+.avif",
-        "/images/mobiles/Samsung Galaxy S24+-black.jpg",
         "/images/mobiles/Samsung Galaxy S24+-gray.jpg",
         "/images/mobiles/Samsung Galaxy S24+-Violet.jpg",
         "/images/mobiles/Samsung Galaxy S24+-Yellow.jpg",
@@ -1484,10 +1750,7 @@
       "colors": ["Gray", "Mint", "White"],
       "description": "Mid-range smartphone with Snapdragon 778G, 108MP camera, and 120Hz AMOLED display.",
       "brand": "Samsung",
-      "images": [
-        "/images/mobiles/Samsung Galaxy A74 5G.jpeg",
-        "/images/mobiles/Samsung Galaxy A74 5G-white.jpeg"
-      ],
+      "images": ["/images/mobiles/Samsung Galaxy A74 5G-white.jpeg"],
       "stock": 300,
       "rating": 4.5,
       "specs": {
@@ -1517,7 +1780,6 @@
       "brand": "Samsung",
       "images": [
         "/images/mobiles/Samsung Galaxy A54 5G.jpg",
-        "/images/mobiles/Samsung Galaxy A54 5G-Graphite.jpg",
         "/images/mobiles/Samsung Galaxy A54 5G-Lime.jpg",
         "/images/mobiles/Samsung Galaxy A54 5G-Violet.jpg",
         "/images/mobiles/Samsung Galaxy A54 5G-white.jpg"
@@ -1552,7 +1814,6 @@
       "images": [
         "/images/mobiles/Samsung Galaxy M54.jpg",
         "/images/mobiles/Samsung Galaxy M54-darkBlue.jpg",
-        "/images/mobiles/Samsung Galaxy M54-Silver.jpg",
         "/images/mobiles/Samsung Galaxy M54-Colection.jpg"
       ],
       "stock": 280,
@@ -1580,7 +1841,6 @@
       "brand": "Samsung",
       "images": [
         "/images/mobiles/Samsung Galaxy A34 5G.jpg",
-        "/images/mobiles/Samsung Galaxy A34 5G-Graphite.jpg",
         "/images/mobiles/Samsung Galaxy A34 5G-Lime.jpg",
         "/images/mobiles/Samsung Galaxy A34 5G-Silver.jpg",
         "/images/mobiles/Samsung Galaxy A34 5G-Violet.jpg",
@@ -1618,7 +1878,6 @@
         "/images/mobiles/Samsung Galaxy A14 5G-DrakRed.jpg",
         "/images/mobiles/Samsung Galaxy A14 5G-Graphite.jpg",
         "/images/mobiles/Samsung Galaxy A14 5G-lightGreen.jpg",
-        "/images/mobiles/Samsung Galaxy A14 5G-Silver.jpg",
         "/images/mobiles/Samsung Galaxy A14 5G-Colection.jpg"
       ],
       "stock": 500,
@@ -1681,7 +1940,6 @@
       "images": [
         "/images/mobiles/Xiaomi 13T Pro.jpg",
         "/images/mobiles/Xiaomi 13T Pro-Alpine Blue.jpg",
-        "/images/mobiles/Xiaomi 13T Pro-Black.jpg",
         "/images/mobiles/Xiaomi 13T Pro-Meadow Green.jpg"
       ],
       "brand": "Xiaomi",
@@ -1770,11 +2028,7 @@
       "price": 1599,
       "colors": ["Emerald Dusk", "Voyager Black"],
       "description": "Foldable smartphone with Snapdragon 8 Gen 2 and quad-camera system.",
-      "images": [
-        "/images/mobiles/Xiaomi Mix Fold 3.jpg",
-        "/images/mobiles/Xiaomi Mix Fold 3-Emerald Dusk.jpg",
-        "/images/mobiles/Xiaomi Mix Fold 3-Voyager Black.jpg"
-      ],
+      "images": ["/images/mobiles/Xiaomi Mix Fold 3.jpg"],
       "brand": "Xiaomi",
       "stock": 30,
       "rating": 4.9,
@@ -1800,7 +2054,6 @@
       "description": "Budget phone with 90Hz display and 50MP triple camera.",
       "images": [
         "/images/mobiles/Redmi 12.jpg",
-        "/images/mobiles/Redmi 12-MidNightBlack.jpg",
         "/images/mobiles/Redmi 12-Polar Silver.jpg",
         "/images/mobiles/Redmi 12-SkyBlue.jpg",
         "/images/mobiles/Redmi 12-Colection.jpg"
@@ -1893,9 +2146,8 @@
       "colors": ["Lite pink", " Lite blue"],
       "description": "Lightweight phone with 6.55-inch AMOLED and 32MP selfie camera.",
       "images": [
-        "/images/mobiles/Xiaomi 13 Lite.jpg",
-        "/images/mobiles/Xiaomi 13 Lite-LiteBlue.jpg",
-        "/images/mobiles/Xiaomi 13 Lite-LitePink.jpg"
+        "/images/mobiles/Xiaomi 13 Lite-LitePink.jpg",
+        "/images/mobiles/Xiaomi 13 Lite-LiteBlue.jpg"
       ],
       "brand": "Xiaomi",
       "stock": 110,
@@ -1951,7 +2203,7 @@
       "name": "Samsung Galaxy Watch 5",
       "category": "smart watch",
       "price": 299,
-      "colors": ["Graphite", "Sapphire", "Silver"],
+      "colors": ["black", "ghostwhite", "Silver"],
       "description": "Advanced smartwatch with BioActive sensor, AMOLED display, and 50-hour battery life.",
       "brand": "Samsung",
       "images": ["/images/Samsung Galaxy Watch 5.jpg"],
@@ -1979,7 +2231,7 @@
       "name": "Apple Watch Series 8",
       "category": "smart watch",
       "price": 399,
-      "colors": ["starlight", "midnight", "Silver"],
+      "colors": ["lightblue", "black", "Silver"],
       "description": "Apple's flagship smartwatch with ECG, temperature sensor, and Crash Detection.",
       "brand": "Apple",
       "images": ["/images/Apple Watch Series 8.jpg"],
@@ -2202,6 +2454,7 @@
       "name": "Anker PowerCore 10000 Portable Charger",
       "category": "powerbank",
       "price": 25,
+      "colors": ["Black", "White"],
       "description": "Compact and high-capacity portable charger for phones and tablets.",
       "images": ["/images/Anker PowerCore 10000 Portable Charger.jpg"],
       "brand": "Anker",
@@ -2209,7 +2462,6 @@
       "rating": 4.8,
       "reviews": [],
       "specs": {
-        "color": ["Black", "White"],
         "batteryCapacity": "10000mAh",
         "weight": "180g",
         "dimensions": "92 × 60 × 22 mm",
@@ -2223,6 +2475,7 @@
       "name": "Apple AirPods Pro",
       "category": "headphones",
       "price": 249,
+      "colors": ["White","black"],
       "description": "Premium wireless earbuds with noise cancellation and spatial audio.",
       "images": ["/images/Apple AirPods Pro.jpg"],
       "brand": "Apple",
@@ -2230,7 +2483,6 @@
       "rating": 4.9,
       "reviews": [],
       "specs": {
-        "color": "White",
         "wireless": true,
         "noiseCancelling": true,
         "batteryLife": "4.5 hours",
@@ -2243,6 +2495,7 @@
       "name": "Samsung Galaxy Buds Pro",
       "category": "headphones",
       "price": 199,
+      "colors": ["Black","gray","white"],
       "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
       "images": ["/images/Samsung Galaxy Buds Pro.jpg"],
       "brand": "Samsung",
@@ -2250,7 +2503,6 @@
       "rating": 4.7,
       "reviews": [],
       "specs": {
-        "color": "Phantom Black",
         "wireless": true,
         "noiseCancelling": true,
         "batteryLife": "5 hours",
@@ -2263,6 +2515,7 @@
       "name": "Logitech MX Master 3 Mouse",
       "category": "mouse",
       "price": 99,
+      "colors": ["black"],
       "description": "Wireless ergonomic mouse with advanced precision and long battery life.",
       "images": ["/images/Logitech MX Master 3 Mouse.jpg"],
       "brand": "Logitech",
@@ -2270,7 +2523,6 @@
       "rating": 4.8,
       "reviews": [],
       "specs": {
-        "color": "Graphite",
         "wireless": true,
         "dpi": "4000",
         "batteryLife": "70 days",
@@ -2282,6 +2534,7 @@
       "name": "Fitbit Charge 5 Fitness Tracker",
       "category": "wearable",
       "price": 149,
+      "colors": ["Black","white","purple"," red"],
       "description": "Advanced fitness tracker with built-in GPS and heart rate monitoring.",
       "images": ["/images/Fitbit Charge 5 Fitness Tracker.jpg"],
       "brand": "Fitbit",
@@ -2289,7 +2542,6 @@
       "rating": 4.7,
       "reviews": [],
       "specs": {
-        "color": "Black",
         "display": "AMOLED",
         "batteryLife": "7 days",
         "waterResistance": "50m",
@@ -2301,6 +2553,7 @@
       "name": "RAVPower 60W 6-Port USB Charging Station",
       "category": "charger",
       "price": 39,
+      "colors": ["black"],
       "description": "Multi-port USB charging station with fast-charging technology.",
       "images": ["/images/RAVPower 60W 6-Port USB Charging Station.jpg"],
       "brand": "RAVPower",
@@ -2308,7 +2561,6 @@
       "rating": 4.6,
       "reviews": [],
       "specs": {
-        "color": "White",
         "ports": 6,
         "powerOutput": "60W",
         "fastCharging": "yes",
@@ -2320,6 +2572,7 @@
       "name": "Bose QuietComfort 45 Noise Cancelling Headphones",
       "category": "headphones",
       "price": 329,
+      "colors": ["Black","Cream"],
       "description": "Premium noise-canceling headphones with excellent sound quality.",
       "images": [
         "/images/Bose QuietComfort 45 Noise Cancelling Headphones.jpg"
@@ -2329,7 +2582,6 @@
       "rating": 4.9,
       "reviews": [],
       "specs": {
-        "color": "Black",
         "wireless": true,
         "noiseCancelling": true,
         "batteryLife": "24 hours",
@@ -2341,6 +2593,7 @@
       "name": "OtterBox Defender Series Case for iPhone 15",
       "category": "case",
       "price": 49,
+      "colors": ["Black","darkgray"],
       "description": "Durable and rugged case for iPhone 15 with full protection.",
       "images": ["/images/OtterBox Defender Series Case for iPhone 15.jpg"],
       "brand": "OtterBox",
@@ -2348,7 +2601,6 @@
       "rating": 4.8,
       "reviews": [],
       "specs": {
-        "color": "Black",
         "material": "Polycarbonate, Rubber",
         "shockproof": true,
         "waterResistance": false,
@@ -2360,6 +2612,7 @@
       "name": "Sennheiser Momentum 3 Wireless Headphones",
       "category": "headphones",
       "price": 399,
+      "colors": ["Black"],
       "description": "Premium wireless headphones with excellent sound and noise cancellation.",
       "images": ["/images/Sennheiser Momentum 3 Wireless Headphones.jpg"],
       "brand": "Sennheiser",
@@ -2367,7 +2620,6 @@
       "rating": 4.8,
       "reviews": [],
       "specs": {
-        "color": "Black",
         "wireless": true,
         "noiseCancelling": true,
         "batteryLife": "17 hours",
@@ -2379,6 +2631,7 @@
       "name": "JBL Flip 5 Portable Bluetooth Speaker",
       "category": "speaker",
       "price": 119,
+      "colors": ["Blue","black"],
       "description": "Portable Bluetooth speaker with waterproof design and high-quality sound.",
       "images": ["/images/JBL Flip 5 Portable Bluetooth Speaker.jpg"],
       "brand": "JBL",
@@ -2386,7 +2639,6 @@
       "rating": 4.7,
       "reviews": [],
       "specs": {
-        "color": "Blue",
         "batteryLife": "12 hours",
         "waterResistance": "IPX7",
         "connectivity": ["Bluetooth"]
@@ -2397,13 +2649,13 @@
       "name": "Razer DeathAdder V2 Gaming Mouse",
       "category": "mouse",
       "price": 69,
+      "colors": ["Black"],
       "description": "Ergonomic gaming mouse with high-precision optical sensor and customizable buttons.",
       "images": ["/images/Razer DeathAdder V2 Gaming Mouse.jpg"],
       "brand": "Razer",
       "stock": 130,
       "rating": 4.8,
       "specs": {
-        "color": "Black",
         "connectivity": "Wired",
         "dpi": "20000",
         "buttons": "8 programmable",
@@ -2415,13 +2667,13 @@
       "name": "Corsair K70 RGB Mechanical Keyboard",
       "category": "keyboard",
       "price": 129,
+      "colors": ["Black"],
       "description": "High-performance mechanical keyboard with per-key RGB lighting.",
       "images": ["/images/Corsair K70 RGB Mechanical Keyboard.jpg"],
       "brand": "Corsair",
       "stock": 100,
       "rating": 4.7,
       "specs": {
-        "color": "Black",
         "switchType": "Cherry MX Red",
         "connectivity": "Wired",
         "backlighting": "RGB Per-Key",
@@ -2433,13 +2685,13 @@
       "name": "SteelSeries Apex Pro Mechanical Keyboard",
       "category": "keyboard",
       "price": 199,
+      "colors": ["Black"],
       "description": "Adjustable mechanical switches for customizable actuation.",
       "images": ["/images/SteelSeries Apex Pro Mechanical Keyboard.jpg"],
       "brand": "SteelSeries",
       "stock": 90,
       "rating": 4.9,
       "specs": {
-        "color": "Black",
         "switchType": "OmniPoint Adjustable",
         "connectivity": "Wired",
         "backlighting": "RGB Per-Key",
@@ -2451,13 +2703,13 @@
       "name": "Logitech G Pro X Wireless Gaming Headset",
       "category": "headphones",
       "price": 199,
+      "colors": ["Black"],
       "description": "Professional-grade wireless gaming headset with Blue VO!CE microphone technology.",
       "images": ["/images/Logitech G Pro X Wireless Gaming Headset.png"],
       "brand": "Logitech",
       "stock": 80,
       "rating": 4.8,
       "specs": {
-        "color": "Black",
         "connectivity": "Wireless 2.4GHz",
         "batteryLife": "20 hours",
         "surroundSound": "DTS Headphone:X 2.0",
@@ -2469,13 +2721,13 @@
       "name": "HyperX Cloud II Gaming Headset",
       "category": "headphones",
       "price": 99,
+      "colors": ["darkRed","Black"],
       "description": "Comfortable gaming headset with virtual 7.1 surround sound.",
       "images": ["/images/HyperX Cloud II Gaming Headset.jpg"],
       "brand": "HyperX",
       "stock": 120,
       "rating": 4.7,
       "specs": {
-        "color": "Red/Black",
         "connectivity": "Wired",
         "surroundSound": "Virtual 7.1",
         "microphone": "Detachable Noise-Canceling"
@@ -2486,6 +2738,7 @@
       "name": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
       "category": "headphones",
       "price": 349,
+      "colors": ["Silver","black","white"],
       "description": "Industry-leading noise-canceling headphones with up to 30 hours of battery life.",
       "images": [
         "/images/Sony WH-1000XM5 Wireless Noise Cancelling Headphones.jpg"
@@ -2494,7 +2747,6 @@
       "stock": 70,
       "rating": 4.9,
       "specs": {
-        "color": "Silver",
         "connectivity": "Bluetooth",
         "batteryLife": "30 hours",
         "noiseCancelling": true,
