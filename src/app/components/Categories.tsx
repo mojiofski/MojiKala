@@ -8,13 +8,17 @@ const catItems = [
     title: "Phone",
     url: "/images/MobileCategory.jpeg",
   },
-  { id: "2", title: "Laptop", url: "/images/pexels-madebymath-331684.jpg" },
+  { id: "2", title: "Laptop", url: "/images/laptopsCat.webp" },
   {
     id: "3",
     title: "Accessories",
     url: "/images/AccessoriesCategory.jpg",
   },
-  { id: "4", title: "Smartwatches", url: "/images/pexels-tdcat-437038.jpg" },
+  {
+    id: "4",
+    title: "Smartwatches",
+    url: "/images/smartwatches3.webp",
+  },
 ];
 
 const Categories = () => {
