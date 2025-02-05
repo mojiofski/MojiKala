@@ -48,7 +48,7 @@ async function Phones() {
             className="bg-white shadow-lg rounded-xl overflow-hidden transform transition hover:scale-105 min-h-[400px] flex flex-col"
           >
             {/* تصویر با ارتفاع ثابت */}
-            <div className="w-full h-52 relative">
+            <div className="w-full h-52 relative ">
               <Link href={`/category/phone/${item.name}`}>
                 <Image
                   src={item.images[0]}

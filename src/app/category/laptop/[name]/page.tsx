@@ -5,7 +5,7 @@ import Thumbnail from "@/app/components/Thumbnail";
 import ColorSelector from "@/app/components/ColorSelector";
 
 async function SingleProduct({ params }: ISingleProductProps) {
-  const productName = decodeURIComponent(params.name);
+  const productName = decodeURIComponent((await params).name);
   try {
     const response = await fetch(
       `http://localhost:3001/laptops?name=${encodeURIComponent(productName)}`,
@@ -51,7 +51,7 @@ async function SingleProduct({ params }: ISingleProductProps) {
           {item.specs && Object.keys(item.specs).length > 0 && (
             <div className="mt-4">
               <div className="grid grid-cols-1 gap-2 bg-white p-4 shadow rounded-lg">
-                <p className="text-xl font-semibold mb-2 text-center">
+                <p className="text-xl font-semibold mb-2 text-center border-b-2 ">
                   Specifications
                 </p>
                 {Object.entries(item.specs).map(([key, value]) => (

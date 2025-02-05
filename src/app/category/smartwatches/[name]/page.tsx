@@ -5,7 +5,7 @@ import Thumbnail from "@/app/components/Thumbnail";
 import ColorSelector from "@/app/components/ColorSelector";
 
 async function SingleProduct({ params }: ISingleProductProps) {
-  const productName = decodeURIComponent(params.name);
+  const productName = decodeURIComponent((await params).name);
   try {
     const response = await fetch(
       `http://localhost:3001/smartwatches?name=${encodeURIComponent(productName)}`,

@@ -4,13 +4,15 @@ import { IAccessory } from "../page";
 import Thumbnail from "@/app/components/Thumbnail";
 import ColorSelector from "@/app/components/ColorSelector";
 export interface ISingleProductProps {
-  params: { name: string };
+  params: Promise<{ name: string }>;
 }
 async function SingleProduct({ params }: ISingleProductProps) {
-  const productName = decodeURIComponent(params.name);
+  const productName = decodeURIComponent((await params).name);
   try {
     const response = await fetch(
-      `http://localhost:3001/accessories?name=${encodeURIComponent(productName)}`,
+      `http://localhost:3001/accessories?name=${encodeURIComponent(
+        productName
+      )}`,
       { cache: "no-store" }
     );
     if (!response.ok) throw new Error("Product not found");
