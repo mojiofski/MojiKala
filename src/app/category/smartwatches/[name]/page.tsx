@@ -1,8 +1,8 @@
 import React from "react";
 import { ISingleProductProps } from "../../accessories/[name]/page";
 import { ISmartWatch } from "../page";
-import Thumbnail from "@/app/components/Thumbnail";
-import ColorSelector from "@/app/components/ColorSelector";
+import Thumbnail from "@/components/Thumbnail";
+import ColorSelector from "@/components/ColorSelector";
 
 async function SingleProduct({ params }: ISingleProductProps) {
   const productName = decodeURIComponent((await params).name);

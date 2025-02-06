@@ -2208,7 +2208,14 @@
       "colors": ["black", "ghostwhite", "Silver"],
       "description": "Advanced smartwatch with BioActive sensor, AMOLED display, and 50-hour battery life.",
       "brand": "Samsung",
-      "images": ["/images/Samsung Galaxy Watch 5.jpg"],
+      "images": [
+        "/images/smartwatches/Samsung Galaxy Watch 5.jpg",
+        "/images/smartwatches/Samsung Galaxy Watch 5-2.jpg",
+        "/images/smartwatches/Samsung Galaxy Watch 5-3.jpg",
+        "/images/smartwatches/Samsung Galaxy Watch 5-4.jpg",
+        "/images/smartwatches/Samsung Galaxy Watch 5-5.jpg",
+        "/images/smartwatches/Samsung Galaxy Watch 5-6.jpg"
+      ],
       "stock": 200,
       "rating": 4.7,
       "specs": {
@@ -2236,7 +2243,14 @@
       "colors": ["lightblue", "black", "Silver"],
       "description": "Apple's flagship smartwatch with ECG, temperature sensor, and Crash Detection.",
       "brand": "Apple",
-      "images": ["/images/Apple Watch Series 8.jpg"],
+      "images": [
+        "/images/smartwatches/Apple Watch Series 8-2.jpg",
+        "/images/smartwatches/Apple Watch Series 8-6.jpg",
+        "/images/smartwatches/Apple Watch Series 8-5.jpg",
+        "/images/smartwatches/Apple Watch Series 8-4.jpg",
+        "/images/smartwatches/Apple Watch Series 8-3.jpg",
+        "/images/smartwatches/Apple Watch Series 8.jpg"
+      ],
       "stock": 180,
       "rating": 4.9,
       "specs": {
@@ -2264,7 +2278,15 @@
       "colors": ["Whitestone", "Black"],
       "description": "Premium GPS smartwatch for athletes with advanced performance metrics and maps.",
       "brand": "Garmin",
-      "images": ["/images/Garmin Forerunner 945.jpg"],
+      "images": [
+        "/images/smartwatches/Garmin Forerunner 945.jpg",
+        "/images/smartwatches/Garmin Forerunner 945-2.jpg",
+        "/images/smartwatches/Garmin Forerunner 945-3.jpg",
+        "/images/smartwatches/Garmin Forerunner 945-4.jpg",
+        "/images/smartwatches/Garmin Forerunner 945-5.jpg",
+        "/images/smartwatches/Garmin Forerunner 945-6.jpg",
+        "/images/smartwatches/Garmin Forerunner 945-7.jpg"
+      ],
       "stock": 150,
       "rating": 4.8,
       "specs": {
@@ -2286,7 +2308,13 @@
       "colors": ["Multicolor", "Black", "Blue", "Brown", "Pink"],
       "description": "Stylish Wear OS smartwatch with Snapdragon 4100+, SpO2 tracking, and fast charging.",
       "brand": "Fossil",
-      "images": ["/images/Fossil Gen 6.jpg"],
+      "images": [
+        "/images/smartwatches/Fossil Gen 6-3.jpg",
+        "/images/smartwatches/Fossil Gen 6.jpg",
+        "/images/smartwatches/Fossil Gen 6-2.jpg",
+        "/images/smartwatches/Fossil Gen 6-4.jpg",
+        "/images/smartwatches/Fossil Gen 6-5.jpg"
+      ],
       "stock": 120,
       "rating": 4.6,
       "specs": {
@@ -2312,7 +2340,15 @@
       ],
       "description": "Health-focused smartwatch with ECG, stress management, and 6+ day battery life.",
       "brand": "Fitbit",
-      "images": ["/images/Fitbit Sense 2.jpg"],
+      "images": [
+        "/images/smartwatches/Fitbit Sense 2-6.jpg",
+        "/images/smartwatches/Fitbit Sense 2.jpg",
+        "/images/smartwatches/Fitbit Sense 2-2.jpg",
+        "/images/smartwatches/Fitbit Sense 2-3.jpg",
+        "/images/smartwatches/Fitbit Sense 2-4.jpg",
+        "/images/smartwatches/Fitbit Sense 2-5.jpg",
+        "/images/smartwatches/Fitbit Sense 2-7.jpg"
+      ],
       "stock": 100,
       "rating": 4.7,
       "specs": {
@@ -2334,7 +2370,15 @@
       "colors": ["Black", "Black Lime", "Graphite Copper"],
       "description": "Outdoor smartwatch with 70+ sports modes, offline maps, and Wear OS.",
       "brand": "Suunto",
-      "images": ["/images/Suunto 7.jpg"],
+      "images": [
+        "/images/smartwatches/Suunto 7.jpg",
+        "/images/smartwatches/Suunto 7-2.jpg",
+        "/images/smartwatches/Suunto 7-3.jpg",
+        "/images/smartwatches/Suunto 7-4.jpg",
+        "/images/smartwatches/Suunto 7-5.jpg",
+        "/images/smartwatches/Suunto 7-6.jpg",
+        "/images/smartwatches/Suunto 7-7.jpg"
+      ],
       "stock": 70,
       "rating": 4.8,
       "specs": {
@@ -2361,7 +2405,13 @@
       ],
       "description": "Long-lasting smartwatch with 1.45-inch AMOLED, 12-day battery, and built-in Alexa.",
       "brand": "Amazfit",
-      "images": ["/images/Amazfit GTR 3 Pro.jpg"],
+      "images": [
+        "/images/smartwatches/Amazfit GTR 3 Pro-4.jpg",
+        "/images/smartwatches/Amazfit GTR 3 Pro.jpg",
+        "/images/smartwatches/Amazfit GTR 3 Pro-2.jpg",
+        "/images/smartwatches/Amazfit GTR 3 Pro-3.jpg",
+        "/images/smartwatches/Amazfit GTR 3 Pro-5.jpg"
+      ],
       "stock": 130,
       "rating": 4.7,
       "specs": {
@@ -2383,7 +2433,13 @@
       "colors": ["Black", "Brown"],
       "description": "Dual-layer display smartwatch with Snapdragon 4100, Wear OS, and 72-hour battery.",
       "brand": "Mobvoi",
-      "images": ["/images/TicWatch Pro 3 Ultra.jpg"],
+      "images": [
+        "/images/smartwatches/TicWatch Pro 3 Ultra-5.jpg",
+        "/images/smartwatches/TicWatch Pro 3 Ultra.jpg",
+        "/images/smartwatches/TicWatch Pro 3 Ultra-2.jpg",
+        "/images/smartwatches/TicWatch Pro 3 Ultra-3.jpg",
+        "/images/smartwatches/TicWatch Pro 3 Ultra-4.jpg"
+      ],
       "stock": 85,
       "rating": 4.6,
       "specs": {
@@ -2409,7 +2465,15 @@
       "colors": ["Huawei Watch GT 3", "Brown leather", "Refillable Cream Kit"],
       "description": "Fitness smartwatch with 14-day battery, TruSeen 5.0+, and 100+ workout modes.",
       "brand": "Huawei",
-      "images": ["/images/Huawei Watch GT 3.jpg"],
+      "images": [
+        "/images/smartwatches/Huawei Watch GT 3-4.jpg",
+        "/images/smartwatches/Huawei Watch GT 3.jpg",
+        "/images/smartwatches/Huawei Watch GT 3-2.jpg",
+        "/images/smartwatches/Huawei Watch GT 3-3.jpg",
+        "/images/smartwatches/Huawei Watch GT 3-5.jpg",
+        "/images/smartwatches/Huawei Watch GT 3-6.jpg",
+        "/images/smartwatches/Huawei Watch GT 3-7.jpg"
+      ],
       "stock": 120,
       "rating": 4.9,
       "specs": {
@@ -2431,7 +2495,13 @@
       "colors": ["Black", "White"],
       "description": "Hybrid smartwatch with analog dial, 25-day battery, and heart rate tracking.",
       "brand": "Withings",
-      "images": ["/images/Withings Steel HR Sport.jpg"],
+      "images": [
+        "/images/smartwatches/Withings Steel HR Sport-2.jpg",
+        "/images/smartwatches/Withings Steel HR Sport.jpg",
+        "/images/smartwatches/Withings Steel HR Sport-3.jpg",
+        "/images/smartwatches/Withings Steel HR Sport-4.jpg",
+        "/images/smartwatches/Withings Steel HR Sport-5.jpg"
+      ],
       "stock": 110,
       "rating": 4.5,
       "specs": {
@@ -2458,7 +2528,14 @@
       "price": 25,
       "colors": ["Black", "White"],
       "description": "Compact and high-capacity portable charger for phones and tablets.",
-      "images": ["/images/Anker PowerCore 10000 Portable Charger.jpg"],
+      "images": [
+        "/images/accessories/Anker PowerCore 10000 Portable Charger.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Anker",
       "stock": 300,
       "rating": 4.8,
@@ -2479,7 +2556,14 @@
       "price": 249,
       "colors": ["White", "black"],
       "description": "Premium wireless earbuds with noise cancellation and spatial audio.",
-      "images": ["/images/Apple AirPods Pro.jpg"],
+      "images": [
+        "/images/accessories/Apple AirPods Pro.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Apple",
       "stock": 150,
       "rating": 4.9,
@@ -2499,7 +2583,14 @@
       "price": 199,
       "colors": ["Black", "gray", "white"],
       "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
-      "images": ["/images/Samsung Galaxy Buds Pro.jpg"],
+      "images": [
+        "/images/accessories/Samsung Galaxy Buds Pro.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Samsung",
       "stock": 180,
       "rating": 4.7,
@@ -2519,7 +2610,14 @@
       "price": 99,
       "colors": ["black"],
       "description": "Wireless ergonomic mouse with advanced precision and long battery life.",
-      "images": ["/images/Logitech MX Master 3 Mouse.jpg"],
+      "images": [
+        "/images/accessories/Logitech MX Master 3 Mouse.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Logitech",
       "stock": 250,
       "rating": 4.8,
@@ -2538,7 +2636,14 @@
       "price": 149,
       "colors": ["Black", "white", "purple", " red"],
       "description": "Advanced fitness tracker with built-in GPS and heart rate monitoring.",
-      "images": ["/images/Fitbit Charge 5 Fitness Tracker.jpg"],
+      "images": [
+        "/images/accessories/Fitbit Charge 5 Fitness Tracker.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Fitbit",
       "stock": 130,
       "rating": 4.7,
@@ -2557,7 +2662,14 @@
       "price": 39,
       "colors": ["black"],
       "description": "Multi-port USB charging station with fast-charging technology.",
-      "images": ["/images/RAVPower 60W 6-Port USB Charging Station.jpg"],
+      "images": [
+        "/images/accessories/RAVPower 60W 6-Port USB Charging Station.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "RAVPower",
       "stock": 200,
       "rating": 4.6,
@@ -2577,7 +2689,12 @@
       "colors": ["Black", "Cream"],
       "description": "Premium noise-canceling headphones with excellent sound quality.",
       "images": [
-        "/images/Bose QuietComfort 45 Noise Cancelling Headphones.jpg"
+        "/images/accessories/Bose QuietComfort 45 Noise Cancelling Headphones.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
       ],
       "brand": "Bose",
       "stock": 100,
@@ -2597,7 +2714,14 @@
       "price": 49,
       "colors": ["Black", "darkgray"],
       "description": "Durable and rugged case for iPhone 15 with full protection.",
-      "images": ["/images/OtterBox Defender Series Case for iPhone 15.jpg"],
+      "images": [
+        "/images/accessories/OtterBox Defender Series Case for iPhone 15.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "OtterBox",
       "stock": 250,
       "rating": 4.8,
@@ -2616,7 +2740,14 @@
       "price": 399,
       "colors": ["Black"],
       "description": "Premium wireless headphones with excellent sound and noise cancellation.",
-      "images": ["/images/Sennheiser Momentum 3 Wireless Headphones.jpg"],
+      "images": [
+        "/images/accessories/Sennheiser Momentum 3 Wireless Headphones.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Sennheiser",
       "stock": 90,
       "rating": 4.8,
@@ -2635,7 +2766,14 @@
       "price": 119,
       "colors": ["Blue", "black"],
       "description": "Portable Bluetooth speaker with waterproof design and high-quality sound.",
-      "images": ["/images/JBL Flip 5 Portable Bluetooth Speaker.jpg"],
+      "images": [
+        "/images/accessories/JBL Flip 5 Portable Bluetooth Speaker.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "JBL",
       "stock": 180,
       "rating": 4.7,
@@ -2653,7 +2791,14 @@
       "price": 69,
       "colors": ["Black"],
       "description": "Ergonomic gaming mouse with high-precision optical sensor and customizable buttons.",
-      "images": ["/images/Razer DeathAdder V2 Gaming Mouse.jpg"],
+      "images": [
+        "/images/accessories/Razer DeathAdder V2 Gaming Mouse.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Razer",
       "stock": 130,
       "rating": 4.8,
@@ -2671,7 +2816,14 @@
       "price": 129,
       "colors": ["Black"],
       "description": "High-performance mechanical keyboard with per-key RGB lighting.",
-      "images": ["/images/Corsair K70 RGB Mechanical Keyboard.jpg"],
+      "images": [
+        "/images/accessories/Corsair K70 RGB Mechanical Keyboard.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Corsair",
       "stock": 100,
       "rating": 4.7,
@@ -2689,7 +2841,14 @@
       "price": 199,
       "colors": ["Black"],
       "description": "Adjustable mechanical switches for customizable actuation.",
-      "images": ["/images/SteelSeries Apex Pro Mechanical Keyboard.jpg"],
+      "images": [
+        "/images/accessories/SteelSeries Apex Pro Mechanical Keyboard.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "SteelSeries",
       "stock": 90,
       "rating": 4.9,
@@ -2707,7 +2866,14 @@
       "price": 199,
       "colors": ["Black"],
       "description": "Professional-grade wireless gaming headset with Blue VO!CE microphone technology.",
-      "images": ["/images/Logitech G Pro X Wireless Gaming Headset.png"],
+      "images": [
+        "/images/accessories/Logitech G Pro X Wireless Gaming Headset.png",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "Logitech",
       "stock": 80,
       "rating": 4.8,
@@ -2725,7 +2891,14 @@
       "price": 99,
       "colors": ["darkRed", "Black"],
       "description": "Comfortable gaming headset with virtual 7.1 surround sound.",
-      "images": ["/images/HyperX Cloud II Gaming Headset.jpg"],
+      "images": [
+        "/images/accessories/HyperX Cloud II Gaming Headset.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
+      ],
       "brand": "HyperX",
       "stock": 120,
       "rating": 4.7,
@@ -2743,7 +2916,12 @@
       "colors": ["Silver", "black", "white"],
       "description": "Industry-leading noise-canceling headphones with up to 30 hours of battery life.",
       "images": [
-        "/images/Sony WH-1000XM5 Wireless Noise Cancelling Headphones.jpg"
+        "/images/accessories/Sony WH-1000XM5 Wireless Noise Cancelling Headphones.jpg",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/",
+        "/images/accessories/"
       ],
       "brand": "Sony",
       "stock": 70,

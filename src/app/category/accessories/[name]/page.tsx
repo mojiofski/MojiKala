@@ -1,8 +1,10 @@
 import React from "react";
 
 import { IAccessory } from "../page";
-import Thumbnail from "@/app/components/Thumbnail";
-import ColorSelector from "@/app/components/ColorSelector";
+import Thumbnail from "@/components/Thumbnail";
+import ColorSelector from "@/components/ColorSelector";
+
+
 export interface ISingleProductProps {
   params: Promise<{ name: string }>;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import StarRating from "@/app/components/StarRating";
+import StarRating from "@/components/StarRating";
 export interface ISmartWatch {
   id: number;
   name: string;
@@ -46,14 +46,18 @@ async function SmartWatches() {
             className="bg-white shadow-lg rounded-xl overflow-hidden transform transition hover:scale-105 min-h-[400px] flex flex-col"
           >
             {/* تصویر با ارتفاع ثابت */}
-            <div className="w-full h-52 relative">
+            <div>
               <Link href={`/category/smartwatches/${item.name}`}>
-                <Image
-                  src={item.images[0]}
-                  alt={item.name}
-                  fill
-                  className="object-contain p-4"
-                />
+                <div className="w-full h-52 relative">
+                  <Image
+                    src={item.images[0]}
+                    alt={item.name}
+                    fill
+                    sizes="100%"
+                    priority
+                    className="object-contain p-4"
+                  />
+                </div>
               </Link>
             </div>
 

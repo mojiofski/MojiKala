@@ -23,6 +23,7 @@ const Thumbnail = ({ images }: IThumbnailProps) => {
           src={images[currentImage]}
           alt=""
           fill
+          sizes="100%"
           className="object-contain p-4"
         />
       </div>

@@ -34,6 +34,8 @@ const Categories = () => {
                   src={item.url}
                   alt={item.title}
                   fill
+                  sizes="100%"
+                  priority
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>

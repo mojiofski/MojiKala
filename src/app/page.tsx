@@ -1,5 +1,6 @@
+import SliderHero from "@/components/SliderHero";
 import React from "react";
-import SliderHero from "./components/SliderHero";
+
 
 const Home = () => {
   return (
