@@ -1,0 +1,25 @@
+[debug] [2025-02-06T13:20:52.867Z] ----------------------------------------------------------------------
+[debug] [2025-02-06T13:20:52.872Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Mojtaba Afshar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-02-06T13:20:52.872Z] CLI Version:   13.30.0
+[debug] [2025-02-06T13:20:52.873Z] Platform:      win32
+[debug] [2025-02-06T13:20:52.873Z] Node Version:  v22.13.0
+[debug] [2025-02-06T13:20:52.873Z] Time:          Thu Feb 06 2025 16:50:52 GMT+0330 (Iran Standard Time)
+[debug] [2025-02-06T13:20:52.874Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-06T13:20:52.879Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-02-06T13:20:52.993Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-06T13:20:52.994Z] > authorizing via signed-in user (mojiofski96@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Mojtaba Afshar\Desktop\mobile-site
+
+[debug] [2025-02-06T13:20:53.316Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
+[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2025-02-06T13:20:53.317Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json

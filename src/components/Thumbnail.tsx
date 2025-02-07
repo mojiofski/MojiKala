@@ -18,7 +18,7 @@ const Thumbnail = ({ images }: IThumbnailProps) => {
   return (
     <div className="flex flex-col items-center">
       {/* Currnet Image */}
-      <div className="w-full h-80 relative bg-white shadow-lg rounded-lg overflow-hidden">
+      <div className="w-full h-80 relative bg-white border-b-2  overflow-hidden">
         <Image
           src={images[currentImage]}
           alt=""
@@ -28,19 +28,19 @@ const Thumbnail = ({ images }: IThumbnailProps) => {
         />
       </div>
       {/* thumbnails */}
-      <div className="flex gap-2 mt-4 py-3 ">
+      <div className="flex items-center gap-2 p-4  w-full justify-center">
         {images.map((img, index) => (
           <div
             onClick={() => setCurrentImage(index)}
             key={index}
-            className="w-16 h-16 border border-gray-300 rounded-lg overflow-hidden cursor-pointer hover:border-gray-500"
+            className=" w-16 h-16 rounded-lg overflow-hidden cursor-pointer hover:border-gray-500"
           >
             <Image
               src={img}
               alt=""
               width={64}
               height={64}
-              className="object-contain p-1"
+              className="object-contain p-2"
             />
           </div>
         ))}

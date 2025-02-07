@@ -931,11 +931,11 @@
       "description": "Creator laptop with AMD Ryzen 9 6900HX, RTX 3060, and 16-inch 2.5K display.",
       "images": [
         "/images/laptops/Lenovo ThinkBook 16p Gen 4.jpg",
-        "/images/laptops/Lenovo ThinkBook 16p Gen 4-2.jpg",
-        "/images/laptops/Lenovo ThinkBook 16p Gen 4-3.jpg",
-        "/images/laptops/Lenovo ThinkBook 16p Gen 4-4.jpg",
         "/images/laptops/Lenovo ThinkBook 16p Gen 4-5.jpg",
-        "/images/laptops/Lenovo ThinkBook 16p Gen 4-6.jpg"
+        "/images/laptops/Lenovo ThinkBook 16p Gen 4-6.jpg",
+        "/images/laptops/Lenovo ThinkBook 16p Gen 4-4.jpg",
+        "/images/laptops/Lenovo ThinkBook 16p Gen 4-3.jpg",
+        "/images/laptops/Lenovo ThinkBook 16p Gen 4-2.jpg"
       ],
       "brand": "Lenovo",
       "stock": 35,

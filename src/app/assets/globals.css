@@ -6,3 +6,12 @@ body {
     background-color: #fdf4ff;
     overflow-x: hidden;
 }
+
+
+.scrollerbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollerbar-hide {
+    scrollbar-width: none;
+}
