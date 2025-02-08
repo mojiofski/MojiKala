@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
@@ -112,20 +112,36 @@ const offerItems = [
     price: 1500,
   },
 ];
-const NewProduct = () => {
-  const scrollRef = useRef<HTMLDivElement>(null);
+const NewProducts = () => {
+  const sliderRef = useRef<HTMLDivElement>(null);
+  const [showLeftButton, setShowLeftButton] = useState(false);
+  const [showRightButton, setShowRightButton] = useState(false);
 
-  const scroll = (direction: string) => {
-    if (scrollRef.current) {
-      const { scrollLeft, clientWidth } = scrollRef.current;
-      const scrollAmount = clientWidth * 0.18; // حرکت 80% عرض صفحه
-      scrollRef.current.scrollTo({
-        left:
-          direction === "left"
-            ? scrollLeft - scrollAmount
-            : scrollLeft + scrollAmount,
-        behavior: "smooth",
-      });
+  const updateVisibility = () => {
+    if (sliderRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = sliderRef.current;
+      setShowLeftButton(scrollLeft > 0);
+      setShowRightButton(scrollLeft + clientWidth < scrollWidth);
+    }
+  };
+
+  useEffect(() => {
+    updateVisibility();
+    const slider = sliderRef.current;
+    if (slider) {
+      slider.addEventListener("scroll", updateVisibility);
+    }
+    return () => slider?.removeEventListener("scroll", updateVisibility);
+  }, []);
+
+  const scrollLeft = () => {
+    if (sliderRef.current) {
+      sliderRef.current.scrollBy({ left: -200, behavior: "smooth" });
+    }
+  };
+  const scrollRight = () => {
+    if (sliderRef.current) {
+      sliderRef.current.scrollBy({ left: 200, behavior: "smooth" });
     }
   };
 
@@ -136,25 +152,27 @@ const NewProduct = () => {
           New Products
         </h2>
       </div>
-      <div className="relative w-full bg-red-500">
-        {/* دکمه عقب */}
-        <button
-          className="absolute left-1 top-1/2 transform -translate-y-1/2 bg-gray-600 text-white  p-2 rounded-full z-10"
-          onClick={() => scroll("left")}
-        >
-          <ChevronLeft size={24} />
-        </button>
+      <div className="relative w-full bg-red-500 h-[300px] flex items-center lg:rounded-lg ">
+        {/* Prev Button */}
+        {showLeftButton && (
+          <button
+            className="hidden lg:flex absolute left-1 top-1/2 transform -translate-y-1/2 bg-gray-600 text-white  p-2 rounded-full z-10"
+            onClick={scrollLeft}
+          >
+            <ChevronLeft size={24} />
+          </button>
+        )}
 
-        {/* لیست محصولات */}
+        {/* Product List */}
         <div
-          ref={scrollRef}
+          ref={sliderRef}
           className="flex w-full overflow-x-auto scrollerbar-hide gap-2 p-4 flex-nowrap"
         >
           {offerItems.map((item) => (
             <div key={item.id}>
-              <div className="w-48 h-52 bg-white rounded-lg">
+              <div className="w-[162px] h-[255px] bg-white rounded-lg">
                 <Link href="/">
-                  <div className="relative w-full h-2/3 border-b-2">
+                  <div className="relative w-full h-3/4 ">
                     <Image
                       src={item.image}
                       alt={item.title}
@@ -164,9 +182,9 @@ const NewProduct = () => {
                     />
                   </div>
                 </Link>
-                <div className="flex flex-col items-center justify-between h-1/3">
+                <div className="flex flex-col items-center justify-between h-1/4">
                   <div className="flex items-center justify-center mt-2">
-                    <p className="text-gray-600 text-md">{item.title}</p>
+                    <p className="text-gray-600 text-sm">{item.title}</p>
                   </div>
                 </div>
               </div>
@@ -174,16 +192,18 @@ const NewProduct = () => {
           ))}
         </div>
 
-        {/* دکمه جلو */}
-        <button
-          className="absolute right-1 top-1/2 transform -translate-y-1/2 bg-gray-600 text-white p-2 rounded-full z-10"
-          onClick={() => scroll("right")}
-        >
-          <ChevronRight size={24} />
-        </button>
+        {/* Next Button */}
+        {showRightButton && (
+          <button
+            className="hidden lg:flex absolute right-1 top-1/2 transform -translate-y-1/2 bg-gray-600 text-white p-2 rounded-full z-10"
+            onClick={scrollRight}
+          >
+            <ChevronRight size={24} />
+          </button>
+        )}
       </div>
     </div>
   );
 };
 
-export default NewProduct;
+export default NewProducts;

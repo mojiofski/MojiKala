@@ -60,6 +60,7 @@ const HeroSlider = () => {
                       fill
                       sizes="100%"
                       className="object-contain p-4 "
+                      priority
                     />
                   </div>
                 </Link>

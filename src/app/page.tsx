@@ -1,5 +1,5 @@
 import SliderHero from "@/components/SliderHero";
-import NewProduct from "@/components/NewProduct";
+import NewProducts from "@/components/NewProducts";
 import React from "react";
 
 
@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <div>
         <SliderHero />
-        <NewProduct />
+        <NewProducts />
       </div>
     </div>
   );
