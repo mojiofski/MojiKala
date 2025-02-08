@@ -2,13 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDBPoIsElQfbMGbWRfJwtHaHxN2fYS6Czo",
-  authDomain: "moji-kala.firebaseapp.com",
-  projectId: "moji-kala",
-  storageBucket: "moji-kala.firebasestorage.app",
-  messagingSenderId: "360981434010",
-  appId: "1:360981434010:web:1f5ed62e1a8a8a5599d923",
-  measurementId: "G-NQKP7N1LM9",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
