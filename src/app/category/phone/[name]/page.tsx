@@ -6,7 +6,7 @@ import { db } from "@/lib/firebase";
 import { collection, getDocs, query, where } from "firebase/firestore";
 
 export interface ISingleProductProps {
-  params: { name: string };
+  params: Promise<{ name: string }>;
 }
 
 async function getProductByName(productName: string): Promise<IMobile | null> {
