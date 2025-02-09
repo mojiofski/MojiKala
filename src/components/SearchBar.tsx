@@ -13,7 +13,7 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="  bg-white border-b-2 border-red-300 lg:hidden flex items-center px-4 py-2">
+    <div className="  bg-white border-b-2 border-red-300 gap-4 lg:hidden flex items-center px-6 py-1">
       {/* Logo */}
       <div className="flex-shrink-0">
         <Link href="/">
