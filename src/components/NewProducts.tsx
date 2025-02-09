@@ -171,7 +171,7 @@ const NewProducts = () => {
           {offerItems.map((item) => (
             <div key={item.id}>
               <div className="w-[162px] h-[255px] bg-white rounded-lg">
-                <Link href="/">
+                <Link href={`/category/${item.cat}/${item.title}`}>
                   <div className="relative w-full h-3/4 ">
                     <Image
                       src={item.image}

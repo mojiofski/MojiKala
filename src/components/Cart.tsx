@@ -6,7 +6,7 @@ const Cart = () => {
   return (
     <div className="flex px-2 py-1">
       <Link href={"/cart"}>
-        <IoCartOutline className="text-3xl text-gray-700" />
+        <IoCartOutline className="text-3xl text-gray-700 bg-gray-50" />
       </Link>
     </div>
   );

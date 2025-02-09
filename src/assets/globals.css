@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-    background-color: #fdf4ff;
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
     overflow-x: hidden;
     padding-bottom: 64px;
 }
