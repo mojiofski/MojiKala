@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import { FaSearch, FaUserAlt } from "react-icons/fa";
 import Link from "next/link";
@@ -9,6 +9,8 @@ import Cart from "./Cart";
 import { User } from "firebase/auth";
 import SignInSignOut from "./SignIn-SignOut";
 import { IoIosArrowDown } from "react-icons/io";
+import { useShopingCartContext } from "@/context/ShopingCart";
+
 
 interface IDesktopMenuProps {
   user: User | null;
@@ -23,12 +25,44 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
     { id: "4", title: "Contact", url: "/contact" },
   ];
   const pathName = usePathname();
+   const { cartTotalQuantity } = useShopingCartContext();
 
-  // State برای نمایش مدال
+  // State for modal visibility
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // تابع برای تغییر وضعیت مدال
-  const handleModalToggle = () => setIsModalOpen((prev) => !prev);
+  // Ref for the modal container
+  const modalRef = useRef<HTMLDivElement>(null);
+
+  // Close modal when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        modalRef.current &&
+        !modalRef.current.contains(event.target as Node)
+      ) {
+        setIsModalOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  // Close modal on Escape key press
+  useEffect(() => {
+    const handleEscapeKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setIsModalOpen(false);
+      }
+    };
+
+    document.addEventListener("keydown", handleEscapeKey);
+    return () => {
+      document.removeEventListener("keydown", handleEscapeKey);
+    };
+  }, []);
 
   return (
     <div className="hidden lg:flex w-full h-28 bg-white border-b-2 border-b-red-300 relative">
@@ -38,7 +72,7 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
           <div className="relative w-full h-full">
             <Image
               src={"/Digikala.png"}
-              alt="DigikalaLogo"
+              alt="Digikala Logo"
               fill
               sizes="100%"
               className="object-contain"
@@ -48,7 +82,7 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
         </Link>
       </div>
 
-      {/* Center */}
+      {/* Center Section */}
       <div className="flex flex-col items-center justify-center pt-4 w-6/12">
         {/* Search Bar */}
         <div className="flex justify-center w-full">
@@ -86,25 +120,24 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
         </div>
       </div>
 
-      {/* Right section */}
+      {/* Right Section */}
       <div className="flex flex-1 justify-center items-center gap-6 w-3/12">
         {user ? (
           <>
+            {/* Profile Button */}
             <button
-              onClick={handleModalToggle}
-              className="text-gray-600 text-xl px-4 py-2 rounded-md flex gap-1"
+              onClick={() => setIsModalOpen((prev) => !prev)}
+              className="text-gray-600 text-xl px-4 py-2 rounded-md flex gap-1 items-center"
+              aria-label="User Profile"
+              aria-expanded={isModalOpen}
             >
-              <span>
-                <FaUserAlt />
-              </span>
-              <span className="text-sm flex items-center justify-center">
-                <IoIosArrowDown />
-              </span>
+              <FaUserAlt />
+              <IoIosArrowDown className="text-sm" />
             </button>
 
-            {/* مدال پروفایل */}
+            {/* Profile Modal */}
             {isModalOpen && (
-              <div className="absolute right-20 top-[80px] z-50">
+              <div ref={modalRef} className="absolute right-20 top-[80px] z-50">
                 <div className="flex flex-col p-6 rounded-lg shadow-lg bg-white border border-gray-300">
                   <h2 className="text-xl font-semibold mb-4 text-gray-700">
                     User Profile
@@ -112,7 +145,7 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
                   <p className="text-gray-600">Email: {user.email}</p>
                   <button
                     onClick={logout}
-                    className="mt-4 bg-red-500 text-white px-4 py-2 rounded-md"
+                    className="mt-4 bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition"
                   >
                     Logout
                   </button>
@@ -123,7 +156,7 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
         ) : (
           <SignInSignOut />
         )}
-        <Cart />
+        <Cart cartTotalQty={cartTotalQuantity} />
       </div>
     </div>
   );

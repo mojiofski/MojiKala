@@ -8,22 +8,22 @@ import Link from "next/link";
 const Register = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState(""); // برای ذخیره پیام خطا
-  const { login } = useAuth();
+  const [error, setError] = useState("");
+  const { register } = useAuth();
   const router = useRouter();
 
-  const handleLogin = async (e: React.FormEvent) => {
+  const handleRegister = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError(""); // در ابتدا خطا را پاک می‌کنیم
+    setError("");
     try {
       if (!email || !password) {
-        setError("لطفا ایمیل و رمز عبور خود را وارد کنید.");
+        setError("please enter your email and password");
         return;
       }
-      await login(email, password);
-      router.push("/");
+      await register(email, password);
+      router.push("/users/welcome");
     } catch (err) {
-      setError("خطا در ورود. لطفا دوباره تلاش کنید.");
+      setError("error,please try again");
       console.error("Login Error: ", err);
     }
   };
@@ -35,7 +35,7 @@ const Register = () => {
         <span className="text-red-500 font-semibold text-4xl">MojiKala</span>
       </p>
       <form
-        onSubmit={handleLogin}
+        onSubmit={handleRegister}
         className="flex flex-col gap-4 p-6 shadow-lg rounded-md bg-white w-full"
       >
         <input

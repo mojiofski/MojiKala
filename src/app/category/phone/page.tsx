@@ -33,7 +33,6 @@ export interface IMobile {
   }[];
 }
 
-// تابع برای دریافت فقط محصولات دسته "laptop"
 async function getMobiles(): Promise<IMobile[]> {
   try {
     const q = query(
@@ -47,7 +46,7 @@ async function getMobiles(): Promise<IMobile[]> {
       ...doc.data(),
     })) as IMobile[];
   } catch (error) {
-    console.error("❌ خطا در دریافت لپ‌تاپ‌ها:", error);
+    console.error("❌ error in loading mobiles: ", error);
     return [];
   }
 }
@@ -66,7 +65,7 @@ export default async function Mobiles() {
             key={item.id}
             className="bg-white shadow-lg rounded-xl overflow-hidden transform transition hover:scale-105 min-h-[400px] flex flex-col"
           >
-            <Link href={`/category/phone/${item.name}`}>
+            <Link href={`/category/accessories/${item.name}`}>
               <div className="w-full h-52 relative">
                 <Image
                   src={item.images[0]}
@@ -79,23 +78,22 @@ export default async function Mobiles() {
               </div>
             </Link>
 
-            <div className="p-4 flex flex-col flex-grow">
-              <h2 className="text-lg font-bold text-gray-900">{item.name}</h2>
-              <div className="text-xl">
-                <StarRating rating={item.rating} />
-              </div>
-              <p className="text-sm text-gray-500 mt-1 flex-grow">
+            <div className="p-4 flex flex-col justify-center flex-grow gap-2">
+              <h2 className="text-lg font-bold text-gray-900 text-center">
+                {item.name}
+              </h2>
+              <p className="text-sm text-gray-500 mt-1 flex-grow text-center">
                 {item.description}
               </p>
             </div>
 
-            <div className="flex justify-between p-4 items-center">
-              <p className="text-xl font-bold text-gray-600 mt-2 cursor-default">
+            <div className="flex justify-between p-4 items-center bg-red-50">
+              <p className="text-xl font-bold text-gray-600 cursor-default">
                 ${item.price.toFixed(2)}
               </p>
-              <button className="px-4 py-2 bg-gray-700 text-white font-medium rounded-lg hover:bg-gray-900 transition">
-                Buy Now
-              </button>
+              <div className="text-xl">
+                <StarRating rating={item.rating} />
+              </div>
             </div>
           </div>
         ))}

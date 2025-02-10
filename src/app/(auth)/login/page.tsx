@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
@@ -10,13 +10,20 @@ import { FaFacebookF } from "react-icons/fa";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState(""); 
-  const { login, loginWithGoogle } = useAuth();
+  const [error, setError] = useState("");
+
+  const { loading, user, login, loginWithGoogle } = useAuth();
   const router = useRouter();
+
+  useEffect(() => {
+    if (!loading && user) {
+      router.push("/");
+    }
+  }, [user, loading, router]);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    setError(""); 
+    setError("");
     try {
       if (!email || !password) {
         setError("Please enter your email and password.");

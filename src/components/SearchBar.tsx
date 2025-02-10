@@ -2,18 +2,33 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useCallback } from "react";
 import { FaSearch } from "react-icons/fa";
+import Cart from "./Cart";
+import { useShopingCartContext } from "@/context/ShopingCart";
+import { useRouter, usePathname } from "next/navigation";
 
 const SearchBar = () => {
   const [searchInput, setSearchInput] = useState("");
+  const { cartTotalQuantity } = useShopingCartContext();
+  const router = useRouter();
+  const pathname = usePathname();
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-  };
+  const handleSubmit = useCallback(
+    (e: React.FormEvent<HTMLFormElement>) => {
+      e.preventDefault();
+      if (searchInput.trim()) {
+        router.push(`/search?query=${searchInput.trim()}`);
+      }
+      setSearchInput("");
+    },
+    [searchInput, router]
+  );
+
+  const isSingleProductPage = pathname.startsWith("/category/");
 
   return (
-    <div className="  bg-white border-b-2 border-red-300 gap-4 lg:hidden flex items-center px-6 py-1">
+    <div className="bg-white border-b-2 border-red-300 gap-4 lg:hidden flex items-center px-6 py-1">
       {/* Logo */}
       <div className="flex-shrink-0">
         <Link href="/">
@@ -23,15 +38,21 @@ const SearchBar = () => {
 
       {/* Search Box */}
       <form onSubmit={handleSubmit} className="flex-grow relative">
-        <FaSearch className="absolute top-1/2 left-4 -translate-y-1/2 text-gray-500" />
+        <FaSearch
+          className="absolute top-1/2 left-4 -translate-y-1/2 text-gray-500"
+          aria-label="Search Icon"
+        />
         <input
           type="text"
-          placeholder="Search for"
+          placeholder="Search for products..."
           className="w-full bg-gray-100 pl-10 pr-4 py-2 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-red-300"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}
+          aria-label="Search Input"
         />
       </form>
+
+      {isSingleProductPage && <Cart cartTotalQty={cartTotalQuantity} />}
     </div>
   );
 };

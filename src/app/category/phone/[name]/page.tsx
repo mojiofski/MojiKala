@@ -4,6 +4,7 @@ import Thumbnail from "@/components/Thumbnail";
 import ColorSelector from "@/components/ColorSelector";
 import { db } from "@/lib/firebase";
 import { collection, getDocs, query, where } from "firebase/firestore";
+import AddToCart from "@/components/AddToCart";
 
 export interface ISingleProductProps {
   params: Promise<{ name: string }>;
@@ -91,10 +92,8 @@ async function SingleProduct({ params }: ISingleProductProps) {
               ${item.price ? item.price.toFixed(2) : "N/A"}
             </div>
           </div>
-          <div className="w-2/3 px-2 flex justify-center items-center ">
-            <button className="w-full py-2 bg-gray-700 text-white font-medium rounded-lg hover:bg-gray-900 transition">
-              Add To Cart
-            </button>
+          <div className="w-2/3 px-2 flex justify-center items-center">
+            <AddToCart id={parseInt(item.id)} />
           </div>
         </div>
       </div>
