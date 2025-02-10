@@ -1,10 +1,10 @@
 import Categories from "@/components/Categories";
-import React from "react";
 
+import React from "react";
 
 const Category = () => {
   return (
-    <div >
+    <div>
       <Categories />
     </div>
   );

@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const offerItems = [
+const newProducts = [
   {
     id: 1,
     title: "HP Spectre x360",
@@ -168,7 +168,7 @@ const NewProducts = () => {
           ref={sliderRef}
           className="flex w-full overflow-x-auto scrollerbar-hide gap-2 p-4 flex-nowrap"
         >
-          {offerItems.map((item) => (
+          {newProducts.map((item) => (
             <div key={item.id}>
               <div className="w-[162px] h-[255px] bg-white rounded-lg">
                 <Link href={`/category/${item.cat}/${item.title}`}>
@@ -184,7 +184,9 @@ const NewProducts = () => {
                 </Link>
                 <div className="flex flex-col items-center justify-between h-1/4">
                   <div className="flex items-center justify-center mt-2">
-                    <p className="text-gray-600 text-sm">{item.title}</p>
+                    <p className="text-gray-600 text-sm text-center">
+                      {item.title}
+                    </p>
                   </div>
                 </div>
               </div>

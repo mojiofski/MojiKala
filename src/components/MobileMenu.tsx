@@ -5,17 +5,22 @@ import React from "react";
 import { FaHome, FaShoppingCart, FaUserAlt } from "react-icons/fa";
 import { BiSolidCategoryAlt } from "react-icons/bi";
 import { usePathname } from "next/navigation";
-
-const linksMenu = [
-  { id: 1, title: "Home", url: "/", icon: <FaHome /> },
-  { id: 2, title: "Category", url: "/category", icon: <BiSolidCategoryAlt /> },
-  { id: 3, title: "Cart", url: "/cart", icon: <FaShoppingCart /> },
-  { id: 4, title: "User", url: "/user", icon: <FaUserAlt /> },
-];
+import { useAuth } from "@/context/AuthContext";
 
 const MobileMenu = () => {
+  const { user } = useAuth();
   const pathName = usePathname();
-
+  const linksMenu = [
+    { id: 1, title: "Home", url: "/", icon: <FaHome /> },
+    {
+      id: 2,
+      title: "Category",
+      url: "/category",
+      icon: <BiSolidCategoryAlt />,
+    },
+    { id: 3, title: "Cart", url: "/cart", icon: <FaShoppingCart /> },
+    { id: 4, title: "User", url: user ? "/profile" : "/login", icon: <FaUserAlt /> },
+  ];
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg z-50 w-full lg:hidden">
       <div className="flex justify-around items-center p-2">
