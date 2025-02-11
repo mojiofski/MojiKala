@@ -37,7 +37,7 @@ async function getMobiles(): Promise<IMobile[]> {
   try {
     const q = query(
       collection(db, "products"),
-      where("category", "==", "mobile")
+      where("category", "==", "phone")
     );
     const querySnapshot = await getDocs(q);
 
@@ -65,7 +65,7 @@ export default async function Mobiles() {
             key={item.id}
             className="bg-white shadow-lg rounded-xl overflow-hidden transform transition hover:scale-105 min-h-[400px] flex flex-col"
           >
-            <Link href={`/category/accessories/${item.name}`}>
+            <Link href={`/category/phone/${item.name}`}>
               <div className="w-full h-52 relative">
                 <Image
                   src={item.images[0]}

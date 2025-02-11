@@ -35,7 +35,7 @@ async function getSmartWatches(): Promise<ISmartWatch[]> {
   try {
     const q = query(
       collection(db, "products"),
-      where("category", "==", "smart watch")
+      where("category", "==", "smartwatches")
     );
     const querySnapshot = await getDocs(q);
 
@@ -63,7 +63,7 @@ export default async function SmartWatch() {
             key={item.id}
             className="bg-white shadow-lg rounded-xl overflow-hidden transform transition hover:scale-105 min-h-[400px] flex flex-col"
           >
-            <Link href={`/category/accessories/${item.name}`}>
+            <Link href={`/category/smartwatches/${item.name}`}>
               <div className="w-full h-52 relative">
                 <Image
                   src={item.images[0]}

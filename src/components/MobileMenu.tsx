@@ -6,11 +6,11 @@ import { FaHome, FaShoppingCart, FaUserAlt } from "react-icons/fa";
 import { BiSolidCategoryAlt } from "react-icons/bi";
 import { usePathname } from "next/navigation";
 import { useAuth } from "@/context/AuthContext";
-import { useShopingCartContext } from "@/context/ShopingCart";
+import { useShoppingCart } from "@/context/ShopingCart";
 
 const MobileMenu = () => {
   const { user } = useAuth();
-  const { cartTotalQuantity } = useShopingCartContext();
+  const { cartTotalQuantity } = useShoppingCart();
   const pathName = usePathname();
   const linksMenu = [
     { id: 1, title: "Home", url: "/", icon: <FaHome /> },
@@ -52,7 +52,7 @@ const MobileMenu = () => {
                   {item.icon}
 
                   <div>
-                    {item.title === "Cart" && (
+                    {item.title === "Cart" && cartTotalQuantity > 0 && (
                       <div className="absolute bottom-4 -right-2 w-5 h-5 bg-red-500 text-white rounded-md text-sm font-semibold">
                         {cartTotalQuantity}
                       </div>

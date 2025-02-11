@@ -5,15 +5,13 @@ import Link from "next/link";
 import React, { useState, useCallback } from "react";
 import { FaSearch } from "react-icons/fa";
 import Cart from "./Cart";
-import { useShopingCartContext } from "@/context/ShopingCart";
 import { useRouter, usePathname } from "next/navigation";
 
 const SearchBar = () => {
   const [searchInput, setSearchInput] = useState("");
-  const { cartTotalQuantity } = useShopingCartContext();
+
   const router = useRouter();
   const pathname = usePathname();
-
   const handleSubmit = useCallback(
     (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
@@ -25,7 +23,11 @@ const SearchBar = () => {
     [searchInput, router]
   );
 
-  const isSingleProductPage = pathname.startsWith("/category/");
+  const isSingleProductPage =
+    pathname.startsWith("/category/laptop/") ||
+    pathname.startsWith("/category/phone/") ||
+    pathname.startsWith("/category/smartwatches/") ||
+    pathname.startsWith("/category/accessories/");
 
   return (
     <div className="bg-white border-b-2 border-red-300 gap-4 lg:hidden flex items-center px-6 py-1">
@@ -52,7 +54,7 @@ const SearchBar = () => {
         />
       </form>
 
-      {isSingleProductPage && <Cart cartTotalQty={cartTotalQuantity} />}
+      {isSingleProductPage && <Cart />}
     </div>
   );
 };

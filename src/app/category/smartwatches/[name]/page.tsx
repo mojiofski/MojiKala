@@ -60,7 +60,7 @@ async function SingleProduct({ params }: ISingleProductProps) {
             <h1 className="text-2xl lg:text-3xl font-bold text-gray-800 text-center">
               {item.name}
             </h1>
-            <p className="text-yellow-400 text-xl ">★{item.rating}</p>
+            <p className="text-yellow-400 text-xl">★{item.rating}</p>
           </div>
           <p className="text-gray-600 mt-2  text-center">
             {item.description || "No description available."}
@@ -95,7 +95,14 @@ async function SingleProduct({ params }: ISingleProductProps) {
             </div>
           </div>
           <div className="w-2/3 px-2 flex justify-center items-center">
-            <AddToCart id={parseInt(item.id)} />
+            <AddToCart
+              id={parseInt(item.id)}
+              name={item.name}
+              image={item.images[0]}
+              description={item.description}
+              price={item.price}
+              category={item.category}
+            />
           </div>
         </div>
       </div>

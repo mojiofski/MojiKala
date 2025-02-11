@@ -93,7 +93,14 @@ async function SingleProduct({ params }: ISingleProductProps) {
             </div>
           </div>
           <div className="w-2/3 px-2 flex justify-center items-center">
-            <AddToCart id={parseInt(item.id)} />
+            <AddToCart
+              id={parseInt(item.id)}
+              name={item.name}
+              image={item.images[0]}
+              description={item.description}
+              price={item.price}
+              category={item.category}
+            />
           </div>
         </div>
       </div>

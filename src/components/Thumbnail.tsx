@@ -25,6 +25,7 @@ const Thumbnail = ({ images }: IThumbnailProps) => {
           fill
           sizes="100%"
           className="object-contain p-4"
+          priority
         />
       </div>
       {/* thumbnails */}
@@ -33,14 +34,13 @@ const Thumbnail = ({ images }: IThumbnailProps) => {
           <div
             onClick={() => setCurrentImage(index)}
             key={index}
-            className=" w-16 h-16 rounded-lg overflow-hidden cursor-pointer hover:border-gray-500"
+            className="relative w-full h-16 rounded-lg overflow-hidden cursor-pointer hover:border-gray-500 flex items-center justify-center "
           >
             <Image
               src={img}
               alt=""
-              width={64}
-              height={64}
-              className="object-contain p-2"
+              fill
+              className="object-contain p-1"
               priority
             />
           </div>

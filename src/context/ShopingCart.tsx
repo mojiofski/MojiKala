@@ -1,95 +1,107 @@
 "use client";
 
-import React, {
-  createContext,
-  useContext,
-  useEffect,
-  useMemo,
-  useState,
-} from "react";
+import { createContext, useContext, useEffect, useState } from "react";
+import {
+  saveCartToLocalStorage,
+  getCartFromLocalStorage,
+} from "../utils/localStorage";
 
-interface ICartItems {
+export interface ICartItem {
   id: number;
+  name: string;
+  image: string;
+  description: string;
+  price: number;
+  category: string;
   quantity: number;
 }
 
-type TShopingCartContext = {
-  cartItems: ICartItems[];
-  handleIncreaseProductQuantity: (id: number) => void;
+interface IShoppingCartContext {
+  cartItems: ICartItem[];
+  handleIncreaseProductQuantity: (product: ICartItem) => void;
   handleDecreaseProductQuantity: (id: number) => void;
+  clearCart: () => void;
   getProductQuantity: (id: number) => number;
   cartTotalQuantity: number;
-};
-const shoppingCartContext = createContext({} as TShopingCartContext);
-const ShopingCartContextProvider = ({
+}
+
+
+const ShoppingCartContext = createContext<IShoppingCartContext | undefined>(
+  undefined
+);
+
+export const ShoppingCartProvider = ({
   children,
 }: {
   children: React.ReactNode;
 }) => {
-  const [cartItems, setCartItems] = useState<ICartItems[]>(() => {
-    const savedCarts = localStorage.getItem("cart");
-    return savedCarts ? JSON.parse(savedCarts) : [];
-  });
+  const [cartItems, setCartItems] = useState<ICartItem[]>(
+    getCartFromLocalStorage()
+  );
 
   useEffect(() => {
-    localStorage.setItem("cart", JSON.stringify(cartItems));
+    saveCartToLocalStorage(cartItems);
   }, [cartItems]);
 
-  const cartTotalQuantity = useMemo(() => {
-    return cartItems.reduce(
-      (totalQuantity, item) => totalQuantity + item.quantity,
-      0
+  const handleIncreaseProductQuantity = (product: ICartItem) => {
+    setCartItems((prev) => {
+      const existingItem = prev.find((item) => item.id === product.id);
+      if (existingItem) {
+        return prev.map((item) =>
+          item.id === product.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
+      }
+      return [...prev, { ...product, quantity: 1 }];
+    });
+  };
+
+  const handleDecreaseProductQuantity = (id: number) => {
+    setCartItems(
+      (prev) =>
+        prev
+          .map((item) =>
+            item.id === id ? { ...item, quantity: item.quantity - 1 } : item
+          )
+          .filter((item) => item.quantity > 0) // حذف محصولاتی که تعدادشان به صفر می‌رسد
     );
-  }, [cartItems]);
+  };
+
+  const clearCart = () => {
+    setCartItems([]);
+  };
 
   const getProductQuantity = (id: number) => {
     return cartItems.find((item) => item.id === id)?.quantity || 0;
   };
 
-  const handleIncreaseProductQuantity = (id: number) => {
-    setCartItems((currentItems) => {
-      const isNotProductExist =
-        currentItems.find((item) => item.id === id) === undefined;
-      if (isNotProductExist) {
-        return [...currentItems, { id: id, quantity: 1 }];
-      } else {
-        return currentItems.map((item) =>
-          item.id === id ? { ...item, quantity: item.quantity + 1 } : item
-        );
-      }
-    });
-  };
+  const cartTotalQuantity = cartItems.reduce((totalQty, item) => {
+    return totalQty + item.quantity;
+  }, 0);
 
-  const handleDecreaseProductQuantity = (id: number) => {
-    setCartItems((currentItems) => {
-      const isLastOne =
-        currentItems.find((item) => item.id === id)?.quantity === 1;
-      if (isLastOne) {
-        return currentItems.filter((item) => item.id !== id);
-      } else {
-        return currentItems.map((item) =>
-          item.id === id ? { ...item, quantity: item.quantity - 1 } : item
-        );
-      }
-    });
-  };
   return (
-    <shoppingCartContext.Provider
+    <ShoppingCartContext.Provider
       value={{
         cartItems,
         handleIncreaseProductQuantity,
         handleDecreaseProductQuantity,
+        clearCart,
         getProductQuantity,
         cartTotalQuantity,
       }}
     >
       {children}
-    </shoppingCartContext.Provider>
+    </ShoppingCartContext.Provider>
   );
 };
 
-export const useShopingCartContext = () => {
-  return useContext(shoppingCartContext);
+export const useShoppingCart = () => {
+  const context = useContext(ShoppingCartContext);
+  if (!context) {
+    throw new Error(
+      "useShoppingCart must be used within a ShoppingCartProvider"
+    );
+  }
+  return context;
 };
-
-export default ShopingCartContextProvider;

@@ -53,7 +53,7 @@ async function getAccessories(): Promise<IAccessory[]> {
   try {
     const q = query(
       collection(db, "products"),
-      where("category", "==", "accessory")
+      where("category", "==", "accessories")
     );
     const querySnapshot = await getDocs(q);
 

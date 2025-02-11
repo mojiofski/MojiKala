@@ -66,7 +66,7 @@ export default async function Laptops() {
             key={item.id}
             className="bg-white shadow-lg rounded-xl overflow-hidden transform transition hover:scale-105 min-h-[400px] flex flex-col"
           >
-            <Link href={`/category/accessories/${item.name}`}>
+            <Link href={`/category/laptop/${item.name}`}>
               <div className="w-full h-52 relative">
                 <Image
                   src={item.images[0]}

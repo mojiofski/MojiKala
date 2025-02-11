@@ -9,8 +9,6 @@ import Cart from "./Cart";
 import { User } from "firebase/auth";
 import SignInSignOut from "./SignIn-SignOut";
 import { IoIosArrowDown } from "react-icons/io";
-import { useShopingCartContext } from "@/context/ShopingCart";
-
 
 interface IDesktopMenuProps {
   user: User | null;
@@ -25,7 +23,6 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
     { id: "4", title: "Contact", url: "/contact" },
   ];
   const pathName = usePathname();
-   const { cartTotalQuantity } = useShopingCartContext();
 
   // State for modal visibility
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -156,7 +153,7 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
         ) : (
           <SignInSignOut />
         )}
-        <Cart cartTotalQty={cartTotalQuantity} />
+        <Cart />
       </div>
     </div>
   );
