@@ -3,10 +3,14 @@
 import { ICartItem } from "@/context/ShopingCart";
 
 export const saveCartToLocalStorage = (cart: ICartItem[]) => {
-  localStorage.setItem("shoppingCart", JSON.stringify(cart));
+  if (typeof window !== "undefined") {
+    localStorage.setItem("shoppingCart", JSON.stringify(cart));
+  }
 };
 
 export const getCartFromLocalStorage = () => {
-  const cart = localStorage.getItem("shoppingCart");
-  return cart ? JSON.parse(cart) : [];
+  if (typeof window !== "undefined") {
+    const cart = localStorage.getItem("shoppingCart");
+    return cart ? JSON.parse(cart) : [];
+  }
 };
