@@ -44,9 +44,7 @@ export const ShoppingCartProvider = ({
     }
   }, []);
   useEffect(() => {
-    if (cartItems.length > 0) {
-      saveCartToLocalStorage(cartItems);
-    }
+    saveCartToLocalStorage(cartItems);
   }, [cartItems]);
 
   const handleIncreaseProductQuantity = (product: ICartItem) => {

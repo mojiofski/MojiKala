@@ -11,27 +11,28 @@ import { User } from "@supabase/supabase-js";
 
 const MobileMenu = () => {
   const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchUser = async () => {
       const { data, error } = await supabase.auth.getSession();
+      setLoading(true);
 
       if (error) {
         console.error("error in get seasion", error.message);
+        setLoading(false);
         return;
       }
       console.log("🔹 Amount of session received:", data.session);
       setUser(data.session?.user ?? null);
+      setLoading(false);
     };
     fetchUser();
 
     const { data: authListener } = supabase.auth.onAuthStateChange(
       (event, session) => {
-        if (session?.user) {
-          setUser(session.user);
-        } else {
-          setUser(null);
-        }
+        setUser(session?.user ?? null);
+        setLoading(false);
       }
     );
 
@@ -58,6 +59,11 @@ const MobileMenu = () => {
       icon: <FaUserAlt />,
     },
   ];
+
+  if (loading) {
+    return <p className=" font-semibold text-lg flex justify-center z-50 -inset-1 bg-red-500 max-w-[250px] mx-auto px-16 py-1 rounded-lg shadow-lg text-white">Loading data </p>;
+  }
+
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-white shadow-lg z-50 w-full lg:hidden">
       <div className="flex justify-around items-center p-2">

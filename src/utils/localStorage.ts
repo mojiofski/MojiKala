@@ -2,7 +2,7 @@
 
 import { ICartItem } from "@/context/ShopingCart";
 
-export const saveCartToLocalStorage = (cart: ICartItem[]) => {
+export const saveCartToLocalStorage = (cart: ICartItem[] ) => {
   if (typeof window !== "undefined") {
     localStorage.setItem("shoppingCart", JSON.stringify(cart));
   }
