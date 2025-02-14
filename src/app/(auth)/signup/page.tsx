@@ -19,7 +19,7 @@ export default function SignUp() {
 
     const data = await res.json();
     if (res.ok) {
-      router.push("/users/verify-email");
+      router.push("/verify-email");
     }
     setMessage(data.message);
   };
