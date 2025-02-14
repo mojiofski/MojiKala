@@ -23,6 +23,7 @@ interface IShoppingCartContext {
   clearCart: () => void;
   getProductQuantity: (id: number) => number;
   cartTotalQuantity: number;
+  totalPrice: () => number;
 }
 
 const ShoppingCartContext = createContext<IShoppingCartContext | undefined>(
@@ -85,6 +86,13 @@ export const ShoppingCartProvider = ({
     return totalQty + item.quantity;
   }, 0);
 
+  const totalPrice = () => {
+    return cartItems.reduce(
+      (total, item) => total + item.price * item.quantity,
+      0
+    );
+  };
+
   return (
     <ShoppingCartContext.Provider
       value={{
@@ -94,6 +102,7 @@ export const ShoppingCartProvider = ({
         clearCart,
         getProductQuantity,
         cartTotalQuantity,
+        totalPrice,
       }}
     >
       {children}
