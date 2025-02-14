@@ -25,7 +25,6 @@ interface IShoppingCartContext {
   cartTotalQuantity: number;
 }
 
-
 const ShoppingCartContext = createContext<IShoppingCartContext | undefined>(
   undefined
 );
@@ -35,12 +34,18 @@ export const ShoppingCartProvider = ({
 }: {
   children: React.ReactNode;
 }) => {
-  const [cartItems, setCartItems] = useState<ICartItem[]>(
-    getCartFromLocalStorage()
-  );
+  const [cartItems, setCartItems] = useState<ICartItem[]>([]);
 
   useEffect(() => {
-    saveCartToLocalStorage(cartItems);
+    const savedCart = getCartFromLocalStorage();
+    if (Array.isArray(savedCart)) {
+      setCartItems(savedCart);
+    }
+  }, []);
+  useEffect(() => {
+    if (cartItems.length > 0) {
+      saveCartToLocalStorage(cartItems);
+    }
   }, [cartItems]);
 
   const handleIncreaseProductQuantity = (product: ICartItem) => {
