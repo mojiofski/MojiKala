@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "seed.js", "data/products.js", "src/lib/firebase.js", "src/app/api/auth/[...nextauth]/route.js", "src/app/api/auth/[kindeAuth]/route.js", "src/app/api/auth/signup/route.js", "src/lib/supabaseClient.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "seed.js", "data/products.js", "src/lib/firebase.ts", "src/app/api/auth/[...nextauth]/route.js", "src/app/api/auth/[kindeAuth]/route.js", "src/app/api/auth/signup/route.js", "src/lib/supabaseClient.ts"],
   "exclude": ["node_modules"]
 }

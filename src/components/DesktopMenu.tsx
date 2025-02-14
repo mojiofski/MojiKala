@@ -60,6 +60,8 @@ const DesktopMenu = () => {
     const fetchUser = async () => {
       const { data, error } = await supabase.auth.getUser();
       console.log("User from getUser():", data?.user);
+      console.log(error?.message);
+
       setUser(data?.user);
     };
 
