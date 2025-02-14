@@ -6,16 +6,41 @@ import { FaSearch, FaUserAlt } from "react-icons/fa";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Cart from "./Cart";
-import { User } from "firebase/auth";
 import SignInSignOut from "./SignIn-SignOut";
 import { IoIosArrowDown } from "react-icons/io";
+import { supabase } from "@/lib/supabaseClient";
+import { User } from "@supabase/supabase-js";
 
-interface IDesktopMenuProps {
-  user: User | null;
-  logout: () => Promise<void>;
-}
+const DesktopMenu = () => {
+  const [user, setUser] = useState<User | null>(null);
 
-const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
+  useEffect(() => {
+    const fetchUser = async () => {
+      const { data, error } = await supabase.auth.getSession();
+
+      if (error) {
+        console.error("خطا در دریافت سشن:", error.message);
+        return;
+      }
+      console.log("🔹 مقدار سشن دریافت شد:", data.session);
+      setUser(data.session?.user ?? null);
+    };
+    fetchUser();
+
+    const { data: authListener } = supabase.auth.onAuthStateChange(
+      (event, session) => {
+        if (session?.user) {
+          setUser(session.user);
+        } else {
+          setUser(null);
+        }
+      }
+    );
+
+    return () => {
+      authListener.subscription.unsubscribe();
+    };
+  }, []);
   const menuLinks = [
     { id: "1", title: "Home", url: "/" },
     { id: "2", title: "Category", url: "/category" },
@@ -32,18 +57,27 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
 
   // Close modal when clicking outside
   useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        modalRef.current &&
-        !modalRef.current.contains(event.target as Node)
-      ) {
-        setIsModalOpen(false);
-      }
+    const fetchUser = async () => {
+      const { data, error } = await supabase.auth.getUser();
+      console.log("User from getUser():", data?.user);
+      setUser(data?.user);
     };
 
-    document.addEventListener("mousedown", handleClickOutside);
+    fetchUser();
+
+    const { data: authListener } = supabase.auth.onAuthStateChange(
+      (event, session) => {
+        console.log("Auth State Changed:", session?.user);
+        if (session?.user) {
+          setUser(session.user);
+        } else {
+          setUser(null);
+        }
+      }
+    );
+
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      authListener.subscription.unsubscribe();
     };
   }, []);
 
@@ -60,6 +94,8 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
       document.removeEventListener("keydown", handleEscapeKey);
     };
   }, []);
+
+  console.log(user);
 
   return (
     <div className="hidden lg:flex w-full h-28 bg-white border-b-2 border-b-red-300 relative">
@@ -141,7 +177,10 @@ const DesktopMenu = ({ user, logout }: IDesktopMenuProps) => {
                   </h2>
                   <p className="text-gray-600">Email: {user.email}</p>
                   <button
-                    onClick={logout}
+                    onClick={async () => {
+                      await supabase.auth.signOut();
+                      setUser(null);
+                    }}
                     className="mt-4 bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600 transition"
                   >
                     Logout

@@ -4,6 +4,7 @@ import StarRating from "@/components/StarRating";
 import { db } from "@/lib/firebase";
 import { collection, getDocs, query, where } from "firebase/firestore";
 
+
 export interface IAccessory {
   id: string;
   name: string;

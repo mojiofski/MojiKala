@@ -11,7 +11,8 @@
     "server": "json-server --watch db.json --port 3001"
   },
   "dependencies": {
-    "firebase": "^11.2.0",
+    "@supabase/supabase-js": "^2.48.1",
+    "firebase": "^11.3.1",
     "lucide-react": "^0.474.0",
     "next": "15.1.6",
     "react": "^19.0.0",

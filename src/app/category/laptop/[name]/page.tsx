@@ -2,10 +2,9 @@ import React from "react";
 import { ILaptop } from "../page";
 import Thumbnail from "@/components/Thumbnail";
 import ColorSelector from "@/components/ColorSelector";
+import AddToCart from "@/components/AddToCart";
 import { db } from "@/lib/firebase";
 import { collection, getDocs, query, where } from "firebase/firestore";
-import AddToCart from "@/components/AddToCart";
-
 export interface ISingleProductProps {
   params: Promise<{ name: string }>;
 }

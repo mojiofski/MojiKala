@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     domains: ["source.unsplash.com"],
   },
+  reactStrictMode: true,
+
 };
 
 export default nextConfig;

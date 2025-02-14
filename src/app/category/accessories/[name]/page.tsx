@@ -4,6 +4,7 @@ import Thumbnail from "@/components/Thumbnail";
 import ColorSelector from "@/components/ColorSelector";
 import { db } from "@/lib/firebase";
 import { collection, getDocs, query, where } from "firebase/firestore";
+
 import AddToCart from "@/components/AddToCart";
 
 export interface ISingleProductProps {

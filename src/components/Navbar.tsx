@@ -1,17 +1,15 @@
-"use client";
 
 import DesktopMenu from "./DesktopMenu";
 import MobileMenu from "./MobileMenu";
 import SearchBar from "./SearchBar";
-import { useAuth } from "@/context/AuthContext";
 
-const Navbar = () => {
-  const { user, logout } = useAuth();
+const Navbar =  () => {
+
   return (
     <nav className="">
       {/* Desktop Menu */}
       <div className="">
-        <DesktopMenu user={user} logout={logout} />
+        <DesktopMenu   />
       </div>
       {/* Moblie Menu */}
       <div>

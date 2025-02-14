@@ -1,15 +1,45 @@
 "use client";
 
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaHome, FaShoppingCart, FaUserAlt } from "react-icons/fa";
 import { BiSolidCategoryAlt } from "react-icons/bi";
 import { usePathname } from "next/navigation";
-import { useAuth } from "@/context/AuthContext";
 import { useShoppingCart } from "@/context/ShopingCart";
+import { supabase } from "@/lib/supabaseClient";
+import { User } from "@supabase/supabase-js";
 
 const MobileMenu = () => {
-  const { user } = useAuth();
+  const [user, setUser] = useState<User | null>(null);
+
+  useEffect(() => {
+    const fetchUser = async () => {
+      const { data, error } = await supabase.auth.getSession();
+
+      if (error) {
+        console.error("error in get seasion", error.message);
+        return;
+      }
+      console.log("🔹 Amount of session received:", data.session);
+      setUser(data.session?.user ?? null);
+    };
+    fetchUser();
+
+    const { data: authListener } = supabase.auth.onAuthStateChange(
+      (event, session) => {
+        if (session?.user) {
+          setUser(session.user);
+        } else {
+          setUser(null);
+        }
+      }
+    );
+
+    return () => {
+      authListener.subscription.unsubscribe();
+    };
+  }, []);
+
   const { cartTotalQuantity } = useShoppingCart();
   const pathName = usePathname();
   const linksMenu = [
@@ -24,7 +54,7 @@ const MobileMenu = () => {
     {
       id: 4,
       title: "User",
-      url: user ? "/profile" : "/login",
+      url: user ? "/profile" : "/signin",
       icon: <FaUserAlt />,
     },
   ];

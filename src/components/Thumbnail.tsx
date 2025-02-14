@@ -40,6 +40,7 @@ const Thumbnail = ({ images }: IThumbnailProps) => {
               src={img}
               alt=""
               fill
+              sizes="100%"
               className="object-contain p-1"
               priority
             />
